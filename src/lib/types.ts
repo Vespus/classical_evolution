@@ -79,6 +79,9 @@ export interface Recording {
     clipEnd: number;
     /** Längere Fassung (ganzer Satz) im Netz, nur als Zusatzfunktion */
     fullStreamUrl?: string;
+    /** Beginn / Ende des „ganzen Satzes“ innerhalb der Streamdatei (Sekunden), falls die Datei mehr enthält */
+    fullStart?: number;
+    fullEnd?: number;
   };
   external?: {
     kind: 'youtube';

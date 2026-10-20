@@ -40,7 +40,9 @@
       "clip": "audio/rec-haydn.mp3",
       "clipStart": 616,
       "clipEnd": 701,
-      "fullStreamUrl": "https://archive.org/download/Haydn_Symphony_No_94_Surprise/HaydnSurprise.ogg"
+      "fullStreamUrl": "https://archive.org/download/Haydn_Symphony_No_94_Surprise/HaydnSurprise.ogg",
+      "fullStart": 614,
+      "fullEnd": 1030
     }
   },
   {

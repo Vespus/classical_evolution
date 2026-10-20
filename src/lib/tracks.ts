@@ -21,7 +21,8 @@ export function fullTrack(recording: Recording, work: Work, composer: Composer):
     src: recording.local.fullStreamUrl,
     title: `${composer.name.split(' ').slice(-1)[0]}: ${work.title}${work.part ? ', ' + work.part : ''}`,
     subtitle: `${recording.performer} · ganze Aufnahme`,
-    start: 0,
+    start: recording.local.fullStart ?? 0,
+    end: recording.local.fullEnd,
     kind: 'full',
     fallbackUrl: recording.sourceUrl,
   };

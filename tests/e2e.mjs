@@ -135,6 +135,19 @@ try {
     await page.waitForTimeout(400);
     ok((await page.locator('.player.is-playing').count()) === 0, 'Pause funktioniert');
 
+    // Externer Player: erst nach Klick geladen, danach wieder schließbar
+    const ext = stations.find((st) => recordings.find((r) => r.id === st.recordingId)?.provider === 'external');
+    await page.goto(`${BASE}#/reise/${ext.id}`);
+    await page.waitForSelector('.player--external');
+    ok((await page.locator('.ext-frame iframe').count()) === 0, 'Externer Player lädt nichts vor dem Klick');
+    await page.locator('.player--external .play-btn').click();
+    await page.waitForSelector('.ext-frame iframe');
+    const src = await page.locator('.ext-frame iframe').getAttribute('src');
+    ok(/youtube-nocookie\.com\/embed\/[\w-]+\?start=\d+&end=\d+/.test(src), `Externer Player mit kuratiertem Ausschnitt (${src.slice(30, 80)}…)`);
+    await page.locator('.player--external .play-btn').click();
+    ok((await page.locator('.ext-frame iframe').count()) === 0, 'Externer Player lässt sich schließen');
+    await page.goto(`${BASE}#/reise/${stations[0].id}`);
+
     // Lesezeichen
     await page.locator('.chip--bookmark').click();
     ok((await page.locator('.chip--bookmark.is-on').count()) === 1, 'Station gemerkt');
