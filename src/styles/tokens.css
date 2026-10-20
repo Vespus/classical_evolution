@@ -1,0 +1,196 @@
+/* Gestaltungs-Tokens. Jede Station setzt über data-theme ihre eigene Farbwelt;
+   die Übergänge zwischen den Farbwelten sind Teil der Dramaturgie. */
+
+:root {
+  --font-text: 'Newsreader Variable', 'Iowan Old Style', 'Palatino Linotype', Georgia, serif;
+  --font-ui: 'Inter Variable', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+
+  --step--1: clamp(0.8125rem, 0.79rem + 0.1vw, 0.875rem);
+  --step-0: clamp(1.0625rem, 1.02rem + 0.2vw, 1.1875rem);
+  --step-1: clamp(1.25rem, 1.15rem + 0.45vw, 1.5rem);
+  --step-2: clamp(1.5rem, 1.3rem + 0.9vw, 2rem);
+  --step-3: clamp(2rem, 1.55rem + 1.9vw, 3rem);
+  --step-4: clamp(2.5rem, 1.7rem + 3.4vw, 4.5rem);
+  --step-5: clamp(3rem, 1.6rem + 5.8vw, 7rem);
+
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.5rem;
+  --space-6: 2rem;
+  --space-7: 3rem;
+  --space-8: 4.5rem;
+  --space-9: 7rem;
+
+  --gutter: clamp(1.25rem, 4vw, 3.5rem);
+  --measure: 38rem;
+  --maxw: 78rem;
+  --radius: 14px;
+  --radius-sm: 8px;
+  --timeline-h: 92px;
+  --topbar-h: 64px;
+
+  --ease: cubic-bezier(0.22, 0.61, 0.36, 1);
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+  --dur: 520ms;
+
+  /* Standard-Farbwelt (Startseite, Werkzeug-Seiten) */
+  --bg: #f4f2ed;
+  --bg-2: #ebe8e0;
+  --fg: #16171b;
+  --muted: #5e5d59;
+  --faint: #8a8984;
+  --line: rgba(22, 23, 27, 0.14);
+  --card: rgba(255, 255, 255, 0.62);
+  --accent: #b24a2a;
+  --accent-ink: #ffffff;
+  --focus: #1b5fd0;
+}
+
+/* ---------- Farbwelten ---------- */
+
+[data-theme='barock'] {
+  --bg: #efe9dc;
+  --bg-2: #e4dccb;
+  --fg: #231d15;
+  --muted: #62594b;
+  --faint: #8c8272;
+  --line: rgba(35, 29, 21, 0.16);
+  --card: rgba(255, 252, 244, 0.6);
+  --accent: #a8431f;
+  --accent-ink: #fff;
+}
+[data-theme='klassik'] {
+  --bg: #e8edf1;
+  --bg-2: #dce4eb;
+  --fg: #121e29;
+  --muted: #4d5c6a;
+  --faint: #7b8996;
+  --line: rgba(18, 30, 41, 0.15);
+  --card: rgba(255, 255, 255, 0.66);
+  --accent: #1f5f93;
+  --accent-ink: #fff;
+}
+[data-theme='romantik'] {
+  --bg: #17261f;
+  --bg-2: #0f1b16;
+  --fg: #e9f0e8;
+  --muted: #a6b8aa;
+  --faint: #7b8f80;
+  --line: rgba(233, 240, 232, 0.17);
+  --card: rgba(255, 255, 255, 0.06);
+  --accent: #8fd3a6;
+  --accent-ink: #0b1712;
+  --focus: #9cc4ff;
+}
+[data-theme='fruehromantik'] {
+  --bg: #1d2530;
+  --bg-2: #131a23;
+  --fg: #e8edf3;
+  --muted: #a3b0bf;
+  --faint: #78879a;
+  --line: rgba(232, 237, 243, 0.17);
+  --card: rgba(255, 255, 255, 0.06);
+  --accent: #9fc4ef;
+  --accent-ink: #0b121b;
+  --focus: #ffd27a;
+}
+[data-theme='spaetromantik'] {
+  --bg: #2b1518;
+  --bg-2: #1b0c0f;
+  --fg: #f5e8e4;
+  --muted: #c4a8a2;
+  --faint: #9a7e79;
+  --line: rgba(245, 232, 228, 0.18);
+  --card: rgba(255, 255, 255, 0.06);
+  --accent: #ef8a6e;
+  --accent-ink: #1b0c0f;
+  --focus: #9cc4ff;
+}
+[data-theme='impressionismus'] {
+  --bg: #e1e5f0;
+  --bg-2: #d3d9ea;
+  --fg: #1a2037;
+  --muted: #525a78;
+  --faint: #7f87a4;
+  --line: rgba(26, 32, 55, 0.15);
+  --card: rgba(255, 255, 255, 0.55);
+  --accent: #4a56c4;
+  --accent-ink: #fff;
+}
+[data-theme='expressionismus'] {
+  --bg: #0e0e10;
+  --bg-2: #050506;
+  --fg: #f1efea;
+  --muted: #b3b0a8;
+  --faint: #83817a;
+  --line: rgba(241, 239, 234, 0.2);
+  --card: rgba(255, 255, 255, 0.06);
+  --accent: #ff4b36;
+  --accent-ink: #0e0e10;
+  --focus: #7db4ff;
+}
+[data-theme='rhythmus'] {
+  --bg: #f3eadf;
+  --bg-2: #eaddcd;
+  --fg: #1a120d;
+  --muted: #5d4c40;
+  --faint: #8a7767;
+  --line: rgba(26, 18, 13, 0.18);
+  --card: rgba(255, 255, 255, 0.55);
+  --accent: #d1361a;
+  --accent-ink: #fff;
+}
+[data-theme='nachkrieg'] {
+  --bg: #161a2b;
+  --bg-2: #0d1020;
+  --fg: #e7eaf5;
+  --muted: #a1a8c4;
+  --faint: #767e9c;
+  --line: rgba(231, 234, 245, 0.18);
+  --card: rgba(255, 255, 255, 0.06);
+  --accent: #8ab0ff;
+  --accent-ink: #0d1020;
+  --focus: #ffd27a;
+}
+[data-theme='minimal'] {
+  --bg: #fbfbfa;
+  --bg-2: #f1f1ef;
+  --fg: #0c0c0d;
+  --muted: #55555a;
+  --faint: #86868c;
+  --line: rgba(12, 12, 13, 0.16);
+  --card: rgba(255, 255, 255, 0.8);
+  --accent: #0a49d6;
+  --accent-ink: #fff;
+}
+[data-theme='gegenwart'] {
+  --bg: #efe9e6;
+  --bg-2: #e6dcd8;
+  --fg: #1d1819;
+  --muted: #625856;
+  --faint: #8f8482;
+  --line: rgba(29, 24, 25, 0.15);
+  --card: rgba(255, 255, 255, 0.6);
+  --accent: #8a3d6b;
+  --accent-ink: #fff;
+}
+[data-theme='nacht'] {
+  --bg: #0b0c10;
+  --bg-2: #05060a;
+  --fg: #f2f0ea;
+  --muted: #aaa8a1;
+  --faint: #7c7b75;
+  --line: rgba(242, 240, 234, 0.18);
+  --card: rgba(255, 255, 255, 0.05);
+  --accent: #f0a45c;
+  --accent-ink: #0b0c10;
+  --focus: #8dbcff;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    --dur: 1ms;
+  }
+}

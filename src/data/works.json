@@ -1,0 +1,187 @@
+[
+  {
+    "id": "bach-bwv1048",
+    "composerId": "bach",
+    "title": "Brandenburgisches Konzert Nr. 3 G-Dur, BWV 1048",
+    "part": "1. Satz",
+    "year": 1721,
+    "kind": "Konzert für Streicher",
+    "fullListenUrl": "https://commons.wikimedia.org/wiki/File:Bach_-_Brandenburg_Concerto_No._3_-_1._Allegro.ogg",
+    "fullListenLabel": "Ganzen Satz hören (Wikimedia Commons)"
+  },
+  {
+    "id": "haydn-op64-5",
+    "composerId": "haydn",
+    "title": "Streichquartett D-Dur op. 64 Nr. 5 ‚Lerche‘",
+    "part": "1. Satz",
+    "year": 1790,
+    "kind": "Streichquartett",
+    "fullListenUrl": "https://commons.wikimedia.org/wiki/File:Haydn_-_String_Quartet,_Op._64_No._5_in_D_major_'The_Lark'_-_I._Allegro_moderato_(Musopen_String_Quartet).flac",
+    "fullListenLabel": "Ganzen Satz hören (Wikimedia Commons)"
+  },
+  {
+    "id": "mozart-kv550",
+    "composerId": "mozart",
+    "title": "Sinfonie Nr. 40 g-Moll, KV 550",
+    "part": "1. Satz",
+    "year": 1788,
+    "kind": "Sinfonie",
+    "fullListenUrl": "https://commons.wikimedia.org/wiki/File:Mozart_-_Symphony_No._40_in_G_minor,_K550_-_I._Molto_allegro_(Musopen_Symphony).flac",
+    "fullListenLabel": "Ganzen Satz hören (Wikimedia Commons)"
+  },
+  {
+    "id": "beethoven-5",
+    "composerId": "beethoven",
+    "title": "Sinfonie Nr. 5 c-Moll, op. 67",
+    "part": "1. Satz",
+    "year": 1808,
+    "kind": "Sinfonie",
+    "fullListenUrl": "https://commons.wikimedia.org/wiki/File:Ludwig_van_Beethoven_-_Symphonie_5_c-moll_-_1._Allegro_con_brio.ogg",
+    "fullListenLabel": "Ganzen Satz hören (Wikimedia Commons)"
+  },
+  {
+    "id": "schubert-erlkoenig",
+    "composerId": "schubert",
+    "title": "Erlkönig, D 328",
+    "year": 1815,
+    "kind": "Lied",
+    "fullListenUrl": "https://commons.wikimedia.org/wiki/File:Schubert_-_Schumann-Heink_-_Erlk%C3%B6nig.ogg",
+    "fullListenLabel": "Ganze Aufnahme von 1913 (Wikimedia Commons)"
+  },
+  {
+    "id": "berlioz-fantastique",
+    "composerId": "berlioz",
+    "title": "Symphonie fantastique, op. 14",
+    "part": "2. Satz ‚Un bal‘",
+    "year": 1830,
+    "kind": "Programmsinfonie",
+    "fullListenUrl": "https://commons.wikimedia.org/wiki/File:Hector_Berlioz_Symphonie_fantastique_2nd_movement_excerpt.mp3",
+    "fullListenLabel": "Ausschnitt in voller Länge (Wikimedia Commons)"
+  },
+  {
+    "id": "chopin-op9-3",
+    "composerId": "chopin",
+    "title": "Nocturne H-Dur, op. 9 Nr. 3",
+    "year": 1832,
+    "kind": "Klavierstück",
+    "fullListenUrl": "https://commons.wikimedia.org/wiki/File:Chopin_-_Nocturne_No._3_in_B_major,_Op._9_No._3_(Xuan_He).flac",
+    "fullListenLabel": "Ganzes Stück hören (Wikimedia Commons)"
+  },
+  {
+    "id": "wagner-tristan",
+    "composerId": "wagner",
+    "title": "Tristan und Isolde",
+    "part": "Vorspiel",
+    "year": 1859,
+    "kind": "Oper",
+    "fullListenUrl": "https://commons.wikimedia.org/wiki/File:Richard_Wagner_-_Tristan_und_Isolde_-_Vorspiel.ogg",
+    "fullListenLabel": "Ganzes Vorspiel hören (Wikimedia Commons)"
+  },
+  {
+    "id": "brahms-4",
+    "composerId": "brahms",
+    "title": "Sinfonie Nr. 4 e-Moll, op. 98",
+    "part": "1. Satz",
+    "year": 1885,
+    "kind": "Sinfonie",
+    "fullListenUrl": "https://commons.wikimedia.org/wiki/File:Brahms_-_Symphony_No._4_in_E_minor,_Op._98_-_I._Allegro_non_troppo_(Musopen_Symphony).flac",
+    "fullListenLabel": "Ganzen Satz hören (Wikimedia Commons)"
+  },
+  {
+    "id": "debussy-faune",
+    "composerId": "debussy",
+    "title": "Prélude à l’après-midi d’un faune",
+    "year": 1894,
+    "kind": "Orchesterstück",
+    "fullListenUrl": "https://commons.wikimedia.org/wiki/File:Columbia-dwx1550ix-c-wlx1289.ogg",
+    "fullListenLabel": "Weiterhören: Schallplattenseite von 1930 (Wikimedia Commons)"
+  },
+  {
+    "id": "mahler-5",
+    "composerId": "mahler",
+    "title": "Sinfonie Nr. 5 cis-Moll",
+    "part": "1. Satz ‚Trauermarsch‘",
+    "year": 1902,
+    "kind": "Sinfonie",
+    "fullListenUrl": "https://commons.wikimedia.org/wiki/File:Mahler_Symphony_No._5,_I._Trauermarsch.ogg",
+    "fullListenLabel": "Ganzen Satz hören (Wikimedia Commons)"
+  },
+  {
+    "id": "schoenberg-sq2",
+    "composerId": "schoenberg",
+    "title": "Streichquartett Nr. 2 fis-Moll, op. 10",
+    "part": "4. Satz ‚Entrückung‘",
+    "year": 1908,
+    "kind": "Streichquartett mit Singstimme",
+    "fullListenUrl": "https://commons.wikimedia.org/wiki/File:Schoenberg_Quartet_No._2_4th_movement.OGG",
+    "fullListenLabel": "Ganzen Satz hören (Wikimedia Commons)"
+  },
+  {
+    "id": "stravinsky-sacre",
+    "composerId": "stravinsky",
+    "title": "Le Sacre du printemps",
+    "part": "Opfertanz",
+    "year": 1913,
+    "kind": "Ballettmusik",
+    "fullListenUrl": "https://www.youtube.com/watch?v=KzVDpdKgLS4",
+    "fullListenLabel": "Ganzen Opfertanz hören (YouTube, London Philharmonic Orchestra)"
+  },
+  {
+    "id": "bartok-sq2",
+    "composerId": "bartok",
+    "title": "Streichquartett Nr. 2, Sz 67",
+    "part": "2. Satz",
+    "year": 1917,
+    "kind": "Streichquartett",
+    "fullListenUrl": "https://commons.wikimedia.org/wiki/File:Bartok_Op._17,_Second_Movement.OGG",
+    "fullListenLabel": "Ganzen Satz hören (Wikimedia Commons)"
+  },
+  {
+    "id": "messiaen-quatuor",
+    "composerId": "messiaen",
+    "title": "Quatuor pour la fin du temps",
+    "part": "3. Satz ‚Abîme des oiseaux‘",
+    "year": 1941,
+    "kind": "Kammermusik",
+    "fullListenUrl": "https://www.youtube.com/watch?v=-tPqTqpLG5M",
+    "fullListenLabel": "Ganzen Satz hören (YouTube, Rotterdam Philharmonic Orchestra)"
+  },
+  {
+    "id": "ligeti-atmospheres",
+    "composerId": "ligeti",
+    "title": "Atmosphères",
+    "year": 1961,
+    "kind": "Orchesterstück",
+    "fullListenUrl": "https://www.youtube.com/watch?v=E-bemE-bCXQ",
+    "fullListenLabel": "Ganzes Stück hören (YouTube, hr-Sinfonieorchester)"
+  },
+  {
+    "id": "reich-18",
+    "composerId": "reich",
+    "title": "Music for 18 Musicians",
+    "part": "Pulses",
+    "year": 1976,
+    "kind": "Ensemblemusik",
+    "fullListenUrl": "https://www.youtube.com/watch?v=ApnbymNz9dE",
+    "fullListenLabel": "Ganzes Stück hören (YouTube, Ensemble intercontemporain)"
+  },
+  {
+    "id": "paert-cantus",
+    "composerId": "paert",
+    "title": "Cantus in Memoriam Benjamin Britten",
+    "year": 1977,
+    "kind": "Streichorchester und Glocke",
+    "fullListenUrl": "https://www.youtube.com/watch?v=TVZZgfXNFW8",
+    "fullListenLabel": "Ganzes Stück hören (YouTube, Norwegian Chamber Orchestra)"
+  },
+  {
+    "id": "shaw-partita",
+    "composerId": "shaw",
+    "title": "Partita for 8 Voices",
+    "part": "Passacaglia",
+    "year": 2011,
+    "kind": "Vokalmusik",
+    "fullListenUrl": "https://www.youtube.com/watch?v=BiKCuNH1rC4",
+    "fullListenLabel": "Ganze Passacaglia hören (YouTube, CPR Classical)"
+  }
+]

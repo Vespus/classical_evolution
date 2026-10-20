@@ -1,0 +1,82 @@
+[
+  {
+    "id": "melodie",
+    "title": "Melodie",
+    "question": "Was singt man, wenn man eine Melodie nachsingt?",
+    "demo": "melodie",
+    "text": "Eine Melodie ist eine Folge von Tönen, die man als zusammengehörige Linie hört: Sie steigt, fällt, hält inne. Entscheidend ist weniger, welcher Ton wann kommt, als die Form der Bewegung. Das lässt sich sehen: Die Punkte unten sind die Tonhöhen der ‚Ode an die Freude‘. Stellen Sie sie auf den Kopf – der Charakter ändert sich völlig, obwohl alle Abstände gleich bleiben.",
+    "term": "Der Abstand zwischen zwei Tönen heißt Intervall."
+  },
+  {
+    "id": "rhythmus",
+    "title": "Rhythmus",
+    "question": "Warum kann man mitklopfen – und wann nicht mehr?",
+    "demo": "rhythmus",
+    "text": "Rhythmus ist die Ordnung der Zeit: wann Töne kommen, wie lang sie dauern, welche betont werden. Meist liegt ein gleichmäßiger Puls darunter, auf den man mitklopfen kann. Im 20. Jahrhundert wird gerade dieser Puls zum Spielfeld: Betonungen wandern dorthin, wo man sie nicht erwartet. Die hohen Klicks unten markieren den Puls, die tiefen Schläge sind Ihr Muster. ‚Verschoben‘ kommt dem Gefühl von Strawinskys Opfertanz nahe.",
+    "term": "Die Gliederung in gleich lange Gruppen nennt man Takt."
+  },
+  {
+    "id": "harmonie",
+    "title": "Harmonie",
+    "question": "Was passiert unter der Melodie?",
+    "demo": "harmonie",
+    "text": "Harmonie ist das, was gleichzeitig erklingt: Akkorde unter der Melodie. Sie sorgt dafür, dass dieselbe Melodie mal heiter, mal traurig, mal unterwegs klingt. Hören Sie die ‚Ode‘ einmal ohne und einmal mit Akkorden. Die Akkorde markieren, wann die Musik zu Hause ist und wann sie unterwegs.",
+    "term": "Ein Akkord ist ein Zusammenklang von mindestens drei Tönen."
+  },
+  {
+    "id": "tonart",
+    "title": "Tonart und Zuhause",
+    "question": "Woher weiß das Ohr, dass ein Stück zu Ende ist?",
+    "demo": "tonart",
+    "text": "Die meisten Stücke bis 1900 haben ein Zuhause: einen Ton und einen Akkord, zu denen alles zurückstrebt und bei denen man ankommt. Das Gefühl ist so stark, dass man bei einer Tonleiter schon vor dem letzten Ton weiß, wie er klingen müsste. Hier können Sie es erleben: Die Leiter hält vor dem achten Ton an. Dann entscheiden Sie, wo die Musik landet.",
+    "term": "Musiker sprechen von der Tonart oder dem tonalen Zentrum."
+  },
+  {
+    "id": "dur-moll",
+    "title": "Dur und Moll",
+    "question": "Warum klingt das eine heiter und das andere ernst?",
+    "demo": "dur-moll",
+    "text": "Ein Dreiklang besteht aus drei Tönen. Wandert der mittlere einen Halbton nach unten, kippt die Stimmung von Dur nach Moll: Hell wird gedämpft. Der Regler gleitet zwischen beiden – dazwischen klingt es ‚falsch‘, weil das Ohr sich festlegen will. Ein Gesetz ist das nicht: Es gibt heitere Moll-Stücke und traurige in Dur.",
+    "term": null
+  },
+  {
+    "id": "dissonanz",
+    "title": "Dissonanz",
+    "question": "Was ist Reibung – und wozu braucht man sie?",
+    "demo": "dissonanz",
+    "text": "Zwei Töne in großer Nähe schlagen gegeneinander, das Ohr hört ein Rauen. Je nach Abstand ist das scharf (Halbton), mild (Terz) oder fast reibungslos (Quinte). Dissonanzen sind nicht ‚falsch‘, sondern Spannung; in älterer Musik will sie aufgelöst werden. Im 20. Jahrhundert darf sie stehen bleiben.",
+    "term": "Das Gegenteil nennt man Konsonanz."
+  },
+  {
+    "id": "chromatik",
+    "title": "Chromatik",
+    "question": "Wie klingt es, wenn jeder Schritt ein anderes Zuhause sein könnte?",
+    "demo": "chromatik",
+    "text": "Eine Dur-Tonleiter benutzt sieben der zwölf Töne einer Oktave, und ihre Schritte sind verschieden groß. Chromatisch heißt: alle zwölf, jeder Schritt gleich klein. Dann gibt es keinen Ton mehr, der besonders bevorzugt wäre. Genau das nutzt Wagner, um das Zuhause zu verwischen.",
+    "term": "Chromatik kommt vom griechischen ‚chroma‘, Farbe."
+  },
+  {
+    "id": "farbe",
+    "title": "Orchesterfarbe",
+    "question": "Warum klingt derselbe Ton auf der Flöte anders als auf der Trompete?",
+    "demo": "farbe",
+    "text": "Jeder Instrumentenklang besteht aus einem Grundton und Obertönen. Deren Mischung ist die Klangfarbe: wenige Obertöne klingen weich, viele hell und scharf. Komponisten ab Berlioz schreiben nicht mehr nur Töne, sondern Mischungen. (Die Beispiele hier sind synthetisch und ersetzen keine Instrumente.)",
+    "term": "Statt Klangfarbe sagen Musiker auch Timbre."
+  },
+  {
+    "id": "motiv",
+    "title": "Motiv",
+    "question": "Wie wird aus vier Tönen ein ganzer Satz?",
+    "demo": "motiv",
+    "text": "Ein Motiv ist ein kurzer Baustein, den man wiedererkennt. Wiederholt man ihn höher, tiefer, umgekehrt oder gedehnt, entsteht Entwicklung, ohne dass etwas Neues erfunden werden müsste. Beethovens Fünfte treibt das auf die Spitze.",
+    "term": null
+  },
+  {
+    "id": "form",
+    "title": "Wiederholung und Form",
+    "question": "Warum fühlt sich eine Rückkehr wie Heimkommen an?",
+    "demo": "form",
+    "text": "Form ist die Anordnung von Teilen in der Zeit. Das einfachste Muster heißt A–A–B–A: erst Vertrautes, dann etwas Neues, dann das Vertraute wieder – und es klingt, als hätte es sich verändert, weil man selbst unterwegs war. Große Formen wie Sonatensatz oder Rondo sind kunstvolle Varianten davon. Reich und Pärt machen die Wiederholung selbst zum Prinzip.",
+    "term": "Eine bekannte große Form ist der Sonatensatz: Aufstellung, Durchführung, Rückkehr."
+  }
+]
