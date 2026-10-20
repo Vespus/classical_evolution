@@ -48,7 +48,7 @@ export function Timeline({ stations, activeIndex }: Props) {
                   const isVisited = visited.includes(r.station.id);
                   const isFav = favorites.some((f) => f.stationId === r.station.id);
                   return (
-                    <li key={r.station.id} className="tl-item" data-theme={r.station.theme}>
+                    <li key={r.station.id} className="tl-item">
                       <a
                         ref={active ? activeRef : undefined}
                         href={href(`/reise/${r.station.id}`)}

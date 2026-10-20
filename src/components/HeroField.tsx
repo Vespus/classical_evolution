@@ -70,8 +70,8 @@ export function HeroField() {
         const dx = x - pointer.x;
         const dy = y - pointer.y;
         const near = Math.max(0, 1 - Math.hypot(dx, dy) / 140);
-        const r = (1.1 + near * 2.2) * (1 - k * 0.25) * d.s;
-        const a = (0.18 + near * 0.55) * (1 - k * 0.45) + (k > 0.1 ? 0.04 : 0);
+        const r = (1.6 + near * 2.4) * (1 - k * 0.2) * d.s;
+        const a = (0.42 + near * 0.5) * (1 - k * 0.35) + (k > 0.1 ? 0.06 : 0);
         ctx.globalAlpha = Math.min(1, a);
         ctx.fillStyle = fg;
         ctx.beginPath();

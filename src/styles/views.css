@@ -215,7 +215,7 @@
 
 .land-wrap { padding-bottom: 1rem; }
 .land-scroll { overflow-x: auto; margin-inline: calc(var(--gutter) * -1); padding-inline: var(--gutter); scrollbar-width: thin; }
-.land { position: relative; min-width: 56rem; padding-top: 1.8rem; padding-inline: 0.6rem; }
+.land { position: relative; min-width: 62rem; padding-top: 1.8rem; padding-inline: 0.6rem; }
 .land-periods { position: relative; height: 1.5rem; margin-bottom: 0.4rem; }
 .land-periods span { position: absolute; top: 0; padding-left: 0.5rem; border-left: 1px solid var(--line); font-family: var(--font-ui); font-size: 0.64rem; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: var(--faint); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 
@@ -234,11 +234,9 @@
 .lane-pole--lo { bottom: -0.55rem; }
 .lane-dot { position: absolute; width: 9px; height: 9px; margin: -4.5px 0 0 -4.5px; border-radius: 50%; background: var(--bg); border: 2px solid var(--accent); transition: transform 0.25s var(--ease-out), background-color 0.2s; }
 .lane-dot.is-active { transform: scale(1.8); background: var(--accent); }
-.lane-note { position: absolute; z-index: 2; width: 11rem; font-family: var(--font-ui); font-size: 0.68rem; line-height: 1.35; color: var(--muted); transform: translateX(-1rem); pointer-events: none; }
-.lane-note.above { transform: translate(-1rem, calc(-100% - 0.7rem)); }
-.lane-note.below { margin-top: 0.8rem; }
-.lane-note.left { transform: translateX(calc(-100% + 1rem)); text-align: right; }
-.lane-note.above.left { transform: translate(calc(-100% + 1rem), calc(-100% - 0.7rem)); }
+.lane-note { position: absolute; z-index: 2; top: 100% !important; width: 8.5rem; margin-top: 0.45rem; padding-left: 0.5rem; border-left: 1px solid var(--accent); font-family: var(--font-ui); font-size: 0.68rem; line-height: 1.35; color: var(--muted); pointer-events: none; }
+.lane-note.left { transform: translateX(-100%); padding: 0 0.5rem 0 0; border-left: 0; border-right: 1px solid var(--accent); text-align: right; }
+.lane--notes { margin-bottom: 3.4rem; }
 
 .land-stations { position: relative; height: 3.4rem; margin-top: 0.6rem; }
 .land-st { position: absolute; top: 0; display: flex; flex-direction: column; align-items: center; transform: translateX(-50%); padding: 0.3rem 0.2rem; border: 0; background: none; font-family: var(--font-ui); color: var(--muted); white-space: nowrap; }

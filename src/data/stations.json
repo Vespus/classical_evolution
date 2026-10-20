@@ -23,7 +23,7 @@
       "Die Lautstärke bleibt weitgehend gleich. Spannung entsteht durch Dichte und das Hin und Her der Stimmen, nicht durch Anschwellen."
     ],
     "whatsNew": {
-      "title": "Der Ausgangspunkt",
+      "title": "Merkmale, die sich später ändern",
       "text": "Hier spricht niemand lauter als die anderen, das Tempo schwankt kaum, und die Lautstärke wechselt eher stufenweise, als dass sie schwillt. Das Zuhause der Tonart ist jederzeit zu erkennen. Alles, was nach Bach kommt, verändert eine dieser Eigenschaften – meist eine nach der anderen."
     },
     "alongside": {
@@ -59,79 +59,19 @@
     ]
   },
   {
-    "id": "haydn",
-    "order": 2,
-    "periodId": "klassik",
-    "theme": "klassik",
-    "short": "Haydn",
-    "year": 1790,
-    "teaser": "Ein Gespräch zu viert",
-    "headline": "Plötzlich singt einer – und die anderen hören zu.",
-    "kicker": "Haydn · Streichquartett D-Dur ‚Lerche‘ · 1790 – vier Gesprächspartner statt eines durchlaufenden Motors.",
-    "workId": "haydn-op64-5",
-    "recordingId": "rec-haydn",
-    "imageId": "haydn",
-    "lead": "Bei Bach arbeiteten die Stimmen gleichberechtigt ineinander. Bei Haydn gibt es eine Hauptstimme, die etwas zu sagen hat, und andere, die sich dafür zurücknehmen. Die erste Geige steigt auf wie die Lerche, der das Stück seinen Beinamen verdankt; der Rest hält sich dezent im Hintergrund. Das klingt nach Selbstverständlichkeit. Es war eine Umstellung des Hörens.",
-    "context": {
-      "title": "Das Publikum wird größer – und wählerischer",
-      "text": "Haydn steht Jahrzehnte im Dienst der Fürsten Esterházy, bis dieser Dienst 1790 mit dem Tod des Fürsten Nikolaus faktisch endet. Im selben Jahr entstehen die Quartette op. 64. Kurz darauf reist er nach London, wo Konzerte gegen Eintritt längst ein Geschäft sind. Wer zahlt, will verstehen und unterhalten werden: Melodien, die man behält, Phrasen, die atmen, hin und wieder ein Witz."
-    },
-    "listenFor": [
-      "Die erste Geige trägt die Melodie weit oben; die anderen drei begleiten leise und tragen sie.",
-      "Achten Sie auf Frage und Antwort: Eine Phrase endet offen, die nächste antwortet. Wie ein höflicher Dialog.",
-      "Kleine Pausen und Echos: Haydn hält den Fluss gern kurz an – und tut dann, als sei nichts gewesen."
-    ],
-    "whatsNew": {
-      "title": "Melodie vorn, Begleitung hinten",
-      "text": "Statt verschränkter Stimmen: eine Melodie, die man mitsingen könnte, darunter Akkorde, die sie tragen. Die Musik bekommt Atem – kurze Phrasen, Frage und Antwort, kleine Pausen. Das macht sie sofort zugänglicher und erlaubt etwas Neues: Überraschung. Wer eine Erwartung aufgebaut hat, kann sie enttäuschen."
-    },
-    "alongside": {
-      "title": "Haydn, der Spaßvogel",
-      "text": "Haydns berühmteste Überraschung steckt in der Sinfonie Nr. 94: ein leiser Satz, dann ein plötzlicher Akkord. Die Anekdote, er habe damit das Londoner Publikum wecken wollen, ist hübsch und kaum belegt – gesichert ist, dass er die Wirkung kannte."
-    },
-    "term": {
-      "word": "Streichquartett",
-      "text": "heißt: zwei Geigen, Bratsche, Cello. Haydn macht daraus eine Gattung, in der vier Stimmen wie vier Gesprächspartner behandelt werden."
-    },
-    "forces": {
-      "streicher": 3,
-      "holz": 0,
-      "blech": 0,
-      "schlagwerk": 0,
-      "tasten": 0,
-      "stimme": 0
-    },
-    "profile": {
-      "zuhause": 0.05,
-      "apparat": 0.1,
-      "puls": 0.08,
-      "reibung": 0.1,
-      "fliesst": 0.1
-    },
-    "compareId": "barock-klassik",
-    "conceptIds": [
-      "melodie",
-      "harmonie"
-    ],
-    "rush": [
-      0,
-      7
-    ]
-  },
-  {
     "id": "mozart",
-    "order": 3,
+    "order": 2,
     "periodId": "klassik",
     "theme": "klassik",
     "short": "Mozart",
     "year": 1788,
-    "teaser": "Dasselbe Gerüst – diesmal in Moll",
-    "headline": "Dieselben Mittel, plötzlich ein Abgrund.",
+    "teaser": "Moll, Seufzer, Abgrund",
+    "headline": "Elegante Oberfläche, darunter ein Abgrund.",
     "kicker": "Mozart · Sinfonie g-Moll KV 550 · 1788 – das Gerüst der Klassik, mit Moll gefüllt.",
     "workId": "mozart-kv550",
     "recordingId": "rec-mozart",
     "imageId": "mozart",
-    "lead": "Mozart baut kaum anders als Haydn. Doch unter der eleganten Oberfläche öffnet sich etwas, das man von Höflichkeitsmusik nicht erwartet: Unruhe. Die Sinfonie beginnt nicht mit einem Auftakt, sondern mitten in einer nervösen Bewegung der Streicher, in die sich erst im zweiten Takt die Melodie einschleicht.",
+    "lead": "Bei Mozart sieht alles nach Wiener Klassik aus: eine Melodie vorn, Akkorde darunter, klare Form, ein Orchester ohne Übermaß. Doch unter der eleganten Oberfläche öffnet sich etwas, das man von Höflichkeitsmusik nicht erwartet: Unruhe. Die Sinfonie beginnt nicht mit einem Auftakt, sondern mitten in einer nervösen Bewegung der Streicher, in die sich erst im zweiten Takt die Melodie einschleicht.",
     "context": {
       "title": "Wien 1788: ein Freiberufler in Geldnot",
       "text": "Mozart lebt als freier Musiker in Wien, von Konzerten, Unterricht und Aufträgen – mit wechselndem Erfolg. Zwischen Juni und August 1788 entstehen innerhalb weniger Wochen seine letzten drei Sinfonien. Ob sie zu seinen Lebzeiten aufgeführt wurden, weiß man nicht sicher. Dass sie in Moll eine Gefühlstiefe zeigen, die dem Zeitalter der Vernunft eher fremd war, hört dagegen jeder."
@@ -142,8 +82,8 @@
       "Dur als Atempause: Wenn eine freundlichere Melodie auftaucht, merkt man erst, wie dunkel es davor war."
     ],
     "whatsNew": {
-      "title": "Moll als Hauptsache",
-      "text": "Moll ist im 18. Jahrhundert die Ausnahme; Mozart schreibt nur zwei seiner Sinfonien darin, und diese ist die berühmtere. Das Orchester wächst gegenüber dem Quartett, aber nicht ins Maßlose. Neu ist vor allem die Dichte der Gefühle: Jede Phrase könnte ein Seufzer sein, und mitten im Satz geraten die Harmonien kurz ins Wanken, bevor sie sich ordnen."
+      "title": "Melodie vorn – und Moll als Hauptsache",
+      "text": "Statt verschränkter Stimmen: eine Melodie, darunter tragende Akkorde, dazu Atem, Phrasen, Pausen. Und Moll ist im 18. Jahrhundert die Ausnahme; Mozart schreibt nur zwei seiner Sinfonien darin, und diese ist die berühmtere. Das Orchester wächst gegenüber Bachs Kammerorchester – Flöte, Oboen, Fagotte und Hörner kommen zu den Streichern –, aber nicht ins Maßlose. Neu ist vor allem die Dichte der Gefühle: Jede Phrase könnte ein Seufzer sein, und mitten im Satz geraten die Harmonien kurz ins Wanken, bevor sie sich ordnen."
     },
     "alongside": {
       "title": "Haydn lernt von Mozart – und umgekehrt",
@@ -168,6 +108,7 @@
       "reibung": 0.22,
       "fliesst": 0.12
     },
+    "compareId": "barock-klassik",
     "conceptIds": [
       "dur-moll",
       "form"
@@ -175,6 +116,65 @@
     "rush": [
       0,
       7
+    ]
+  },
+  {
+    "id": "haydn",
+    "order": 3,
+    "periodId": "klassik",
+    "theme": "klassik",
+    "short": "Haydn",
+    "year": 1791,
+    "teaser": "Ein leiser Satz und ein Knall",
+    "headline": "Ein leiser Satz – und dann ein Knall.",
+    "kicker": "Haydn · Sinfonie Nr. 94 ‚Mit dem Paukenschlag‘, 2. Satz · 1791 – Musik, die ein Publikum im Blick hat.",
+    "workId": "haydn-94",
+    "recordingId": "rec-haydn",
+    "imageId": "haydn",
+    "lead": "Mozart seufzt. Haydn lächelt – und hat noch einen Trick im Ärmel. Eine Melodie, schlicht wie ein Kinderlied, wird leise vorgestellt und noch leiser wiederholt. Man wiegt sich in Sicherheit. Dann fährt ein Akkord dazwischen. Das klingt nach Scherz. Es war eine Umstellung des Hörens: Musik rechnet jetzt mit den Erwartungen der Zuhörer.",
+    "context": {
+      "title": "Das Publikum wird größer – und wählerischer",
+      "text": "Haydn steht Jahrzehnte im Dienst der Fürsten Esterházy, bis dieser Dienst 1790 mit dem Tod des Fürsten Nikolaus faktisch endet. Der Geiger und Konzertunternehmer Johann Peter Salomon holt ihn nach London, wo Konzerte gegen Eintritt längst ein Geschäft sind. Die Sinfonie Nr. 94 erklingt dort am 23. März 1791 zum ersten Mal. Wer zahlt, will verstehen und unterhalten werden: Melodien, die man behält, Phrasen, die atmen, hin und wieder ein Witz."
+    },
+    "listenFor": [
+      "Das Thema ist beinahe ein Kinderlied: wenige Töne, kleine Schritte, leise Streicher.",
+      "Es wird wiederholt, noch leiser. Man gewöhnt sich ein und fühlt sich sicher.",
+      "Dann der Akkord: laut, mit Pauke, mitten in der zweiten Phrase. Danach geht es freundlich weiter, als wäre nichts gewesen."
+    ],
+    "whatsNew": {
+      "title": "Der Witz als Methode",
+      "text": "Nach Mozarts Gefühlstiefe: Humor. Haydn baut eine Erwartung auf und enttäuscht sie – das ist neu, und es funktioniert nur, weil das Publikum die Regeln inzwischen kennt. Melodie vorn und Begleitung hinten, kurze Phrasen mit Atem, ein Orchester mit Flöten, Oboen, Fagotten, Hörnern, Trompeten und Pauken: Das Gerüst der Klassik steht fest. Jetzt darf man damit spielen."
+    },
+    "alongside": {
+      "title": "Haydn, der Spaßvogel",
+      "text": "Die Anekdote, Haydn habe damit das Londoner Publikum wecken wollen, ist hübsch und kaum belegt – gesichert ist, dass er die Wirkung kannte. Dasselbe Prinzip – Gespräch, Pointe, Pause – übertrug er auch auf das Streichquartett, etwa in der ‚Lerche‘ (1790), die er fast gleichzeitig schrieb."
+    },
+    "term": {
+      "word": "Sinfonie",
+      "text": "nennt man ein großes Orchesterstück, meist in vier Sätzen. Haydn schreibt über hundert davon und prägt damit die Gattung."
+    },
+    "forces": {
+      "streicher": 3,
+      "holz": 2,
+      "blech": 1,
+      "schlagwerk": 1,
+      "tasten": 0,
+      "stimme": 0
+    },
+    "profile": {
+      "zuhause": 0.05,
+      "apparat": 0.3,
+      "puls": 0.1,
+      "reibung": 0.16,
+      "fliesst": 0.1
+    },
+    "conceptIds": [
+      "melodie",
+      "harmonie"
+    ],
+    "rush": [
+      65,
+      72.5
     ]
   },
   {
@@ -202,7 +202,7 @@
     ],
     "whatsNew": {
       "title": "Energie statt Anmut",
-      "text": "Gegenüber Mozart ändern sich vier Dinge hörbar: die Lautstärke (härter, mit schroffen Akzenten), die Dauer (der Satz nimmt sich Zeit zur Entwicklung), die Besetzung (im Finale kommen Piccolo, Kontrafagott und Posaunen hinzu – für eine Sinfonie ungewöhnlich) und die Haltung. Es wird nicht mehr geplaudert, es wird argumentiert."
+      "text": "Gegenüber Haydn und Mozart ändern sich vier Dinge hörbar: die Lautstärke (härter, mit schroffen Akzenten), die Dauer (der Satz nimmt sich Zeit zur Entwicklung), die Besetzung (im Finale kommen Piccolo, Kontrafagott und Posaunen hinzu – für eine Sinfonie ungewöhnlich) und die Haltung. Es wird nicht mehr geplaudert, es wird argumentiert."
     },
     "alongside": {
       "title": "Das ‚Schicksal‘ klopft nicht",
@@ -256,9 +256,9 @@
       "text": "Nach dem Wiener Kongress herrschen in der Habsburgermonarchie Zensur und Rückzug ins Private. Schubert hat selten ein großes Publikum; seine Musik klingt im Freundeskreis, bei den sogenannten Schubertiaden, an einem Klavier. So wird das Lied zur Gattung, in der große Gefühle im kleinsten Rahmen Platz finden. Er gibt zu Lebzeiten nur ein einziges öffentliches Konzert mit eigenen Werken (1828)."
     },
     "listenFor": [
-      "Die Begleitung – im Original ein Klavier – galoppiert vom ersten bis zum letzten Takt: schnelle, gleichmäßige Wiederholungen.",
+      "Die Begleitung galoppiert vom ersten bis zum letzten Takt – im Original am Klavier, hier in einer Orchesterfassung der Zeit: schnelle, gleichmäßige Wiederholungen.",
       "Vier Rollen, eine Stimme: der Erzähler, der Vater (tief und ruhig), das Kind (hoch, panisch, jedes Mal höher) und der Erlkönig (leise, schmeichelnd).",
-      "Der Schluss: Das Galoppieren bricht ab, ein einzelner, fast unbegleiteter Satz beendet die Ballade."
+      "Der Erlkönig tritt auf: Seine Verse singt die Stimme plötzlich leise und süß, fast wie ein Wiegenlied. Das Gefährlichste klingt am freundlichsten."
     ],
     "whatsNew": {
       "title": "Die Harmonie wird Psychologie",
@@ -364,8 +364,8 @@
     "year": 1832,
     "teaser": "Ein Klavier, das singt",
     "headline": "Ein Klavier, das singt wie ein Mensch.",
-    "kicker": "Chopin · Nocturne H-Dur op. 9 Nr. 3 · 1832 – Intimität im Salon.",
-    "workId": "chopin-op9-3",
+    "kicker": "Chopin · Nocturne Es-Dur op. 9 Nr. 2 · 1832 – Intimität im Salon.",
+    "workId": "chopin-op9-2",
     "recordingId": "rec-chopin",
     "imageId": "chopin",
     "lead": "Zwei Hände, ein Instrument, kein Orchester: Chopin zeigt, dass Romantik keine Lautstärke braucht. Die rechte Hand singt eine Melodie wie ein Opernsänger, die linke wiegt darunter in weiten Wellen – und der Rhythmus der Melodie darf sich dabei Freiheiten nehmen.",
@@ -480,26 +480,26 @@
     "periodId": "romantik",
     "theme": "romantik",
     "short": "Brahms",
-    "year": 1885,
+    "year": 1880,
     "teaser": "Der andere Weg",
     "headline": "Wer sagt, dass der Weg nach vorn immer weiter hinausführt?",
-    "kicker": "Brahms · 4. Sinfonie · 1885 – Romantik, die Ordnung hält.",
-    "workId": "brahms-4",
+    "kicker": "Brahms · Tragische Ouvertüre · 1880 – Romantik, die Ordnung hält.",
+    "workId": "brahms-tragic",
     "recordingId": "rec-brahms",
     "imageId": "brahms",
     "lead": "Während Wagner das Zuhause der Tonart verschwinden lässt, baut Brahms es aus – mit größter Sorgfalt. Auch seine Musik ist leidenschaftlich, dunkel, voll Sehnsucht. Aber sie bleibt gebaut: Jede Spannung kann man verfolgen, jede Rückkehr hört man kommen. Man kann das konservativ nennen. Man kann auch sagen: Er traut dem alten System mehr zu als Wagner.",
     "context": {
       "title": "Ein Komponist mit Blick zurück – und Muskeln",
-      "text": "Brahms kennt die alten Meister wie ein Archivar; Bach, Schütz und Palestrina sind für ihn lebendige Gegenwart. Seine erste Sinfonie lässt er über ein Jahrzehnt reifen, der Schatten Beethovens ist lang. Die Vierte entsteht in den Sommern 1884 und 1885 in der Steiermark und wird am 25. Oktober 1885 in Meiningen unter seiner Leitung uraufgeführt. Im Finale baut er eine Passacaglia über ein Bass-Thema aus einer Kantate von Bach."
+      "text": "Brahms kennt die alten Meister wie ein Archivar; Bach, Schütz und Palestrina sind für ihn lebendige Gegenwart. Seine erste Sinfonie lässt er über ein Jahrzehnt reifen, der Schatten Beethovens ist lang. Die Tragische Ouvertüre entsteht im Sommer 1880, gemeinsam mit einem heiteren Gegenstück, der Akademischen Festouvertüre – er sprach von einem lachenden und einem weinenden Auge. Aufgeführt wird sie im Dezember 1880 in Wien unter Hans Richter."
     },
     "listenFor": [
-      "Der Beginn: sanfte Seufzer, die sich aneinanderreihen. Kein Paukenschlag, kein Rätsel – eher ein langer Atemzug.",
+      "Der Beginn: zwei harte Schläge, dann ein dunkles, drängendes Thema der Streicher. Keine Fanfare, eher ein Entschluss.",
       "Orientierung: Auch in der Tiefe kann man das ‚Zuhause‘ jederzeit spüren. Vergleichen Sie das Gefühl mit Tristan.",
       "Dichte statt Effekt: Die Musik wird dadurch größer, dass sie das Vorhandene verwandelt."
     ],
     "whatsNew": {
       "title": "Fortschritt durch Vertiefung",
-      "text": "Gegenüber Wagner klingt das nicht ‚alt‘, sondern gebändigt: dunkle Streicher, warme Hörner und Holzbläser, ein Orchester von ungefähr Beethovens Größe. Neu ist auch hier etwas – wie viel Entwicklung sich aus winzigen Bausteinen holen lässt. Ironie der Geschichte: Schönberg, der die Tonart später verließ, schrieb einen Aufsatz mit dem Titel ‚Brahms, der Fortschrittliche‘."
+      "text": "Gegenüber Wagner klingt das nicht ‚alt‘, sondern gebändigt: dunkle Streicher, warme Hörner und Posaunen, ein Orchester von wenig mehr als Beethovens Größe. Neu ist auch hier etwas – wie viel Entwicklung sich aus winzigen Bausteinen holen lässt. Ironie der Geschichte: Schönberg, der die Tonart später verließ, schrieb einen Aufsatz mit dem Titel ‚Brahms, der Fortschrittliche‘."
     },
     "alongside": {
       "title": "Brahms und Wagner: ein Streit, der nicht ganz stimmte",
@@ -507,7 +507,7 @@
     },
     "term": {
       "word": "Passacaglia",
-      "text": "heißt: ein kurzes Bassmuster kehrt in Variationen wieder und wieder. Eine Form des Barock, die Brahms wiederentdeckt – und Caroline Shaw am Ende der Reise."
+      "text": "heißt: ein kurzes Bassmuster kehrt in Variationen wieder und wieder. Eine Form des Barock, die Brahms im Finale seiner 4. Sinfonie (1885) wiederentdeckt – und Caroline Shaw am Ende der Reise."
     },
     "forces": {
       "streicher": 3,

@@ -118,7 +118,7 @@ function LocalPlayer({ recording, work, composer, badge, compact, extra, onPlay,
       <div className="player-actions">
         {whole && (
           <button type="button" className="chip" onClick={switchMode} aria-pressed={full}>
-            {full ? 'Zurück zum Ausschnitt' : 'Ganzen Satz hören'}
+            {full ? 'Zurück zum Ausschnitt' : 'Ganz hier anhören'}
           </button>
         )}
         <a className="chip chip--link" href={work.fullListenUrl} target="_blank" rel="noreferrer noopener">
@@ -126,6 +126,7 @@ function LocalPlayer({ recording, work, composer, badge, compact, extra, onPlay,
         </a>
         {extra}
       </div>
+      {recording.qualityNote && <p className="player-note">{recording.qualityNote}</p>}
     </div>
   );
 }

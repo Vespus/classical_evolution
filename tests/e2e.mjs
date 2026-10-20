@@ -81,7 +81,7 @@ try {
     const { ctx, page } = await newPage();
     await page.goto(BASE);
     await page.getByRole('link', { name: /Reise beginnen/ }).first().click();
-    await page.waitForURL(`**/#/reise/${stations[0].id}`);
+    await page.waitForURL(`**/#/reise/${stations[0].id}`, { waitUntil: 'commit' });
     ok(true, 'Navigation zur ersten Station');
     ok((await page.locator('.tl-link').count()) === stations.length, 'Zeitleiste enthält alle Stationen');
     await page.waitForTimeout(900);
@@ -89,10 +89,10 @@ try {
     await page.screenshot({ path: join(shots, 'station-1-full.png'), fullPage: true });
 
     await page.keyboard.press('ArrowRight');
-    await page.waitForURL(`**/#/reise/${stations[1].id}`);
+    await page.waitForURL(`**/#/reise/${stations[1].id}`, { waitUntil: 'commit' });
     ok(true, 'Pfeiltaste → nächste Station');
     await page.keyboard.press('ArrowLeft');
-    await page.waitForURL(`**/#/reise/${stations[0].id}`);
+    await page.waitForURL(`**/#/reise/${stations[0].id}`, { waitUntil: 'commit' });
     ok(true, 'Pfeiltaste ← vorige Station');
 
     // Alle Stationen durchklicken: Überschrift, Player, kein leerer Text
@@ -102,7 +102,11 @@ try {
       const title = await page.locator('.st-title').innerText();
       const hasPlayer = (await page.locator('.player').count()) === 1;
       const hints = await page.locator('.listenfor li').count();
-      const img = await page.locator('.figure img').first().evaluate((i) => i.complete && i.naturalWidth > 0).catch(() => false);
+      const imgLoc = page.locator('.figure img').first();
+      await imgLoc.scrollIntoViewIfNeeded().catch(() => {});
+      const img = await imgLoc
+        .evaluate((i) => new Promise((res) => (i.complete ? res(i.naturalWidth > 0) : (i.onload = () => res(true), i.onerror = () => res(false)))))
+        .catch(() => false);
       ok(title.length > 5 && hasPlayer && hints >= 1 && img, `Station ${s.id}: Titel, Player, ${hints} Hinweise, Bild`);
     }
 

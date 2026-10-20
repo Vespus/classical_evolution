@@ -621,3 +621,5 @@ kbd {
 .formbar .fa { background: color-mix(in srgb, var(--accent) 24%, transparent); }
 .formbar .fb { background: color-mix(in srgb, var(--fg) 14%, transparent); }
 .formbar .now { transform: translateY(-4px); box-shadow: 0 0 0 2px var(--accent); }
+
+.player-note { margin: 0.9rem 0 0; font-family: var(--font-ui); font-size: 0.74rem; line-height: 1.5; color: var(--muted); }

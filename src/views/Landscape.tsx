@@ -82,7 +82,7 @@ export function Landscape() {
               const dim = focusDim && focusDim !== d.key;
               const notes = landscapeNotes.filter((x) => x.dim === d.key);
               return (
-                <div className={`lane ${dim ? 'is-dim' : ''}`} key={d.key}>
+                <div className={`lane ${dim ? 'is-dim' : ''} ${notes.length ? 'lane--notes' : ''}`} key={d.key}>
                   <div className="lane-head">
                     <button type="button" className="lane-name" onClick={() => setFocusDim(focusDim === d.key ? null : d.key)} aria-pressed={focusDim === d.key}>
                       {d.label}
@@ -110,7 +110,7 @@ export function Landscape() {
                       return (
                         <span
                           key={nt.text}
-                          className={`lane-note ${y < 0.5 ? 'below' : 'above'} ${i > n * 0.7 ? 'left' : ''}`}
+                          className={`lane-note ${i > n * 0.8 ? 'left' : ''}`}
                           style={{ left: `${(xs(i) / W) * 100}%`, top: `${y * 100}%` }}
                         >
                           {nt.text}

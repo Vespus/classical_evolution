@@ -2,7 +2,7 @@
   {
     "id": "barock-klassik",
     "title": "Vom Uhrwerk zum Gespräch",
-    "question": "Was geschieht, wenn aus neun gleichberechtigten Stimmen eine Melodie mit Begleitung wird?",
+    "question": "Was geschieht, wenn aus neun gleichberechtigten Stimmen eine Melodie mit Begleitung wird – und dazu ein Gefühl?",
     "a": {
       "stationId": "bach",
       "recordingId": "rec-bach",
@@ -10,17 +10,17 @@
       "sub": "Brandenburgisches Konzert Nr. 3 · 1721"
     },
     "b": {
-      "stationId": "haydn",
-      "recordingId": "rec-haydn",
-      "label": "Haydn",
-      "sub": "Streichquartett ‚Lerche‘ · 1790"
+      "stationId": "mozart",
+      "recordingId": "rec-mozart",
+      "label": "Mozart",
+      "sub": "Sinfonie g-Moll KV 550 · 1788"
     },
     "notice": [
       "Bei A läuft ein Motor durch. Bei B hat die Musik Atempausen.",
       "A: viele Stimmen mit gleichem Gewicht. B: eine Melodie vorn, der Rest begleitet.",
-      "Die Lautstärke bleibt bei A gleichmäßig, bei B atmet sie auf und ab."
+      "Die Lautstärke bleibt bei A gleichmäßig, bei B atmet sie auf und ab – bis zum Seufzer."
     ],
-    "verdict": "Siebzig Jahre trennen die beiden Stücke, und doch ist der Unterschied keiner von ‚alt‘ und ‚neu‘, sondern einer der Absicht: erst ordnen, dann sprechen."
+    "verdict": "Siebzig Jahre trennen die beiden Stücke, und doch ist der Unterschied keiner von ‚alt‘ und ‚neu‘, sondern einer der Absicht: erst ordnen, dann sprechen – und schließlich fühlen."
   },
   {
     "id": "mozart-beethoven",
@@ -76,7 +76,7 @@
       "stationId": "brahms",
       "recordingId": "rec-brahms",
       "label": "Brahms",
-      "sub": "4. Sinfonie · 1885"
+      "sub": "Tragische Ouvertüre · 1880"
     },
     "b": {
       "stationId": "wagner",

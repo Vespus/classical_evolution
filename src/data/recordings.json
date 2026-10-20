@@ -1,1 +1,412 @@
-[]
+[
+  {
+    "id": "rec-bach",
+    "workId": "bach-bwv1048",
+    "performer": "Advent Chamber Orchestra",
+    "recordedYear": "2006",
+    "provider": "local",
+    "source": "ibiblio – Pandora Music Repository (Sammlung Al Goldstein); Lizenz laut Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bach_-_Brandenburg_Concerto_No._3_-_1._Allegro.ogg",
+    "license": {
+      "name": "CC BY-SA 2.0 (Open Audio License)",
+      "url": "https://creativecommons.org/licenses/by-sa/2.0/"
+    },
+    "attribution": "Advent Chamber Orchestra, Konzert im Dezember 2006; Sammlung Al Goldstein im Pandora Music Repository (ibiblio.org); Open Audio License / CC BY-SA 2.0.",
+    "local": {
+      "fileUrl": "https://www.ibiblio.org/pandora/vorbis/chamber_orchestra/DEC-06/3Bach1.ogg",
+      "fetchBytes": 3200000,
+      "clip": "audio/rec-bach.mp3",
+      "clipStart": 0,
+      "clipEnd": 70,
+      "fullStreamUrl": "https://www.ibiblio.org/pandora/vorbis/chamber_orchestra/DEC-06/3Bach1.ogg"
+    }
+  },
+  {
+    "id": "rec-haydn",
+    "workId": "haydn-94",
+    "performer": "Boston Symphony Orchestra, Ltg. Serge Koussevitzky",
+    "recordedYear": "1929",
+    "provider": "local",
+    "source": "Internet Archive (Victor-78er-Umschnitt)",
+    "sourceUrl": "https://archive.org/details/Haydn_Symphony_No_94_Surprise",
+    "license": {
+      "name": "Gemeinfrei (Schallplatte von 1929, USA/EU)",
+      "url": "https://creativecommons.org/publicdomain/mark/1.0/"
+    },
+    "attribution": "Boston Symphony Orchestra, Dirigent Serge Koussevitzky, Victor, aufgenommen 1929; Überspielung im Internet Archive bereitgestellt; gemeinfrei.",
+    "qualityNote": "Aufnahme aus der Frühzeit der elektrischen Schallplatte (1929): Rauschen und eingeengter Klang gehören dazu.",
+    "local": {
+      "fileUrl": "https://archive.org/download/Haydn_Symphony_No_94_Surprise/HaydnSurprise.ogg",
+      "clip": "audio/rec-haydn.mp3",
+      "clipStart": 616,
+      "clipEnd": 701,
+      "fullStreamUrl": "https://archive.org/download/Haydn_Symphony_No_94_Surprise/HaydnSurprise.ogg"
+    }
+  },
+  {
+    "id": "rec-mozart",
+    "workId": "mozart-kv550",
+    "performer": "Columbia University Orchestra",
+    "recordedYear": "2001",
+    "provider": "local",
+    "source": "Internet Archive (Columbia University Orchestra)",
+    "sourceUrl": "https://archive.org/details/Mozart_Symphony_40",
+    "license": {
+      "name": "Public-Domain-Widmung (Creative Commons)",
+      "url": "https://creativecommons.org/licenses/publicdomain/"
+    },
+    "attribution": "Columbia University Orchestra, Konzert vom 2. Dezember 2001; im Internet Archive als Public-Domain-Widmung veröffentlicht.",
+    "local": {
+      "fileUrl": "https://archive.org/download/Mozart_Symphony_40/1_Molto_allegro.ogg",
+      "fetchBytes": 2500000,
+      "clip": "audio/rec-mozart.mp3",
+      "clipStart": 0,
+      "clipEnd": 70,
+      "fullStreamUrl": "https://archive.org/download/Mozart_Symphony_40/1_Molto_allegro.ogg"
+    }
+  },
+  {
+    "id": "rec-beethoven",
+    "workId": "beethoven-5",
+    "performer": "Royal Philharmonic Orchestra, Ltg. Felix Weingartner",
+    "recordedYear": "1927",
+    "provider": "local",
+    "source": "Internet Archive (Columbia M-48, digitalisiert von The Animating Apothecary)",
+    "sourceUrl": "https://archive.org/details/1927-symphony-5-beethoven-weingartner-royal-phil-orch-col-m-48-8-sides",
+    "license": {
+      "name": "Gemeinfrei (Schallplatte von 1927, USA/EU); Digitalisat CC0",
+      "url": "https://creativecommons.org/publicdomain/zero/1.0/"
+    },
+    "attribution": "Royal Philharmonic Orchestra, Dirigent Felix Weingartner, Columbia M-48, 1927; Digitalisat: The Animating Apothecary (Internet Archive), CC0.",
+    "qualityNote": "Aufnahme aus der Frühzeit der elektrischen Schallplatte (1927): Rauschen und eingeengter Klang gehören dazu.",
+    "local": {
+      "fileUrl": "https://archive.org/download/1927-symphony-5-beethoven-weingartner-royal-phil-orch-col-m-48-8-sides/1927%20Symphony%20%235%20-%20Beethoven%20-%20Weingartner%20%26%20Royal%20Phil%20Orch%20COL%20M-48%208%20sides.mp3",
+      "fetchBytes": 3000000,
+      "clip": "audio/rec-beethoven.mp3",
+      "clipStart": 0,
+      "clipEnd": 62
+    }
+  },
+  {
+    "id": "rec-schubert",
+    "workId": "schubert-erlkoenig",
+    "performer": "Ernestine Schumann-Heink (Kontraalt) mit Orchester",
+    "recordedYear": "1913",
+    "provider": "local",
+    "source": "Internet Archive (Great 78 Project)",
+    "sourceUrl": "https://archive.org/details/78_erlknig-the-erl-king_ernestine-schumann-heink-schubert_gbia0520136b",
+    "license": {
+      "name": "Gemeinfrei (Schallplatte von 1915, USA/EU)",
+      "url": "https://creativecommons.org/publicdomain/mark/1.0/"
+    },
+    "attribution": "Ernestine Schumann-Heink, Victrola 6273-B (um 1915 veröffentlicht), digitalisiert im Great 78 Project (George Blood, Internet Archive); gemeinfrei.",
+    "qualityNote": "Akustische Aufnahme aus der Zeit vor 1925: Rauschen und eingeengter Klang gehören dazu.",
+    "local": {
+      "fileUrl": "https://archive.org/download/78_erlknig-the-erl-king_ernestine-schumann-heink-schubert_gbia0520136b/Erlk%C3%B6nig%20%28The%20Erl-King%29%20-%20Ernestine%20Schumann-Heink.mp3",
+      "clip": "audio/rec-schubert.mp3",
+      "clipStart": 0,
+      "clipEnd": 100,
+      "fullStreamUrl": "https://archive.org/download/78_erlknig-the-erl-king_ernestine-schumann-heink-schubert_gbia0520136b/Erlk%C3%B6nig%20%28The%20Erl-King%29%20-%20Ernestine%20Schumann-Heink.mp3"
+    }
+  },
+  {
+    "id": "rec-berlioz",
+    "workId": "berlioz-fantastique",
+    "performer": "hr-Sinfonieorchester, Ltg. Hugh Wolff",
+    "source": "Wikimedia Commons (Hessischer Rundfunk)",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hector_Berlioz_Symphonie_fantastique_2nd_movement_excerpt.mp3",
+    "provider": "local",
+    "license": {
+      "name": "CC BY-SA 4.0",
+      "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+    },
+    "attribution": "hr-Sinfonieorchester (Frankfurt Radio Symphony), Dirigent Hugh Wolff, Alte Oper Frankfurt, 15. September 2000; © Hessischer Rundfunk, CC BY-SA 4.0.",
+    "local": {
+      "fileUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Hector_Berlioz_Symphonie_fantastique_2nd_movement_excerpt.mp3",
+      "clip": "audio/rec-berlioz.mp3",
+      "clipStart": 0,
+      "clipEnd": 100
+    },
+    "recordedYear": "2000"
+  },
+  {
+    "id": "rec-chopin",
+    "workId": "chopin-op9-2",
+    "performer": "Pianist laut Quelle nicht einzeln ausgewiesen (Musopen)",
+    "provider": "local",
+    "source": "Internet Archive (Musopen – The Complete Chopin Collection)",
+    "sourceUrl": "https://archive.org/details/musopen-chopin",
+    "license": {
+      "name": "CC0 1.0 (gemeinfrei)",
+      "url": "https://creativecommons.org/publicdomain/zero/1.0/"
+    },
+    "attribution": "Musopen – The Complete Chopin Collection (Aaron Dunn / Musopen), Internet Archive; von Musopen unter CC0 freigegeben.",
+    "local": {
+      "fileUrl": "https://archive.org/download/musopen-chopin/Nocturne%20Op.%209%20no.%202%20in%20E%20flat%20major.ogg",
+      "clip": "audio/rec-chopin.mp3",
+      "clipStart": 0,
+      "clipEnd": 75,
+      "fullStreamUrl": "https://archive.org/download/musopen-chopin/Nocturne%20Op.%209%20no.%202%20in%20E%20flat%20major.ogg"
+    }
+  },
+  {
+    "id": "rec-wagner",
+    "workId": "wagner-tristan",
+    "performer": "(London) Symphony Orchestra, Ltg. Albert Coates",
+    "recordedYear": "1927",
+    "provider": "local",
+    "source": "Internet Archive (Electrola EJ 40)",
+    "sourceUrl": "https://archive.org/details/01tristanvorspiel1.aufzugej40",
+    "license": {
+      "name": "Gemeinfrei (Schallplatte von 1927, USA/EU)",
+      "url": "https://creativecommons.org/publicdomain/mark/1.0/"
+    },
+    "attribution": "Symphony Orchestra, Dirigent Albert Coates, Electrola EJ 40 (Matrix CR 144-I), aufgenommen um 1927; digitalisiert und im Internet Archive bereitgestellt (recordplayer78); gemeinfrei.",
+    "qualityNote": "Aufnahme aus der Frühzeit der elektrischen Schallplatte (1927): Rauschen und eingeengter Klang gehören dazu.",
+    "local": {
+      "fileUrl": "https://archive.org/download/01tristanvorspiel1.aufzugej40/01%20Tristan%20Vorspiel%201.%20Aufzug%20EJ%2040.mp3",
+      "clip": "audio/rec-wagner.mp3",
+      "clipStart": 0,
+      "clipEnd": 80,
+      "fullStreamUrl": "https://archive.org/download/01tristanvorspiel1.aufzugej40/01%20Tristan%20Vorspiel%201.%20Aufzug%20EJ%2040.mp3"
+    }
+  },
+  {
+    "id": "rec-brahms",
+    "workId": "brahms-tragic",
+    "performer": "hr-Sinfonieorchester, Ltg. Dean Dixon",
+    "recordedYear": "1968",
+    "provider": "local",
+    "source": "Wikimedia Commons (Hessischer Rundfunk)",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Johannes_Brahms_Tragische_Ouvert%C3%BCre_excerpt.mp3",
+    "license": {
+      "name": "CC BY-SA 4.0",
+      "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+    },
+    "attribution": "hr-Sinfonieorchester (Frankfurt Radio Symphony), Dirigent Dean Dixon, großer Sendesaal Frankfurt, 12. September 1968; © Hessischer Rundfunk, CC BY-SA 4.0.",
+    "local": {
+      "fileUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Johannes_Brahms_Tragische_Ouvert%C3%BCre_excerpt.mp3",
+      "clip": "audio/rec-brahms.mp3",
+      "clipStart": 0,
+      "clipEnd": 75
+    }
+  },
+  {
+    "id": "rec-debussy",
+    "workId": "debussy-faune",
+    "performer": "Straram-Orchester, Ltg. Walther Straram",
+    "recordedYear": "1930",
+    "provider": "local",
+    "source": "Public Domain Project (Digitalisat von Carl Flisch), Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Columbia-dwx1550ix-c-wlx1289.ogg",
+    "license": {
+      "name": "Gemeinfrei (Schallplatte von 1930, USA/EU)",
+      "url": "https://creativecommons.org/publicdomain/mark/1.0/"
+    },
+    "attribution": "Straram Symphony Orchestra, Dirigent Walther Straram, Columbia, aufgenommen 24. Februar 1930, erstveröffentlicht 1930; Digitalisat: Public Domain Project.",
+    "qualityNote": "Schallplattenaufnahme von 1930: Rauschen und eingeengter Klang gehören dazu.",
+    "local": {
+      "fileUrl": "http://pool.publicdomainproject.org/audio/flac/columbia/columbia-dwx1550ix-c-wlx1289.flac",
+      "clip": "audio/rec-debussy.mp3",
+      "clipStart": 0,
+      "clipEnd": 80
+    }
+  },
+  {
+    "id": "rec-mahler",
+    "workId": "mahler-5",
+    "performer": "Peabody Symphony Orchestra",
+    "recordedYear": "2006",
+    "provider": "local",
+    "source": "Internet Archive (Peabody Symphony Orchestra)",
+    "sourceUrl": "https://archive.org/details/Mahler_Symphony_5",
+    "license": {
+      "name": "Public-Domain-Widmung (CC0)",
+      "url": "https://creativecommons.org/publicdomain/zero/1.0/"
+    },
+    "attribution": "Peabody Symphony Orchestra, aufgenommen 2006; veröffentlicht im Internet Archive (Mahler Symphony 5) und auf Wikimedia Commons als CC0.",
+    "local": {
+      "fileUrl": "https://archive.org/download/Mahler_Symphony_5/01.PSO020103-Mahler-5-I.mp3",
+      "fetchBytes": 3500000,
+      "clip": "audio/rec-mahler.mp3",
+      "clipStart": 4,
+      "clipEnd": 114,
+      "fadeIn": 0.4,
+      "fullStreamUrl": "https://archive.org/download/Mahler_Symphony_5/01.PSO020103-Mahler-5-I.ogg"
+    }
+  },
+  {
+    "id": "rec-schoenberg",
+    "workId": "schoenberg-sq2",
+    "performer": "Carmel Quartet mit Rona Israel-Kolatt (Sopran)",
+    "source": "Wikimedia Commons (Carmel Quartet)",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Schoenberg_Quartet_No._2_4th_movement.OGG",
+    "provider": "local",
+    "license": {
+      "name": "Creative Commons 3.0 (Freigabe des Carmel Quartet)",
+      "url": "https://creativecommons.org/licenses/by/3.0/"
+    },
+    "attribution": "Carmel Quartet (Israel) mit Rona Israel-Kolatt, Sopran, 2007; vom Ensemble unter Creative Commons freigegeben.",
+    "local": {
+      "fileUrl": "https://upload.wikimedia.org/wikipedia/commons/8/85/Schoenberg_Quartet_No._2_4th_movement.OGG",
+      "clip": "audio/rec-schoenberg.mp3",
+      "clipStart": 0,
+      "clipEnd": 80,
+      "fullStreamUrl": "https://upload.wikimedia.org/wikipedia/commons/8/85/Schoenberg_Quartet_No._2_4th_movement.OGG"
+    },
+    "recordedYear": "2007"
+  },
+  {
+    "id": "rec-bartok",
+    "workId": "bartok-sq2",
+    "performer": "Carmel Quartet",
+    "source": "Wikimedia Commons (Carmel Quartet)",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bartok_Op._17,_Second_Movement.OGG",
+    "provider": "local",
+    "license": {
+      "name": "CC BY 3.0",
+      "url": "https://creativecommons.org/licenses/by/3.0/"
+    },
+    "attribution": "Carmel Quartet (Israel), 2007; vom Ensemble unter CC BY 3.0 freigegeben.",
+    "local": {
+      "fileUrl": "https://upload.wikimedia.org/wikipedia/commons/9/94/Bartok_Op._17,_Second_Movement.OGG",
+      "clip": "audio/rec-bartok.mp3",
+      "clipStart": 0,
+      "clipEnd": 60,
+      "fullStreamUrl": "https://upload.wikimedia.org/wikipedia/commons/9/94/Bartok_Op._17,_Second_Movement.OGG"
+    },
+    "recordedYear": "2007"
+  },
+  {
+    "id": "rec-stravinsky",
+    "workId": "stravinsky-sacre",
+    "performer": "London Philharmonic Orchestra",
+    "provider": "external",
+    "source": "YouTube (offizieller Kanal)",
+    "sourceUrl": "https://www.youtube.com/watch?v=KzVDpdKgLS4",
+    "license": {
+      "name": "Externer Stream (kein Eigenbestand)",
+      "url": "https://www.youtube.com/t/terms"
+    },
+    "attribution": "London Philharmonic Orchestra, offizieller YouTube-Kanal.",
+    "external": {
+      "kind": "youtube",
+      "videoId": "KzVDpdKgLS4",
+      "start": 0,
+      "end": 75,
+      "title": "Stravinsky: Rite of Spring – Sacrificial Dance – London Philharmonic Orchestra",
+      "channel": "London Philharmonic Orchestra",
+      "checked": "2026-10-20"
+    }
+  },
+  {
+    "id": "rec-messiaen",
+    "workId": "messiaen-quatuor",
+    "performer": "Julien Hervé (Klarinette), Rotterdam Philharmonic Orchestra",
+    "provider": "external",
+    "source": "YouTube (offizieller Kanal)",
+    "sourceUrl": "https://www.youtube.com/watch?v=-tPqTqpLG5M",
+    "license": {
+      "name": "Externer Stream (kein Eigenbestand)",
+      "url": "https://www.youtube.com/t/terms"
+    },
+    "attribution": "Rotterdam Philharmonic Orchestra, offizieller YouTube-Kanal.",
+    "external": {
+      "kind": "youtube",
+      "videoId": "-tPqTqpLG5M",
+      "start": 0,
+      "end": 150,
+      "title": "Abîme des oiseaux - Messiaen | Julien Hervé, clarinet",
+      "channel": "Rotterdam Philharmonic Orchestra",
+      "checked": "2026-10-20"
+    }
+  },
+  {
+    "id": "rec-ligeti",
+    "workId": "ligeti-atmospheres",
+    "performer": "hr-Sinfonieorchester, Ltg. Christoph Eschenbach",
+    "provider": "external",
+    "source": "YouTube (offizieller Kanal)",
+    "sourceUrl": "https://www.youtube.com/watch?v=E-bemE-bCXQ",
+    "license": {
+      "name": "Externer Stream (kein Eigenbestand)",
+      "url": "https://www.youtube.com/t/terms"
+    },
+    "attribution": "hr-Sinfonieorchester, offizieller YouTube-Kanal.",
+    "external": {
+      "kind": "youtube",
+      "videoId": "E-bemE-bCXQ",
+      "start": 0,
+      "end": 90,
+      "title": "Ligeti: Atmosphères ∙ hr-Sinfonieorchester ∙ Christoph Eschenbach",
+      "channel": "hr-Sinfonieorchester – Frankfurt Radio Symphony",
+      "checked": "2026-10-20"
+    }
+  },
+  {
+    "id": "rec-reich",
+    "workId": "reich-18",
+    "performer": "Ensemble intercontemporain, Synergy Vocals",
+    "provider": "external",
+    "source": "YouTube (offizieller Kanal)",
+    "sourceUrl": "https://www.youtube.com/watch?v=ApnbymNz9dE",
+    "license": {
+      "name": "Externer Stream (kein Eigenbestand)",
+      "url": "https://www.youtube.com/t/terms"
+    },
+    "attribution": "Ensemble intercontemporain, offizieller YouTube-Kanal.",
+    "external": {
+      "kind": "youtube",
+      "videoId": "ApnbymNz9dE",
+      "start": 0,
+      "end": 100,
+      "title": "Steve Reich, Music for Eighteen Musicians - Synergy Vocals - Ensemble intercontemporain",
+      "channel": "Ensemble Intercontemporain",
+      "checked": "2026-10-20"
+    }
+  },
+  {
+    "id": "rec-paert",
+    "workId": "paert-cantus",
+    "performer": "Norwegian Chamber Orchestra",
+    "provider": "external",
+    "source": "YouTube (offizieller Kanal)",
+    "sourceUrl": "https://www.youtube.com/watch?v=TVZZgfXNFW8",
+    "license": {
+      "name": "Externer Stream (kein Eigenbestand)",
+      "url": "https://www.youtube.com/t/terms"
+    },
+    "attribution": "Norwegian Chamber Orchestra, offizieller YouTube-Kanal.",
+    "external": {
+      "kind": "youtube",
+      "videoId": "TVZZgfXNFW8",
+      "start": 0,
+      "end": 120,
+      "title": "Arvo Pärt: Cantus in memoriam Benjamin Britten",
+      "channel": "Norwegian Chamber Orchestra",
+      "checked": "2026-10-20"
+    }
+  },
+  {
+    "id": "rec-shaw",
+    "workId": "shaw-partita",
+    "performer": "Roomful of Teeth",
+    "provider": "external",
+    "source": "YouTube (offizieller Kanal)",
+    "sourceUrl": "https://www.youtube.com/watch?v=BiKCuNH1rC4",
+    "license": {
+      "name": "Externer Stream (kein Eigenbestand)",
+      "url": "https://www.youtube.com/t/terms"
+    },
+    "attribution": "CPR Classical (Colorado Public Radio), YouTube-Kanal.",
+    "external": {
+      "kind": "youtube",
+      "videoId": "BiKCuNH1rC4",
+      "start": 0,
+      "end": 100,
+      "title": "Roomful of Teeth - Shaw: Passacaglia (4th mvt) from Partita for 8 Voices",
+      "channel": "CPR Classical",
+      "checked": "2026-10-20"
+    }
+  }
+]
