@@ -176,21 +176,23 @@
   {
     "id": "rec-brahms",
     "workId": "brahms-tragic",
-    "performer": "hr-Sinfonieorchester, Ltg. Dean Dixon",
-    "recordedYear": "1968",
-    "provider": "local",
-    "source": "Wikimedia Commons (Hessischer Rundfunk)",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Johannes_Brahms_Tragische_Ouvert%C3%BCre_excerpt.mp3",
+    "performer": "Concertgebouworkest, Ltg. Herbert Blomstedt",
+    "provider": "external",
+    "source": "YouTube (offizieller Kanal)",
+    "sourceUrl": "https://www.youtube.com/watch?v=PUPVO3cFAWQ",
     "license": {
-      "name": "CC BY-SA 4.0",
-      "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+      "name": "Externer Stream (kein Eigenbestand)",
+      "url": "https://www.youtube.com/t/terms"
     },
-    "attribution": "hr-Sinfonieorchester (Frankfurt Radio Symphony), Dirigent Dean Dixon, großer Sendesaal Frankfurt, 12. September 1968; © Hessischer Rundfunk, CC BY-SA 4.0.",
-    "local": {
-      "fileUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Johannes_Brahms_Tragische_Ouvert%C3%BCre_excerpt.mp3",
-      "clip": "audio/rec-brahms.mp3",
-      "clipStart": 0,
-      "clipEnd": 75
+    "attribution": "Concertgebouworkest (Royal Concertgebouw Orchestra), offizieller YouTube-Kanal.",
+    "external": {
+      "kind": "youtube",
+      "videoId": "PUPVO3cFAWQ",
+      "start": 0,
+      "end": 75,
+      "title": "Symphonic Gems: Brahms - Tragic Overture - Blomstedt | Concertgebouworkest",
+      "channel": "Concertgebouworkest",
+      "checked": "2026-10-20"
     }
   },
   {
