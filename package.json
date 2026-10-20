@@ -11,7 +11,8 @@
     "verify:data": "node scripts/verify-data.mjs",
     "test:e2e": "node tests/e2e.mjs",
     "credits": "node scripts/make-credits.mjs",
-    "prepare:audio": "python3 scripts/prepare_audio.py"
+    "prepare:audio": "python3 scripts/prepare_audio.py",
+    "test:a11y": "node tests/a11y.mjs"
   },
   "dependencies": {
     "@fontsource-variable/inter": "^5.3.0",
@@ -23,6 +24,7 @@
     "@types/react": "^18.3.12",
     "@types/react-dom": "^18.3.1",
     "@vitejs/plugin-react": "^4.3.4",
+    "axe-core": "^4.14.0",
     "playwright": "^1.49.0",
     "typescript": "^5.6.3",
     "vite": "^5.4.11"

@@ -72,6 +72,15 @@ try {
     await page.screenshot({ path: join(shots, 'home.png') });
     await page.screenshot({ path: join(shots, 'home-full.png'), fullPage: true });
     ok((await page.locator('.path li').count()) === stations.length, `Routenübersicht zeigt ${stations.length} Stationen`);
+    await page.locator('.rush-btn').click();
+    await page.waitForSelector('.rush[data-running]', { timeout: 8000 }).catch(() => {});
+    ok((await page.locator('.rush[data-running]').count()) === 1, 'Zeitraffer startet erst auf Klick und läuft');
+    await page.waitForTimeout(8500);
+    const cap = await page.locator('.rush-caption').innerText();
+    ok(/\d{4}/.test(cap), `Zeitraffer wandert weiter (${cap})`);
+    await page.locator('.rush-btn').click();
+    await page.waitForTimeout(400);
+    ok((await page.locator('.rush[data-running]').count()) === 0, 'Zeitraffer lässt sich anhalten');
     await ctx.close();
   }
 
@@ -91,6 +100,8 @@ try {
     await page.keyboard.press('ArrowRight');
     await page.waitForURL(`**/#/reise/${stations[1].id}`, { waitUntil: 'commit' });
     ok(true, 'Pfeiltaste → nächste Station');
+    await page.waitForSelector('.st-meta:has-text("Station 02")');
+    await page.waitForTimeout(300);
     await page.keyboard.press('ArrowLeft');
     await page.waitForURL(`**/#/reise/${stations[0].id}`, { waitUntil: 'commit' });
     ok(true, 'Pfeiltaste ← vorige Station');

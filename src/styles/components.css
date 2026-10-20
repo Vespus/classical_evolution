@@ -543,14 +543,14 @@ kbd {
 .profile-dot { background: var(--accent); box-shadow: 0 0 0 4px color-mix(in srgb, var(--accent) 22%, transparent); transition: left 900ms var(--ease-out); }
 .profile-ghost { background: transparent; border: 2px solid var(--faint); opacity: 0.8; width: 12px; height: 12px; margin: -6px 0 0 -6px; }
 .profile-trail { position: absolute; top: 50%; height: 2px; margin-top: -1px; background: var(--accent); opacity: 0.45; }
-.profile-poles { display: flex; justify-content: space-between; margin-top: 0.4rem; font-family: var(--font-ui); font-size: 0.68rem; color: var(--faint); }
+.profile-poles { display: flex; justify-content: space-between; margin-top: 0.4rem; font-family: var(--font-ui); font-size: 0.68rem; color: var(--muted); }
 
 .forces { display: grid; grid-template-columns: repeat(3, 1fr); gap: 0.7rem 0.5rem; margin: 0.7rem 0 0; padding: 0; list-style: none; }
 .force { display: flex; flex-direction: column; gap: 0.35rem; font-family: var(--font-ui); font-size: 0.74rem; color: var(--muted); }
 .force-dots { display: flex; gap: 4px; }
 .force-dots i { width: 10px; height: 10px; border-radius: 50%; border: 1.5px solid var(--faint); transition: background-color 0.5s, border-color 0.5s; }
 .force-dots i.on { background: var(--accent); border-color: var(--accent); }
-.force--0 .force-name { opacity: 0.55; }
+.force--0 .force-name { color: var(--faint); }
 .force--3 .force-name { color: var(--fg); font-weight: 620; }
 
 /* ---------- Abbildung ---------- */

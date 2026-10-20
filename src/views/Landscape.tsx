@@ -67,7 +67,6 @@ export function Landscape() {
               {groups.map((g) => (
                 <span
                   key={g.id + g.from}
-                  data-theme={resolvedStations[g.from].station.theme}
                   style={{ left: `${(xs(g.from) / W) * 100 - (g.from === 0 ? 0 : 50 / (n - 1))}%`, width: `${((g.to - g.from + 1) / n) * 100}%` }}
                 >
                   {g.name}

@@ -22,7 +22,9 @@ Der Build ist rein statisch (`base: './'`, Hash-Routing) und läuft aus jedem Ve
 | `npm run verify:data` | Prüft Querverweise, Lizenzangaben, vorhandene Audio-/Bilddateien |
 | `npm run credits` | Erzeugt `docs/QUELLEN.md` aus den Daten |
 | `npm run prepare:audio` | Schneidet die Hörausschnitte aus den Originalen (siehe unten) |
-| `npm run test:e2e` | Browsertests mit Playwright (zuvor `npm run build`) |
+| `npm run test:e2e` | Browsertests mit Playwright, mit Screenshots in `tests/shots/` (zuvor `npm run build`) |
+| `npm run test:a11y` | Automatische Barrierefreiheitsprüfung mit axe-core über alle Hauptansichten |
+| `python3 scripts/fetch_images.py` | Lädt die Bilder aus `images.json` von Wikimedia Commons (verkleinert) |
 
 ## Aufbau
 
@@ -46,12 +48,12 @@ Neue Station: Einträge in `works.json`, `recordings.json`, `stations.json` (und
 
 ## Audio
 
-* **Lokale Ausschnitte** (`provider: "local"`): frei lizenzierte Aufnahmen (Wikimedia Commons: Musopen, Open-Audio-Lizenz, CC0, CC BY-SA, gemeinfreie historische Aufnahmen). `scripts/prepare_audio.py` lädt das Original (bei großen FLAC-Dateien nur den nötigen Anfang), schneidet den kuratierten Abschnitt, gleicht die Lautheit an (−20 LUFS, damit A/B fair bleibt), blendet ein und aus und berechnet die Hüllkurve für den Player. Benötigt `ffmpeg` mit `libmp3lame`.
+* **Lokale Ausschnitte** (`provider: "local"`): frei lizenzierte oder gemeinfreie Aufnahmen aus Internet Archive, ibiblio/Pandora Music, Public Domain Project und Wikimedia Commons (Open Audio License, CC0, CC BY, CC BY-SA, Public-Domain-Widmungen, historische Schallplatten bis 1930). `scripts/prepare_audio.py` lädt das Original (bei großen Dateien nur den nötigen Anfang), schneidet den kuratierten Abschnitt, gleicht die Lautheit an (−20 LUFS, damit A/B fair bleibt), blendet ein und aus und berechnet die Hüllkurve für den Player. Benötigt `ffmpeg` mit `libmp3lame`. Liegt ein Original bereits als `.cache/audio/<id>.<endung>` vor, wird es nicht erneut geladen (nützlich bei gedrosselten Servern).
 * **Externe Player** (`provider: "external"`): Musik, deren Komposition (Strawinsky, Messiaen, Ligeti, Reich, Pärt, Shaw) oder Aufnahme nicht frei ist, wird nur über den offiziellen Stream des Orchesters/Ensembles eingebunden – `youtube-nocookie.com`, **erst nach Klick** geladen, mit kuratiertem Start und Ende. Titel und Kanal jedes Videos wurden per oEmbed geprüft (Datum in den Daten).
 * **Regeln der Engine:** nichts startet von selbst; es klingt immer nur eine Quelle (Aufnahme, Synth-Demo oder externer Player schließen einander aus); A/B-Wechsel sind sofort, weil beide Ausschnitte vorgeladen sind.
 * **Ausfallsicherheit:** Schlägt das Laden fehl, zeigt der Player eine Meldung mit Link zur Quelle; die Seite läuft weiter.
 
-Wikimedia drosselt Massenabrufe (HTTP 429). Das Skript wartet dann gemäß `Retry-After`. Die Originale landen in `.cache/` (nicht versioniert).
+Wikimedia drosselt Massenabrufe (HTTP 429). Die Skripte warten dann gemäß `Retry-After`; Originale und Rohbilder landen in `.cache/` (nicht versioniert).
 
 ## Quellen und Rechte
 

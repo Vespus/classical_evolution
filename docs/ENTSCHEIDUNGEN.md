@@ -25,3 +25,9 @@ Kurz begründet, in der Reihenfolge, in der sie anfielen.
 **Mini-Demos synthetisch.** Die zehn Begriffe werden live mit Web Audio erzeugt (ehrlich als synthetisch gekennzeichnet), damit sie ohne Lizenzfragen und ohne Download funktionieren.
 
 **Zeitraffer.** Auf der Startseite: je sieben Sekunden der ersten zwölf Stationen hintereinander. Er endet bei Schönberg, weil das die Pointe der Überschrift ist; externe Player nehmen nicht teil.
+
+**Quellenwechsel unterwegs.** Der Medienserver von Wikimedia drosselte die Abrufe während der Entwicklung dauerhaft (HTTP 429). Mehrere Aufnahmen kommen deshalb aus anderen, ebenso gut dokumentierten Quellen: Internet Archive (Mozart: Columbia University Orchestra; Mahler: Peabody Symphony Orchestra; Chopin: Musopen-Sammlung unter CC0; Haydn, Beethoven, Wagner, Schubert: gemeinfreie Schallplatten), ibiblio (Bach) und Public Domain Project (Debussy). Das hat inhaltliche Folgen: Haydn steht mit der Sinfonie Nr. 94 (Paukenschlag-Satz) statt mit dem Quartett ‚Lerche‘ da, Brahms mit der Tragischen Ouvertüre statt mit der 4. Sinfonie. Beides funktioniert didaktisch mindestens so gut. Haydn steht nach Mozart, weil seine Sinfonie (1791) jünger ist als Mozarts g-Moll-Sinfonie (1788).
+
+**Historische Aufnahmen.** Beethoven (1927), Wagner (1927), Haydn (1929), Debussy (1930) und Schubert (1915) klingen nach Schellack. Das ist gekennzeichnet („Rauschen und eingeengter Klang gehören dazu“) und rechtlich der Preis der Eindeutigkeit: Nur Aufnahmen bis einschließlich 1930 sind sowohl in den USA als auch in Europa gemeinfrei. Ein Austausch gegen moderne CC-Aufnahmen ist eine reine Datenänderung.
+
+**Barrierefreiheit geprüft.** Kontraste je Farbwelt wurden gerechnet und angepasst (mindestens 4,5:1 für Text), `npm run test:a11y` prüft die wichtigsten Ansichten mit axe-core.
