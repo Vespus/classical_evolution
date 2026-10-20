@@ -18,10 +18,10 @@ export function Home() {
         <div className="hero-inner wrap">
           <p className="eyebrow hero-eyebrow">Klangwandel</p>
           <h1 id="hero-title" className="hero-title">
-            <span>250 Jahre Musik.</span>
-            <span>Und irgendwann verschwindet die Tonart.</span>
+            <span>300 Jahre Musik.</span>
+            <span>Und irgendwann geht das Zuhause verloren.</span>
           </h1>
-          <p className="hero-sub">Eine Zeitreise zum Hören.</p>
+          <p className="hero-sub">Eine Zeitreise zum Hören – von Bach bis heute.</p>
           <div className="hero-cta">
             <a className="btn btn--hero" href={href(`/reise/${first.station.id}`)}>
               Reise beginnen <ArrowRight width={20} height={20} />
@@ -43,16 +43,17 @@ export function Home() {
       <section id="idea" className="home-idea wrap">
         <p className="eyebrow">Worum es geht</p>
         <div className="idea-grid">
-          <h2>Dasselbe Wort, sehr verschiedene Klänge.</h2>
+          <h2>Was heißt hier „klassisch“?</h2>
           <div>
             <p>
-              „Klassische Musik“ klingt in den Ohren vieler nach einem einzigen Ton: Violinen, Kerzenlicht, gepflegte Langeweile. Tatsächlich liegen zwischen einem
-              Haydn-Quartett und Ligetis Klangflächen kaum zwei Lebensalter – und dazwischen ereignet sich, hörbar und Schritt für Schritt, einer der erstaunlichsten
-              Umbauten der Kulturgeschichte.
+              Gemeint ist Musik, die jemand aufgeschrieben hat – und die Orchester und Solisten noch heute so spielen, oft über 200 oder 300 Jahre später. Das
+              unterscheidet sie von Liedern, die vor allem als Aufnahme überleben. „Schon lange da“ reicht nicht: Rap gibt es seit etwa fünfzig Jahren, Bachs
+              Musik seit dreihundert.
             </p>
             <p>
-              Diese Reise erklärt nicht, was man bei Konzerten zu empfinden hat. Sie lässt Sie hören, wo etwas kippt: in der Energie, in der Harmonik, in der Größe des
-              Orchesters, im Rhythmus. Nach jeder Station sehen Sie, was sich gegenüber der vorigen verändert hat – und was nicht.
+              Und sie klingt nicht überall gleich. Zwischen Bach und heute hat sich viel verändert: wie laut, wie groß, wie ordentlich oder wie wild Musik sein
+              darf. Diese Reise lässt Sie das hören, Station für Station. Vorwissen brauchen Sie nicht. Alles Nötige wird erklärt, und zwar nach dem Hören,
+              nicht davor.
             </p>
           </div>
         </div>
@@ -63,19 +64,19 @@ export function Home() {
         <a className="way" href={href(`/reise/${first.station.id}`)}>
           <span className="eyebrow">Die Reise</span>
           <strong>{resolvedStations.length} Stationen</strong>
-          <span>Vom Barock bis in die Gegenwart, jede mit Hörbeispiel, drei Hörhinweisen und der Frage: Was ist neu?</span>
+          <span>Von Bach bis heute. Jede Station hat ein Hörbeispiel, drei Hörtipps und die Frage: Was ist neu?</span>
           <ArrowRight width={20} height={20} />
         </a>
         <a className="way" href={href('/vergleich')}>
           <span className="eyebrow">Hör den Unterschied</span>
           <strong>{comparisons.length} Vergleiche</strong>
-          <span>Zwei Stücke, zwei Tasten: A, B, A, B. Das Ohr entscheidet schneller als jeder Text.</span>
+          <span>Zwei Stücke, zwei Tasten: A, B, A, B. Das Ohr merkt es schneller als jeder Text.</span>
           <ArrowRight width={20} height={20} />
         </a>
         <a className="way" href={href('/landschaft')}>
           <span className="eyebrow">Die Landschaft</span>
           <strong>Fünf Regler</strong>
-          <span>Tonart, Orchester, Puls, Reibung, Fläche – der Wandel auf einen Blick, mit Umwegen.</span>
+          <span>Zuhause, Größe, Schlag, Schärfe, Melodie – der Wandel auf einen Blick, mit Umwegen.</span>
           <ArrowRight width={20} height={20} />
         </a>
       </section>
@@ -109,7 +110,7 @@ export function Home() {
       </section>
 
       <section className="home-end wrap">
-        <p>Keine Hintergrundmusik, kein Konto, nichts startet von selbst. Es klingt nur, was Sie anklicken – und immer nur eines.</p>
+        <p>Nichts startet von selbst. Es klingt nur, was Sie anklicken – und immer nur eines. Kein Konto, keine Anmeldung.</p>
         <a className="btn" href={href(`/reise/${first.station.id}`)}>
           Reise beginnen <ArrowRight width={18} height={18} />
         </a>

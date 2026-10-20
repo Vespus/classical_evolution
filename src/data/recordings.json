@@ -24,25 +24,23 @@
   {
     "id": "rec-haydn",
     "workId": "haydn-94",
-    "performer": "Boston Symphony Orchestra, Ltg. Serge Koussevitzky",
-    "recordedYear": "1929",
-    "provider": "local",
-    "source": "Internet Archive (Victor-78er-Umschnitt)",
-    "sourceUrl": "https://archive.org/details/Haydn_Symphony_No_94_Surprise",
+    "performer": "Berliner Philharmoniker, Ltg. Mariss Jansons",
+    "provider": "external",
+    "source": "YouTube (offizieller Kanal)",
+    "sourceUrl": "https://www.youtube.com/watch?v=ympNv3Wbv0M",
     "license": {
-      "name": "Gemeinfrei (Schallplatte von 1929, USA/EU)",
-      "url": "https://creativecommons.org/publicdomain/mark/1.0/"
+      "name": "Externer Stream (kein Eigenbestand)",
+      "url": "https://www.youtube.com/t/terms"
     },
-    "attribution": "Boston Symphony Orchestra, Dirigent Serge Koussevitzky, Victor, aufgenommen 1929; Überspielung im Internet Archive bereitgestellt; gemeinfrei.",
-    "qualityNote": "Aufnahme aus der Frühzeit der elektrischen Schallplatte (1929): Rauschen und eingeengter Klang gehören dazu.",
-    "local": {
-      "fileUrl": "https://archive.org/download/Haydn_Symphony_No_94_Surprise/HaydnSurprise.ogg",
-      "clip": "audio/rec-haydn.mp3",
-      "clipStart": 616,
-      "clipEnd": 701,
-      "fullStreamUrl": "https://archive.org/download/Haydn_Symphony_No_94_Surprise/HaydnSurprise.ogg",
-      "fullStart": 614,
-      "fullEnd": 1030
+    "attribution": "Berliner Philharmoniker (Digital Concert Hall), offizieller YouTube-Kanal.",
+    "external": {
+      "kind": "youtube",
+      "videoId": "ympNv3Wbv0M",
+      "start": 0,
+      "end": 100,
+      "title": "Haydn: Symphony No. 94 “Surprise” / Jansons - Berliner Philharmoniker",
+      "channel": "Berliner Philharmoniker",
+      "checked": "2026-10-20"
     }
   },
   {
@@ -70,45 +68,45 @@
   {
     "id": "rec-beethoven",
     "workId": "beethoven-5",
-    "performer": "Royal Philharmonic Orchestra, Ltg. Felix Weingartner",
-    "recordedYear": "1927",
-    "provider": "local",
-    "source": "Internet Archive (Columbia M-48, digitalisiert von The Animating Apothecary)",
-    "sourceUrl": "https://archive.org/details/1927-symphony-5-beethoven-weingartner-royal-phil-orch-col-m-48-8-sides",
+    "performer": "Berliner Philharmoniker, Ltg. Simon Rattle",
+    "provider": "external",
+    "source": "YouTube (offizieller Kanal)",
+    "sourceUrl": "https://www.youtube.com/watch?v=VHDZ2isd4xg",
     "license": {
-      "name": "Gemeinfrei (Schallplatte von 1927, USA/EU); Digitalisat CC0",
-      "url": "https://creativecommons.org/publicdomain/zero/1.0/"
+      "name": "Externer Stream (kein Eigenbestand)",
+      "url": "https://www.youtube.com/t/terms"
     },
-    "attribution": "Royal Philharmonic Orchestra, Dirigent Felix Weingartner, Columbia M-48, 1927; Digitalisat: The Animating Apothecary (Internet Archive), CC0.",
-    "qualityNote": "Aufnahme aus der Frühzeit der elektrischen Schallplatte (1927): Rauschen und eingeengter Klang gehören dazu.",
-    "local": {
-      "fileUrl": "https://archive.org/download/1927-symphony-5-beethoven-weingartner-royal-phil-orch-col-m-48-8-sides/1927%20Symphony%20%235%20-%20Beethoven%20-%20Weingartner%20%26%20Royal%20Phil%20Orch%20COL%20M-48%208%20sides.mp3",
-      "fetchBytes": 3000000,
-      "clip": "audio/rec-beethoven.mp3",
-      "clipStart": 0,
-      "clipEnd": 62
+    "attribution": "Berliner Philharmoniker (Digital Concert Hall), offizieller YouTube-Kanal.",
+    "external": {
+      "kind": "youtube",
+      "videoId": "VHDZ2isd4xg",
+      "start": 0,
+      "end": 100,
+      "title": "Beethoven: Symphony No. 5 / Rattle - Berliner Philharmoniker",
+      "channel": "Berliner Philharmoniker",
+      "checked": "2026-10-20"
     }
   },
   {
     "id": "rec-schubert",
     "workId": "schubert-erlkoenig",
-    "performer": "Ernestine Schumann-Heink (Kontraalt) mit Orchester",
-    "recordedYear": "1913",
-    "provider": "local",
-    "source": "Internet Archive (Great 78 Project)",
-    "sourceUrl": "https://archive.org/details/78_erlknig-the-erl-king_ernestine-schumann-heink-schubert_gbia0520136b",
+    "performer": "Matthias Goerne (Bariton), Andreas Haefliger (Klavier)",
+    "provider": "external",
+    "source": "YouTube (offizieller Kanal)",
+    "sourceUrl": "https://www.youtube.com/watch?v=lTjXk-cPkrY",
     "license": {
-      "name": "Gemeinfrei (Schallplatte von 1915, USA/EU)",
-      "url": "https://creativecommons.org/publicdomain/mark/1.0/"
+      "name": "Externer Stream (kein Eigenbestand)",
+      "url": "https://www.youtube.com/t/terms"
     },
-    "attribution": "Ernestine Schumann-Heink, Victrola 6273-B (um 1915 veröffentlicht), digitalisiert im Great 78 Project (George Blood, Internet Archive); gemeinfrei.",
-    "qualityNote": "Akustische Aufnahme aus der Zeit vor 1925: Rauschen und eingeengter Klang gehören dazu.",
-    "local": {
-      "fileUrl": "https://archive.org/download/78_erlknig-the-erl-king_ernestine-schumann-heink-schubert_gbia0520136b/Erlk%C3%B6nig%20%28The%20Erl-King%29%20-%20Ernestine%20Schumann-Heink.mp3",
-      "clip": "audio/rec-schubert.mp3",
-      "clipStart": 0,
-      "clipEnd": 100,
-      "fullStreamUrl": "https://archive.org/download/78_erlknig-the-erl-king_ernestine-schumann-heink-schubert_gbia0520136b/Erlk%C3%B6nig%20%28The%20Erl-King%29%20-%20Ernestine%20Schumann-Heink.mp3"
+    "attribution": "harmonia mundi (Label), offizieller YouTube-Kanal.",
+    "external": {
+      "kind": "youtube",
+      "videoId": "lTjXk-cPkrY",
+      "start": 0,
+      "end": 110,
+      "title": "Schubert: Erlkönig D. 328 - Matthias Goerne & Andreas Haefliger",
+      "channel": "harmonia mundi music",
+      "checked": "2026-10-20"
     }
   },
   {
@@ -154,23 +152,23 @@
   {
     "id": "rec-wagner",
     "workId": "wagner-tristan",
-    "performer": "(London) Symphony Orchestra, Ltg. Albert Coates",
-    "recordedYear": "1927",
-    "provider": "local",
-    "source": "Internet Archive (Electrola EJ 40)",
-    "sourceUrl": "https://archive.org/details/01tristanvorspiel1.aufzugej40",
+    "performer": "Berliner Philharmoniker, Ltg. Simon Rattle",
+    "provider": "external",
+    "source": "YouTube (offizieller Kanal)",
+    "sourceUrl": "https://www.youtube.com/watch?v=8uUFMWqcuNs",
     "license": {
-      "name": "Gemeinfrei (Schallplatte von 1927, USA/EU)",
-      "url": "https://creativecommons.org/publicdomain/mark/1.0/"
+      "name": "Externer Stream (kein Eigenbestand)",
+      "url": "https://www.youtube.com/t/terms"
     },
-    "attribution": "Symphony Orchestra, Dirigent Albert Coates, Electrola EJ 40 (Matrix CR 144-I), aufgenommen um 1927; digitalisiert und im Internet Archive bereitgestellt (recordplayer78); gemeinfrei.",
-    "qualityNote": "Aufnahme aus der Frühzeit der elektrischen Schallplatte (1927): Rauschen und eingeengter Klang gehören dazu.",
-    "local": {
-      "fileUrl": "https://archive.org/download/01tristanvorspiel1.aufzugej40/01%20Tristan%20Vorspiel%201.%20Aufzug%20EJ%2040.mp3",
-      "clip": "audio/rec-wagner.mp3",
-      "clipStart": 0,
-      "clipEnd": 80,
-      "fullStreamUrl": "https://archive.org/download/01tristanvorspiel1.aufzugej40/01%20Tristan%20Vorspiel%201.%20Aufzug%20EJ%2040.mp3"
+    "attribution": "Berliner Philharmoniker (Digital Concert Hall), offizieller YouTube-Kanal.",
+    "external": {
+      "kind": "youtube",
+      "videoId": "8uUFMWqcuNs",
+      "start": 0,
+      "end": 100,
+      "title": "Wagner: Prelude to Tristan und Isolde / Rattle - Berliner Philharmoniker",
+      "channel": "Berliner Philharmoniker",
+      "checked": "2026-10-20"
     }
   },
   {
@@ -198,22 +196,23 @@
   {
     "id": "rec-debussy",
     "workId": "debussy-faune",
-    "performer": "Straram-Orchester, Ltg. Walther Straram",
-    "recordedYear": "1930",
-    "provider": "local",
-    "source": "Public Domain Project (Digitalisat von Carl Flisch), Wikimedia Commons",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Columbia-dwx1550ix-c-wlx1289.ogg",
+    "performer": "Berliner Philharmoniker, Ltg. Simon Rattle",
+    "provider": "external",
+    "source": "YouTube (offizieller Kanal)",
+    "sourceUrl": "https://www.youtube.com/watch?v=CipRfYTwd0s",
     "license": {
-      "name": "Gemeinfrei (Schallplatte von 1930, USA/EU)",
-      "url": "https://creativecommons.org/publicdomain/mark/1.0/"
+      "name": "Externer Stream (kein Eigenbestand)",
+      "url": "https://www.youtube.com/t/terms"
     },
-    "attribution": "Straram Symphony Orchestra, Dirigent Walther Straram, Columbia, aufgenommen 24. Februar 1930, erstveröffentlicht 1930; Digitalisat: Public Domain Project.",
-    "qualityNote": "Schallplattenaufnahme von 1930: Rauschen und eingeengter Klang gehören dazu.",
-    "local": {
-      "fileUrl": "http://pool.publicdomainproject.org/audio/flac/columbia/columbia-dwx1550ix-c-wlx1289.flac",
-      "clip": "audio/rec-debussy.mp3",
-      "clipStart": 0,
-      "clipEnd": 80
+    "attribution": "Berliner Philharmoniker (Digital Concert Hall), offizieller YouTube-Kanal.",
+    "external": {
+      "kind": "youtube",
+      "videoId": "CipRfYTwd0s",
+      "start": 0,
+      "end": 100,
+      "title": "Debussy: Prélude à l'après-midi d'un faune / Rattle · Berliner Philharmoniker",
+      "channel": "Berliner Philharmoniker",
+      "checked": "2026-10-20"
     }
   },
   {

@@ -33,8 +33,8 @@ export function Discoveries() {
         <h1>{items.length > 0 ? 'Das wollten Sie noch einmal hören.' : 'Noch nichts gemerkt.'}</h1>
         <p className="lead">
           {items.length > 0
-            ? 'Die Liste liegt nur in diesem Browser. Zu jedem Werk führt ein Link zu einer vollständigen Aufnahme.'
-            : 'Auf jeder Station gibt es „Für später merken“. Hier sammelt sich, was Sie noch einmal in Ruhe hören möchten – ohne Konto, ohne Server.'}
+            ? 'Die Liste wird nur in diesem Browser gespeichert. Bei jedem Stück finden Sie einen Link zur ganzen Aufnahme.'
+            : 'Bei jeder Station gibt es „Für später merken“. Hier sammelt sich, was Sie noch einmal in Ruhe hören möchten. Kein Konto nötig.'}
         </p>
       </header>
 
@@ -77,7 +77,7 @@ export function Discoveries() {
             type="button"
             className="btn btn--ghost"
             onClick={() => {
-              if (window.confirm('Alle gemerkten Werke aus dieser Liste löschen?')) clearFavorites();
+              if (window.confirm('Alle gemerkten Stücke aus der Liste löschen?')) clearFavorites();
             }}
           >
             Liste leeren

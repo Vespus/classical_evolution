@@ -18,9 +18,9 @@ export function Compare({ comparisonId }: { comparisonId?: string }) {
       <main id="main" tabIndex={-1} className="page compare-index wrap">
         <header className="page-head">
           <p className="eyebrow">Hör den Unterschied</p>
-          <h1>Zwei Werke. Ein Jahrzehnt Abstand. Eine andere Welt.</h1>
+          <h1>Zwei Stücke direkt nacheinander. Hören Sie den Unterschied.</h1>
           <p className="lead">
-            Erklärungen helfen, aber das Ohr merkt es schneller. Hier stehen zeitlich benachbarte Stücke unmittelbar nebeneinander – abwechselnd hören, ohne Wartezeit.
+            Erklärungen helfen, aber das Ohr merkt es schneller. Hier stehen zwei Stücke nebeneinander, die zeitlich nah beieinander liegen. Sie wechseln hin und her, ohne zu warten.
           </p>
         </header>
         <ul className="cmp-list">
@@ -120,7 +120,7 @@ function CompareDetail({ id }: { id: string }) {
           Tipp: Mit den Tasten <kbd>A</kbd> und <kbd>B</kbd> wechseln Sie sofort hin und her. Leertaste hält an.
         </p>
       ) : (
-        <p className="ab-hint">Eines der Beispiele kommt aus einem externen Player; dort ist der Wechsel nicht ganz so nahtlos. Es spielt trotzdem immer nur eines.</p>
+        <p className="ab-hint">Mindestens eines der Beispiele ist ein Video von YouTube. Es wird erst nach Ihrem Klick geladen, der Wechsel dauert daher einen Moment. Es spielt immer nur eines.</p>
       )}
 
       <section className="notice" aria-labelledby="notice-h">
@@ -141,7 +141,7 @@ function CompareDetail({ id }: { id: string }) {
         </a>
       </nav>
       <p className="fine">
-        Die Stationen der Reise im Überblick: {resolvedStations.length} Stationen ·{' '}
+        Alle Stationen im Überblick: {resolvedStations.length} Stationen ·{' '}
         <a href={href('/reise')}>zur Reise</a>
       </p>
     </main>

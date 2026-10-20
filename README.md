@@ -1,8 +1,8 @@
 # Klangwandel – Eine Zeitreise zum Hören
 
-250 Jahre abendländische Musik in neunzehn Stationen, vom Barock bis zur Gegenwart. Kein Musiklexikon, sondern eine Reise, auf der man **hört**, wie sich Klang, Harmonik, Besetzung und Rhythmus verändern – mit echten Aufnahmen, einem direkten A/B-Vergleich („Hör den Unterschied“), einer Landschaft der fünf Regler und einer optionalen Ebene „Was höre ich da eigentlich?“.
+300 Jahre abendländische Musik in neunzehn Stationen, vom Barock bis zur Gegenwart. Kein Musiklexikon, sondern eine Reise, auf der man **hört**, wie sich Klang, Harmonik, Besetzung und Rhythmus verändern – mit echten Aufnahmen, einem direkten A/B-Vergleich („Hör den Unterschied“), einer Landschaft der fünf Regler und einer optionalen Ebene „Was höre ich da eigentlich?“.
 
-Zielgruppe: neugierige Erwachsene ohne musiktheoretische Vorkenntnisse. Notenlesen wird nirgends vorausgesetzt; Fachbegriffe kommen erst nach der Erklärung des Phänomens.
+Zielgruppe: Erwachsene ohne Vorkenntnisse und ohne klassische Bildung. Die Texte sind in einfacher Sprache gehalten: kurze Sätze, Alltagswörter, jedes Fachwort wird erklärt, und zwar erst nach dem Hören. Eine Vorstellung von „klassisch“ wird nicht vorausgesetzt (die Startseite klärt sie kurz).
 
 ## Schnellstart
 
@@ -48,8 +48,8 @@ Neue Station: Einträge in `works.json`, `recordings.json`, `stations.json` (und
 
 ## Audio
 
-* **Lokale Ausschnitte** (`provider: "local"`): frei lizenzierte oder gemeinfreie Aufnahmen aus Internet Archive, ibiblio/Pandora Music, Public Domain Project und Wikimedia Commons (Open Audio License, CC0, CC BY, CC BY-SA, Public-Domain-Widmungen, historische Schallplatten bis 1930). `scripts/prepare_audio.py` lädt das Original (bei großen Dateien nur den nötigen Anfang), schneidet den kuratierten Abschnitt, gleicht die Lautheit an (−20 LUFS, damit A/B fair bleibt), blendet ein und aus und berechnet die Hüllkurve für den Player. Benötigt `ffmpeg` mit `libmp3lame`. Liegt ein Original bereits als `.cache/audio/<id>.<endung>` vor, wird es nicht erneut geladen (nützlich bei gedrosselten Servern).
-* **Externe Player** (`provider: "external"`): Musik, deren Komposition (Strawinsky, Messiaen, Ligeti, Reich, Pärt, Shaw) oder Aufnahme nicht frei ist – sowie, vorläufig, Brahms (siehe `docs/ENTSCHEIDUNGEN.md`) – wird nur über den offiziellen Stream des Orchesters/Ensembles eingebunden – `youtube-nocookie.com`, **erst nach Klick** geladen, mit kuratiertem Start und Ende. Titel und Kanal jedes Videos wurden per oEmbed geprüft (Datum in den Daten).
+* **Lokale Ausschnitte** (`provider: "local"`, sieben Stationen): frei lizenzierte Aufnahmen aus Internet Archive, ibiblio/Pandora Music und Wikimedia Commons (Open Audio License, CC0, CC BY, CC BY-SA, Public-Domain-Widmungen). `scripts/prepare_audio.py` lädt das Original (bei großen Dateien nur den nötigen Anfang), schneidet den kuratierten Abschnitt, gleicht die Lautheit an (−20 LUFS, damit A/B fair bleibt), blendet ein und aus und berechnet die Hüllkurve für den Player. Benötigt `ffmpeg` mit `libmp3lame`. Liegt ein Original bereits als `.cache/audio/<id>.<endung>` vor, wird es nicht erneut geladen (nützlich bei gedrosselten Servern).
+* **Videos** (`provider: "external"`, zwölf Stationen): Alle Aufnahmen, die nicht frei lizenziert sind – bewusst auch Haydn, Beethoven, Schubert, Wagner und Debussy statt alter Schellackplatten, weil gute Aufnahmen und das Bild vom Orchester das Verstehen unterstützen – werden nur über den offiziellen Kanal des Orchesters/Ensembles eingebunden – `youtube-nocookie.com`, **erst nach Klick** geladen, mit kuratiertem Start und Ende. Titel und Kanal jedes Videos wurden per oEmbed geprüft (Datum in den Daten).
 * **Regeln der Engine:** nichts startet von selbst; es klingt immer nur eine Quelle (Aufnahme, Synth-Demo oder externer Player schließen einander aus); A/B-Wechsel sind sofort, weil beide Ausschnitte vorgeladen sind.
 * **Ausfallsicherheit:** Schlägt das Laden fehl, zeigt der Player eine Meldung mit Link zur Quelle; die Seite läuft weiter.
 
@@ -60,7 +60,7 @@ Wikimedia drosselt Massenabrufe (HTTP 429). Die Skripte warten dann gemäß `Ret
 Siehe die Seite „Quellen & Lizenzen“ in der App und [`docs/QUELLEN.md`](docs/QUELLEN.md). Wichtig:
 
 * Gemeinfreiheit der Komposition ≠ freie Aufnahme. Jede Aufnahme ist einzeln belegt.
-* Historische Aufnahmen sind nur aufgenommen, wenn sie in den USA **und** in Europa gemeinfrei sind (Veröffentlichung bis 1930).
+* Lokal gespeichert wird nur, was ausdrücklich frei lizenziert oder gemeinfrei ist; alles andere läuft über den offiziellen Videokanal.
 * Für eine öffentliche Veröffentlichung gilt: Die Einbettung offizieller Streams ersetzt keine Lizenz. Vor dem Live-Gang bitte prüfen, ob Ihre Nutzung der Ausschnitte der CC-BY-SA-Lizenzen (Namensnennung, gleiche Lizenz für Bearbeitungen) und Ihr Hosting den Anforderungen entspricht.
 
 ## Bedienung

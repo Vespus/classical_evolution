@@ -66,13 +66,13 @@ export function ExternalPlayer({ recording, work, composer, badge, compact, extr
             if (open) closeExternal();
             else openExternal(recording.id);
           }}
-          aria-label={open ? `Externen Player schließen: ${label}` : `Externen Player laden und hören: ${label}`}
+          aria-label={open ? `Video schließen: ${label}` : `Video laden und ansehen: ${label}`}
           aria-pressed={open}
         >
           {open ? <CloseIcon /> : <PlayIcon />}
         </button>
         <div className="player-meta">
-          <div className="eyebrow">Hörbeispiel · externer Player</div>
+          <div className="eyebrow">Hörbeispiel · Video</div>
           <div className="player-title">
             {composer.name.split(' ').slice(-1)[0]}: {work.title}
             {work.part ? <span className="player-part">, {work.part}</span> : null}
@@ -98,14 +98,14 @@ export function ExternalPlayer({ recording, work, composer, badge, compact, extr
       ) : (
         <div className="ext-note">
           <p>
-            Diese Musik ist urheberrechtlich nicht frei. Der Ausschnitt ({Math.round((ext.end - ext.start) / 6) / 10} min) kommt daher aus einem
-            offiziellen Stream von {ext.channel}; erst mit dem Klick wird er von YouTube geladen.
+            Dieses Beispiel ist ein Video von {ext.channel} auf YouTube (Ausschnitt, etwa {Math.round((ext.end - ext.start) / 6) / 10} Minuten). Es wird erst
+            geladen, wenn Sie auf Start drücken.
           </p>
         </div>
       )}
       {failed && (
         <p className="player-error" role="alert">
-          Der externe Player lässt sich nicht laden.
+          Das Video lässt sich nicht laden. Über „Bei YouTube öffnen“ geht es meist trotzdem.
         </p>
       )}
 

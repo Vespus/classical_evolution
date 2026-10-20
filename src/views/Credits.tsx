@@ -7,8 +7,9 @@ export function Credits() {
         <p className="eyebrow">Quellen &amp; Lizenzen</p>
         <h1>Woher die Klänge und Bilder stammen.</h1>
         <p className="lead">
-          Dass eine Komposition gemeinfrei ist, sagt nichts über die Aufnahme. Deshalb ist hier jede einzelne Aufnahme einzeln belegt: Quelle, Interpret, Lizenz,
-          Namensnennung. Die Hörausschnitte wurden aus den Originalen herausgeschnitten und mit kurzen Ein- und Ausblendungen versehen.
+          Ein Musikstück darf frei sein, die Aufnahme davon ist es deshalb noch nicht. Darum steht hier für jede Aufnahme einzeln: Quelle, Interpret, Lizenz und
+          Namensnennung. Die selbst gespeicherten Ausschnitte wurden aus den Originalen geschnitten und mit kurzem Ein- und Ausblenden versehen. Die Videos
+          laufen direkt bei YouTube; sie gehören den genannten Orchestern und Ensembles.
         </p>
       </header>
 

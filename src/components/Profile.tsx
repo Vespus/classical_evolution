@@ -1,11 +1,11 @@
 import type { Profile as ProfileT } from '../lib/types';
 
 export const dimensions: { key: keyof ProfileT; label: string; left: string; right: string; hint: string }[] = [
-  { key: 'zuhause', label: 'Tonart', left: 'ein klares Zuhause', right: 'Zuhause aufgelöst', hint: 'Wie deutlich ist, wo die Musik „hingehört“?' },
-  { key: 'apparat', label: 'Klangapparat', left: 'kleiner Kreis', right: 'riesiger Apparat', hint: 'Wie viele Stimmen und Instrumente klingen mit?' },
-  { key: 'puls', label: 'Puls', left: 'gleichmäßig', right: 'frei, unberechenbar', hint: 'Lässt sich mitklopfen, ohne zu stolpern?' },
-  { key: 'reibung', label: 'Reibung', left: 'reibungslos', right: 'scharf dissonant', hint: 'Wie viel Schärfe und Spannung wird ausgehalten?' },
-  { key: 'fliesst', label: 'Gestalt', left: 'Melodie im Vordergrund', right: 'Klangfläche', hint: 'Singbare Linie oder schwebende Klangmasse?' },
+  { key: 'zuhause', label: 'Zuhause', left: 'klares Zuhause', right: 'Zuhause verloren', hint: 'Spürt man, wo die Musik hingehört?' },
+  { key: 'apparat', label: 'Größe', left: 'wenige Spieler', right: 'riesiges Orchester', hint: 'Wie viele Menschen und Instrumente spielen mit?' },
+  { key: 'puls', label: 'Schlag', left: 'gleichmäßig', right: 'unberechenbar', hint: 'Kann man mitklopfen, ohne zu stolpern?' },
+  { key: 'reibung', label: 'Schärfe', left: 'weich', right: 'schräg und scharf', hint: 'Wie viel Reibung und Spannung hält die Musik aus?' },
+  { key: 'fliesst', label: 'Melodie oder Klang', left: 'Melodie zum Mitsingen', right: 'Klangteppich', hint: 'Gibt es eine Linie zum Mitsingen – oder eine schwebende Klangmasse?' },
 ];
 
 interface Props {
@@ -17,7 +17,7 @@ interface Props {
 /** Fünf qualitative Regler. Der blasse Punkt zeigt die vorige Station – der Weg dorthin ist die Aussage. */
 export function ProfileBars({ profile, previous, previousLabel }: Props) {
   return (
-    <div className="profile" role="group" aria-label="Klangprofil dieser Station (qualitative Einschätzung)">
+    <div className="profile" role="group" aria-label="So klingt diese Station (grobe Einschätzung)">
       {dimensions.map((d) => {
         const v = profile[d.key];
         const p = previous?.[d.key];

@@ -66,7 +66,7 @@ try {
   {
     const { ctx, page } = await newPage();
     await page.goto(BASE);
-    ok((await page.locator('h1').innerText()).includes('250 Jahre Musik'), 'Titel sichtbar');
+    ok((await page.locator('h1').innerText()).includes('300 Jahre Musik'), 'Titel sichtbar');
     ok(await page.getByRole('link', { name: /Reise beginnen/ }).first().isVisible(), 'Einstieg „Reise beginnen“');
     await page.waitForTimeout(1600);
     await page.screenshot({ path: join(shots, 'home.png') });

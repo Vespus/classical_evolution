@@ -53,10 +53,10 @@ export function Landscape() {
     <main id="main" tabIndex={-1} className="page landscape">
       <header className="wrap page-head">
         <p className="eyebrow">Die Landschaft</p>
-        <h1>Fünf Regler, die sich über die Jahrhunderte verschieben – nicht alle in dieselbe Richtung.</h1>
+        <h1>Fünf Eigenschaften, die sich über die Jahrhunderte verändern – nicht alle in dieselbe Richtung.</h1>
         <p className="lead">
-          Jede Linie zeigt, wo die Stationen der Reise zwischen zwei Polen liegen. Das sind redaktionelle Einschätzungen, keine Messwerte: Sie sollen den Wandel
-          auf einen Blick lesbar machen, nicht vermessen. Fahren Sie mit dem Zeiger oder den Pfeiltasten über die Zeit.
+          Jede Linie zeigt, wo die Stationen zwischen zwei Gegensätzen liegen, zum Beispiel zwischen „weich“ und „scharf“. Das sind Einschätzungen, keine Messwerte.
+          Sie sollen den Wandel auf einen Blick zeigen. Fahren Sie mit der Maus oder den Pfeiltasten durch die Zeit.
         </p>
       </header>
 
@@ -184,8 +184,8 @@ export function Landscape() {
 
       <section className="wrap fine land-fine">
         <p>
-          Die Abstände zwischen den Stationen sind gleichmäßig gewählt, nicht maßstäblich: zwischen Bach und Beethoven liegen gut achtzig Jahre, zwischen Ligeti und
-          Reich nur wenige. Wichtig ist die Form der Linien. Sie sind keine Fortschrittskurven – mehrmals geht es auch wieder zurück zur Ordnung, und das ist Absicht.
+          Die Stationen sind gleichmäßig verteilt, nicht nach Jahren: Zwischen Bach und Beethoven liegen gut achtzig Jahre, zwischen Ligeti und Reich nur fünfzehn.
+          Wichtig ist der Verlauf der Linien. Es geht nicht immer „weiter“: Mehrmals kehrt die Musik auch zur Ordnung zurück. Das ist Absicht.
         </p>
       </section>
     </main>

@@ -121,7 +121,7 @@ export function Journey({ stationId }: { stationId?: string }) {
 
           <section className="st-cards wrap">
             <div className="card card--new">
-              <h2 className="eyebrow">{prev ? `Neu gegenüber ${prev.station.short}` : 'Der Ausgangspunkt'}</h2>
+              <h2 className="eyebrow">{prev ? `Was ist neu gegenüber ${prev.station.short}?` : 'Hier beginnt die Reise'}</h2>
               <h3>{station.whatsNew.title}</h3>
               <p>{station.whatsNew.text}</p>
               {station.term && (
@@ -131,21 +131,21 @@ export function Journey({ stationId }: { stationId?: string }) {
               )}
               {cmp && (
                 <a className="btn btn--ghost" href={href(`/vergleich/${cmp.id}`)}>
-                  Direkt vergleichen: hören Sie den Unterschied <ArrowRight width={18} height={18} />
+                  Beide direkt nacheinander hören <ArrowRight width={18} height={18} />
                 </a>
               )}
             </div>
 
             <div className="card card--profile">
-              <h2 className="eyebrow">Klangprofil</h2>
+              <h2 className="eyebrow">So klingt es im Vergleich</h2>
               <ProfileBars profile={station.profile} previous={prev?.station.profile} previousLabel={prev?.station.short} />
-              <p className="fine">Redaktionelle Einschätzung, keine Messung. Der blasse Punkt markiert {prev ? prev.station.short : 'den Vorgänger'}.</p>
+              <p className="fine">Das ist eine Einschätzung, keine Messung. Der blasse Punkt zeigt {prev ? prev.station.short : 'den Vorgänger'}.</p>
               <h2 className="eyebrow eyebrow--spaced">Besetzung</h2>
               <Forces forces={station.forces} />
             </div>
 
             <div className="card card--context">
-              <h2 className="eyebrow">Warum klingt es jetzt so?</h2>
+              <h2 className="eyebrow">Warum klingt es so?</h2>
               <h3>{station.context.title}</h3>
               <p>{station.context.text}</p>
             </div>
@@ -161,7 +161,7 @@ export function Journey({ stationId }: { stationId?: string }) {
 
           {concept.length > 0 && (
             <section className="st-concepts wrap">
-              <span className="eyebrow">Zum Nachhören im Kleinen:</span>
+              <span className="eyebrow">Kurz erklärt und zum Ausprobieren:</span>
               {concept.map((c) => (
                 <a key={c!.id} className="chip chip--link" href={href(`/grundlagen/${c!.id}`)}>
                   {c!.title}

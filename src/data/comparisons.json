@@ -2,7 +2,7 @@
   {
     "id": "barock-klassik",
     "title": "Vom Uhrwerk zum Gespräch",
-    "question": "Was geschieht, wenn aus neun gleichberechtigten Stimmen eine Melodie mit Begleitung wird – und dazu ein Gefühl?",
+    "question": "Was ändert sich, wenn neun gleich wichtige Stimmen zu einer Melodie mit Begleitung werden?",
     "a": {
       "stationId": "bach",
       "recordingId": "rec-bach",
@@ -13,24 +13,24 @@
       "stationId": "mozart",
       "recordingId": "rec-mozart",
       "label": "Mozart",
-      "sub": "Sinfonie g-Moll KV 550 · 1788"
+      "sub": "Sinfonie g-Moll · 1788"
     },
     "notice": [
-      "Bei A läuft ein Motor durch. Bei B hat die Musik Atempausen.",
-      "A: viele Stimmen mit gleichem Gewicht. B: eine Melodie vorn, der Rest begleitet.",
-      "Die Lautstärke bleibt bei A gleichmäßig, bei B atmet sie auf und ab – bis zum Seufzer."
+      "Bei A läuft ein Motor durch. Bei B gibt es Atempausen.",
+      "A: viele Stimmen, alle gleich wichtig. B: eine Melodie vorn, der Rest begleitet.",
+      "A bleibt gleich laut. B wird lauter und leiser – bis hin zum Seufzer."
     ],
-    "verdict": "Siebzig Jahre trennen die beiden Stücke, und doch ist der Unterschied keiner von ‚alt‘ und ‚neu‘, sondern einer der Absicht: erst ordnen, dann sprechen – und schließlich fühlen."
+    "verdict": "Siebzig Jahre liegen dazwischen. Der Unterschied ist nicht „alt“ gegen „neu“. Bei Bach ordnen die Stimmen sich zu einem Räderwerk, bei Mozart spricht eine Stimme – und fühlt."
   },
   {
     "id": "mozart-beethoven",
     "title": "Seufzer und Entschluss",
-    "question": "Beide Sätze stehen in Moll, beide beginnen unruhig. Wo kippt die Energie?",
+    "question": "Beide Sätze stehen in Moll, beide beginnen unruhig. Wo unterscheiden sie sich?",
     "a": {
       "stationId": "mozart",
       "recordingId": "rec-mozart",
       "label": "Mozart",
-      "sub": "Sinfonie g-Moll KV 550 · 1788"
+      "sub": "Sinfonie g-Moll · 1788"
     },
     "b": {
       "stationId": "beethoven",
@@ -39,16 +39,16 @@
       "sub": "5. Sinfonie · 1808"
     },
     "notice": [
-      "A beginnt mit einer Bewegung, aus der die Melodie auftaucht. B beginnt mit vier Schlägen, aus denen alles entsteht.",
-      "A: Seufzer und weiche Kanten. B: harte Akzente und Pausen, die Spannung halten.",
-      "Wie lange A in einem Gefühl bleibt – und wie schnell B zum nächsten Schlag ausholt."
+      "A beginnt mit einer Bewegung, aus der die Melodie wächst. B beginnt mit vier Schlägen, aus denen alles entsteht.",
+      "A: Seufzer, weiche Kanten. B: harte Betonungen und Pausen, die spannend sind.",
+      "A bleibt länger in einer Stimmung. B holt sofort zum nächsten Schlag aus."
     ],
-    "verdict": "Zwanzig Jahre liegen dazwischen, und die Französische Revolution. Dieselbe Tonart-Familie, dasselbe Orchester-Grundmodell – und doch klingt es, als hätte jemand die Fenster aufgerissen."
+    "verdict": "Zwanzig Jahre und eine Revolution liegen dazwischen. Es ist dasselbe Orchester und dieselbe Art von Musik – aber es klingt, als hätte jemand die Fenster aufgerissen."
   },
   {
     "id": "beethoven-berlioz",
-    "title": "Vom Argument zum Gemälde",
-    "question": "Wie verändert sich das Orchester, wenn es nicht mehr nur argumentiert, sondern malt?",
+    "title": "Vom Kampf zum Gemälde",
+    "question": "Was ändert sich, wenn das Orchester nicht mehr nur kämpft, sondern malt?",
     "a": {
       "stationId": "beethoven",
       "recordingId": "rec-beethoven",
@@ -62,11 +62,11 @@
       "sub": "Symphonie fantastique, Un bal · 1830"
     },
     "notice": [
-      "A: wenige Gedanken, hart verarbeitet. B: viele Farben, weich überblendet.",
-      "Hören Sie die Harfen in B. In Beethovens Orchester gibt es sie nicht.",
-      "Klang als Ereignis: B lebt von Mischungen, A vom Rhythmus."
+      "A: wenige Gedanken, hart durchgearbeitet. B: viele Farben, weich ineinander übergehend.",
+      "Hören Sie die Harfen in B. Bei Beethoven gibt es keine.",
+      "B lebt von Klangmischungen, A vom Rhythmus."
     ],
-    "verdict": "Zweiundzwanzig Jahre später ist das Orchester von einem Werkzeug des Gedankens zu einem Instrument der Farbe geworden. Dass B ein Walzer ist, macht den Unterschied nur deutlicher."
+    "verdict": "Zweiundzwanzig Jahre später ist das Orchester vom Werkzeug für Gedanken zum Werkzeug für Farben geworden. Dass B ein Walzer ist, macht den Unterschied noch deutlicher."
   },
   {
     "id": "brahms-wagner",
@@ -85,16 +85,16 @@
       "sub": "Tristan und Isolde, Vorspiel · 1859"
     },
     "notice": [
-      "A: Die Musik hat Boden. Man weiß, wohin sie will, auch wenn sie Umwege nimmt. B: Der Boden schwankt.",
-      "Achten Sie darauf, wo Sie bei B ‚ankommen‘ möchten – und ob es geschieht.",
-      "Lautstärke ist nicht der Unterschied: Beide sind dunkel und intensiv. Es ist die Richtung."
+      "A: Die Musik hat festen Boden. Man ahnt, wohin sie will. B: Der Boden schwankt.",
+      "Achten Sie bei B darauf, wo Sie gerne ankommen würden – und ob es passiert.",
+      "Beide sind dunkel und ernst. Der Unterschied ist die Richtung, nicht die Lautstärke."
     ],
-    "verdict": "Der Streit ‚Brahms gegen Wagner‘ war Parteisache. Hören kann man etwas Einfacheres: zwei Möglichkeiten, mit demselben Erbe umzugehen."
+    "verdict": "Zu ihrer Zeit stritten Anhänger beider Seiten leidenschaftlich. Hören kann man etwas Einfacheres: zwei Möglichkeiten, mit demselben Erbe umzugehen."
   },
   {
     "id": "wagner-debussy",
     "title": "Von der Spannung zur Farbe",
-    "question": "Beide verschleiern die Tonart. Wollen sie dasselbe?",
+    "question": "Beide verwischen das Zuhause. Wollen sie dasselbe?",
     "a": {
       "stationId": "wagner",
       "recordingId": "rec-wagner",
@@ -105,14 +105,14 @@
       "stationId": "debussy",
       "recordingId": "rec-debussy",
       "label": "Debussy",
-      "sub": "Prélude à l’après-midi d’un faune · 1894"
+      "sub": "Nachmittag eines Fauns · 1894"
     },
     "notice": [
-      "A drängt: Jeder Akkord will weiter. B ruht: Akkorde stehen nebeneinander.",
-      "A: Sehnsucht. B: Schweben.",
-      "Beide Male fehlt das ‚Zuhause‘, aber aus ganz verschiedenen Gründen."
+      "A drängt: Jeder Akkord will weiter. B ruht: Die Akkorde stehen nebeneinander.",
+      "A klingt nach Sehnsucht. B klingt nach Schweben.",
+      "Beide Male fehlt das Zuhause, aus ganz verschiedenen Gründen."
     ],
-    "verdict": "Aus gleichem Material – einer verschwimmenden Tonart – entstehen zwei Gegensätze: die Auflösung, nach der man sich sehnt, und die Auflösung, die man gar nicht mehr braucht."
+    "verdict": "Aus demselben Stoff entstehen zwei Gegensätze: die Sehnsucht nach einer Lösung – und Musik, die gar keine mehr braucht."
   },
   {
     "id": "mahler-schoenberg",
@@ -131,21 +131,21 @@
       "sub": "2. Streichquartett, Schlusssatz · 1908"
     },
     "notice": [
-      "A: laut, riesig – aber der Boden trägt. B: leise, kammermusikalisch – der Boden fehlt.",
-      "Achten Sie auf Schlüsse: A hat Momente der Ankunft. B nicht.",
-      "Der Apparat wird kleiner, das Prinzip radikaler."
+      "A: laut und riesig, aber der Boden hält. B: leise und klein, aber der Boden fehlt.",
+      "Achten Sie auf Schlüsse: A kommt manchmal an. B nicht.",
+      "Das Orchester wird kleiner, der Bruch größer."
     ],
-    "verdict": "Man muss Schönberg nicht lieben. Aber Mahler zeigt, wie weit das Alte trägt, und Schönberg, wo es endet."
+    "verdict": "Man muss Schönberg nicht mögen. Aber Mahler zeigt, wie viel das Alte aushält, und Schönberg, wo es aufhört."
   },
   {
     "id": "debussy-schoenberg",
-    "title": "Zwei Arten, die Tonart zu verlassen",
-    "question": "Debussy verlässt sie schwebend, Schönberg ausdrucksvoll. Hören Sie den Unterschied?",
+    "title": "Zwei Arten, das Zuhause zu verlassen",
+    "question": "Debussy lässt es schwebend los, Schönberg schmerzhaft. Hören Sie den Unterschied?",
     "a": {
       "stationId": "debussy",
       "recordingId": "rec-debussy",
       "label": "Debussy",
-      "sub": "Prélude à l’après-midi d’un faune · 1894"
+      "sub": "Nachmittag eines Fauns · 1894"
     },
     "b": {
       "stationId": "schoenberg",
@@ -154,16 +154,16 @@
       "sub": "2. Streichquartett, Schlusssatz · 1908"
     },
     "notice": [
-      "A: Farbe, Weichheit, Ruhe. B: Spannung, Intensität, Zerrissenheit.",
-      "A drängt nirgends. B steht in jeder Phrase unter Druck.",
-      "Beiden fehlt ein klares Zuhause. Nur fühlt es sich bei A frei an, bei B unruhig."
+      "A: Farbe, Weichheit, Ruhe. B: Spannung, Druck, Zerrissenheit.",
+      "A drängt nirgends hin. B steht in jedem Satz unter Druck.",
+      "Beiden fehlt ein klares Zuhause. Bei A fühlt sich das frei an, bei B unruhig."
     ],
-    "verdict": "Vierzehn Jahre liegen zwischen den Stücken, und derselbe Schritt – das Verlassen der Tonart – führt zu zwei fast gegensätzlichen Klangwelten."
+    "verdict": "Vierzehn Jahre liegen dazwischen. Derselbe Schritt – das Zuhause zu verlassen – führt zu zwei fast gegensätzlichen Klangwelten."
   },
   {
     "id": "schoenberg-stravinsky",
-    "title": "Revolution ohne Harmonie",
-    "question": "Schönberg zerlegt die Harmonie, Strawinsky den Takt. Welche Revolution hört man schneller?",
+    "title": "Zwei Revolutionen",
+    "question": "Schönberg zerlegt die Akkorde, Strawinsky den Takt. Welche Neuerung hört man schneller?",
     "a": {
       "stationId": "schoenberg",
       "recordingId": "rec-schoenberg",
@@ -174,19 +174,19 @@
       "stationId": "stravinsky",
       "recordingId": "rec-stravinsky",
       "label": "Strawinsky",
-      "sub": "Le Sacre du printemps, Opfertanz · 1913"
+      "sub": "Frühlingsopfer, Opfertanz · 1913"
     },
     "notice": [
-      "A: Die Zeit fließt weich, die Töne schweben. B: Die Zeit stolpert, die Töne schlagen.",
-      "Versuchen Sie, bei B mitzuklopfen – und dann bei A.",
-      "In B sind die Akkorde erstaunlich vertraut; das Aufregende liegt anderswo."
+      "A: Die Zeit fließt weich, die Töne schweben. B: Die Zeit stolpert, die Töne schlagen zu.",
+      "Versuchen Sie bei B mitzuklopfen – und dann bei A.",
+      "Bei B klingen die Akkorde erstaunlich vertraut. Das Aufregende liegt woanders."
     ],
-    "verdict": "Radikalität hat mehrere Adressen. Man kann die Tonart sprengen oder den Takt – das Publikum reagierte auf beides ähnlich."
+    "verdict": "Neuerung kann an verschiedenen Stellen ansetzen: bei der Tonart oder beim Takt. Das Publikum reagierte auf beides ähnlich – mit Empörung."
   },
   {
     "id": "ligeti-reich",
     "title": "Wolke oder Uhrwerk?",
-    "question": "Zwei Antworten auf die Frage, was nach der Tonalität noch möglich ist: Fläche oder Puls.",
+    "question": "Zwei Antworten auf die Frage, was nach dem Zuhause noch möglich ist: Fläche oder Puls.",
     "a": {
       "stationId": "ligeti",
       "recordingId": "rec-ligeti",
@@ -200,10 +200,10 @@
       "sub": "Music for 18 Musicians · 1976"
     },
     "notice": [
-      "A: kein Takt, kein Thema. B: Takt, Wiederholung, Muster.",
-      "A verändert sich wie Wetter, B wie ein Räderwerk.",
-      "Beide verzichten auf Melodie im alten Sinn."
+      "A: kein Takt, kein Thema. B: fester Takt, Wiederholung, Muster.",
+      "A verändert sich wie das Wetter, B wie ein Räderwerk.",
+      "Keines von beiden hat eine Melodie im alten Sinn."
     ],
-    "verdict": "Fünfzehn Jahre trennen die beiden Stücke. Nach dem Ende der alten Ordnung entstehen zwei neue Extreme, die sich ähnlicher sind, als sie wirken: Beide wollen, dass man neu zuhört."
+    "verdict": "Fünfzehn Jahre liegen dazwischen. Die beiden wirken gegensätzlich, sind sich aber ähnlicher, als man denkt: Beide wollen, dass man ganz neu zuhört."
   }
 ]

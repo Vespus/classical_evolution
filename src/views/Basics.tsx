@@ -20,10 +20,10 @@ export function Basics({ focusId }: { focusId?: string }) {
     <main id="main" tabIndex={-1} className="page basics">
       <header className="wrap page-head">
         <p className="eyebrow">Was höre ich da eigentlich?</p>
-        <h1>Zehn Begriffe, die man hören kann.</h1>
+        <h1>Zehn Wörter, die man hören kann.</h1>
         <p className="lead">
-          Freiwillig und kurz. Jeder Begriff erst als Erfahrung, dann – wenn überhaupt – als Fachwort. Die Klänge hier sind live erzeugt und bewusst schlicht; sie ersetzen kein
-          Orchester, sie machen nur ein Prinzip hörbar.
+          Freiwillig und kurz. Erst hören und ausprobieren, dann erst das Fachwort. Die Klänge hier kommen aus dem Computer und sind bewusst einfach.
+          Sie ersetzen kein Orchester, sie zeigen nur, worum es geht.
         </p>
         <nav className="basics-nav" aria-label="Begriffe">
           {concepts.map((c) => (
@@ -46,7 +46,7 @@ export function Basics({ focusId }: { focusId?: string }) {
               {Demo && <Demo />}
               {where.length > 0 && (
               <p className="concept-where">
-                  Auf der Reise: {where.map((r, k) => (
+                  Kommt vor bei: {where.map((r, k) => (
                     <span key={r.station.id}>
                       {k > 0 && ', '}
                       <a href={href(`/reise/${r.station.id}`)}>{r.station.short}</a>

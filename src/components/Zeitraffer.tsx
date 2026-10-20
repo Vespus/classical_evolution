@@ -6,7 +6,7 @@ import { PauseIcon, PlayIcon } from './Icons';
 
 const SLICE = 7;
 
-/** Eine Minute Musikgeschichte: kurze Anfänge der lokal verfügbaren Stationen hintereinander. */
+/** Musikgeschichte im Zeitraffer: kurze Anfänge der lokal verfügbaren Stationen hintereinander. */
 export function Zeitraffer() {
   const slices = useMemo(
     () =>
@@ -76,7 +76,7 @@ export function Zeitraffer() {
             <b>{active.r.station.year}</b> · {active.r.composer.name}
           </>
         ) : (
-          'Von Bach bis zur Schwelle der Atonalität – jeweils ein paar Takte.'
+          'Von Bach bis Schönberg – jeweils ein paar Sekunden.'
         )}
       </p>
     </div>
