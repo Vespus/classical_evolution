@@ -42,6 +42,7 @@ export function Basics({ focusId }: { focusId?: string }) {
               <h2 id={`h-${c.id}`}>{c.title}</h2>
               <p className="concept-q">{c.question}</p>
               <p>{c.text}</p>
+              <p className="swift-line"><strong>Und Taylor Swift?</strong> {c.swift}</p>
               {c.term && <p className="term"><span className="term-word">Fachwort</span> {c.term}</p>}
               {Demo && <Demo />}
               {where.length > 0 && (

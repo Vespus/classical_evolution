@@ -163,6 +163,8 @@ export interface Station {
   alongside?: { title: string; text: string };
   /** Fachbegriff, nachgestellt */
   term?: { word: string; text: string };
+  /** „Und Taylor Swift?“ – Bezug zur Popmusik: bekannt, verwandt oder anders */
+  swift: { tag: 'kennen' | 'verwandt' | 'anders'; text: string };
   forces: Forces;
   profile: Profile;
   /** Zeitraffer: Ausschnitt in Sekunden des lokalen Clips, oder false = nicht verwenden */
@@ -191,5 +193,7 @@ export interface Concept {
   question: string;
   text: string;
   term?: string;
+  /** „Und Taylor Swift?“ – ein Satz zum Pop */
+  swift: string;
   demo: string;
 }

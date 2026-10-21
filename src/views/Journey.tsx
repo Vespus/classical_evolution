@@ -12,6 +12,8 @@ import { markVisited, setLastStation, useLastStation } from '../lib/storage';
 import { pause, play, usePlayerState } from '../lib/audio';
 import { clipTrack } from '../lib/tracks';
 
+const SWIFT_TAG = { kennen: 'Das kennen Sie schon', verwandt: 'Das ist verwandt', anders: 'Hier ist es anders' } as const;
+
 export function Journey({ stationId }: { stationId?: string }) {
   const last = useLastStation();
   const lastKnown = resolvedStations.find((r) => r.station.id === last);
@@ -148,6 +150,12 @@ export function Journey({ stationId }: { stationId?: string }) {
               <h2 className="eyebrow">Warum klingt es so?</h2>
               <h3>{station.context.title}</h3>
               <p>{station.context.text}</p>
+            </div>
+
+            <div className={`card card--swift swift--${station.swift.tag}`}>
+              <h2 className="eyebrow">Und Taylor Swift?</h2>
+              <p className="swift-tag">{SWIFT_TAG[station.swift.tag]}</p>
+              <p>{station.swift.text}</p>
             </div>
 
             {station.alongside && (

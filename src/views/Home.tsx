@@ -55,6 +55,14 @@ export function Home() {
               darf. Diese Reise lässt Sie das hören, Station für Station. Vorwissen brauchen Sie nicht. Alles Nötige wird erklärt, und zwar nach dem Hören,
               nicht davor.
             </p>
+            <aside className="swift-box">
+              <h3>Und Taylor Swift?</h3>
+              <p>
+                Diese Frage kommt auf jeder Station wieder. Taylor Swift steht hier für Popmusik, die Sie kennen. Bei jeder Station sehen Sie: Was davon steckt
+                auch in einem Popsong? Was ist gleich, was verwandt, und wo trennen sich die Wege?
+              </p>
+              <p className="fine">Zu hören gibt es dazu nichts von ihr: Dafür fehlen uns die Rechte. Legen Sie einfach selbst ein Lied auf.</p>
+            </aside>
           </div>
         </div>
       </section>

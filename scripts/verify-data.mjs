@@ -71,6 +71,7 @@ stations.forEach((s, n) => {
   if (s.compareId && !comparisons.some((c) => c.id === s.compareId)) err(`Station ${s.id}: Vergleich ${s.compareId} fehlt`);
   for (const c of s.conceptIds ?? []) has(K, c, `Station ${s.id}`);
   if (s.listenFor.length < 1 || s.listenFor.length > 3) err(`Station ${s.id}: 1–3 Hörhinweise erwartet`);
+  if (!s.swift || !['kennen', 'verwandt', 'anders'].includes(s.swift.tag) || !s.swift.text) err(`Station ${s.id}: „Und Taylor Swift?“ fehlt oder hat ungültiges Etikett`);
   if (works.find((w) => w.id === s.workId)?.id !== recordings.find((r) => r.id === s.recordingId)?.workId) err(`Station ${s.id}: Aufnahme gehört nicht zum Werk`);
   if (s.order !== n + 1) warn.push(`Station ${s.id}: order ${s.order} ≠ Position ${n + 1}`);
   for (const k of Object.keys(s.profile)) if (s.profile[k] < 0 || s.profile[k] > 1) err(`Station ${s.id}: Profil ${k} außerhalb 0–1`);

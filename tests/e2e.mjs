@@ -68,6 +68,7 @@ try {
     await page.goto(BASE);
     ok((await page.locator('h1').innerText()).includes('300 Jahre Musik'), 'Titel sichtbar');
     ok(await page.getByRole('link', { name: /Reise beginnen/ }).first().isVisible(), 'Einstieg „Reise beginnen“');
+    ok((await page.locator('.swift-box').count()) === 1, 'Startseite erklärt „Und Taylor Swift?“');
     await page.waitForTimeout(1600);
     await page.screenshot({ path: join(shots, 'home.png') });
     await page.screenshot({ path: join(shots, 'home-full.png'), fullPage: true });
@@ -118,7 +119,8 @@ try {
       const img = await imgLoc
         .evaluate((i) => new Promise((res) => (i.complete ? res(i.naturalWidth > 0) : (i.onload = () => res(true), i.onerror = () => res(false)))))
         .catch(() => false);
-      ok(title.length > 5 && hasPlayer && hints >= 1 && img, `Station ${s.id}: Titel, Player, ${hints} Hinweise, Bild`);
+      const swiftCard = (await page.locator('.card--swift:has-text("Und Taylor Swift?")').count()) === 1;
+      ok(title.length > 5 && hasPlayer && hints >= 1 && img && swiftCard, `Station ${s.id}: Titel, Player, ${hints} Hinweise, Bild, Taylor-Swift-Karte`);
     }
 
     // Audio

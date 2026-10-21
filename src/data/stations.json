@@ -56,6 +56,10 @@
     "term": {
       "word": "Cembalo",
       "text": "ist ein Tasteninstrument, bei dem die Saiten gezupft werden. Es klingt hell und silbrig und begleitet im Hintergrund."
+    },
+    "swift": {
+      "tag": "kennen",
+      "text": "Der gleichmäßige Schlag, der bei Bach nie aussetzt, ist der Beat unter fast jedem Popsong. Wenn Sie bei einem Lied von Taylor Swift mit dem Fuß wippen, tun Sie dasselbe wie bei Bach."
     }
   },
   {
@@ -116,6 +120,10 @@
     "term": {
       "word": "Moll",
       "text": "ist die „traurige“ oder ernste Tonart. Das Gegenstück heißt Dur und klingt heller."
+    },
+    "swift": {
+      "tag": "kennen",
+      "text": "Eine Melodie vorn, die Begleitung dahinter: So ist auch ein Popsong gebaut. Die Stimme singt, die Instrumente tragen sie. Dieses Modell setzt sich zu Mozarts Zeit durch und gilt bis heute."
     }
   },
   {
@@ -175,6 +183,10 @@
     "term": {
       "word": "Sinfonie",
       "text": "ist ein großes Stück für Orchester, meist mit vier Teilen („Sätzen“). Haydn hat über hundert geschrieben."
+    },
+    "swift": {
+      "tag": "verwandt",
+      "text": "Auch ein Popsong spielt mit dem, was Sie erwarten. Die „Bridge“, der Mittelteil vor dem letzten Refrain, bricht oft aus dem Muster aus. Taylor Swift wird dafür häufig gelobt. Das Prinzip ist dasselbe wie bei Haydns Knall: erst Gewohnheit, dann Überraschung."
     }
   },
   {
@@ -235,6 +247,10 @@
     "term": {
       "word": "Motiv",
       "text": "nennt man einen kurzen Baustein aus wenigen Tönen, den man wiedererkennt. Aus solchen Bausteinen baut man ein ganzes Stück."
+    },
+    "swift": {
+      "tag": "kennen",
+      "text": "Ein Refrain, der sich festsetzt, ist ein Motiv: wenige Töne, leicht zu merken, immer wieder gespielt. Beethoven macht aus vier Tönen einen ganzen Satz. Ein Popsong macht aus einem Refrain den ganzen Song."
     }
   },
   {
@@ -294,6 +310,10 @@
     "term": {
       "word": "Lied",
       "text": "heißt hier: ein Gedicht, in Musik gesetzt, für eine Singstimme und Klavier."
+    },
+    "swift": {
+      "tag": "verwandt",
+      "text": "Eine Stimme, ein Klavier oder eine Gitarre, eine Geschichte: Das kennen Sie von jeder ruhigen Ballade. Taylor Swift erzählt in ihren Liedern oft persönliche Geschichten. Schubert hat diese Form vor über 200 Jahren zur Kunst gemacht."
     }
   },
   {
@@ -353,6 +373,10 @@
     "term": {
       "word": "Programmmusik",
       "text": "heißt Musik, die eine Geschichte erzählt oder etwas malt. Hier steht es schon im Titel: „Episode aus dem Leben eines Künstlers“."
+    },
+    "swift": {
+      "tag": "verwandt",
+      "text": "Wenn in einem Song plötzlich Streicher, ein Chor oder ein Synthesizer einsetzen, ändert sich die Stimmung, ohne dass ein Wort fällt. Das ist Klangfarbe. Berlioz hat gezeigt, wie weit man das treiben kann."
     }
   },
   {
@@ -412,6 +436,10 @@
     "term": {
       "word": "Rubato",
       "text": "heißt „gestohlene Zeit“: Die Melodie nimmt sich Zeit und gibt sie später zurück."
+    },
+    "swift": {
+      "tag": "verwandt",
+      "text": "Dass ein Klavier „singen“ kann, hören Sie in jeder Klavierballade. Das Instrument wurde zu Chopins Zeit so gebaut, wie wir es heute kennen: mit langem Nachklang und leisen Tönen. Jeder Popsong am Klavier profitiert davon."
     }
   },
   {
@@ -472,6 +500,10 @@
     "term": {
       "word": "Chromatik",
       "text": "heißt: Die Töne wandern in den kleinsten Schritten, die es gibt. Dadurch geht das Gefühl für „oben“ und „Zuhause“ verloren."
+    },
+    "swift": {
+      "tag": "verwandt",
+      "text": "Auch Popsongs zögern die Erlösung hinaus. Die Spannung steigt, bevor der Refrain kommt. Bei Wagner dauert das Warten vier Stunden, im Popsong ein paar Sekunden."
     }
   },
   {
@@ -532,6 +564,10 @@
     "term": {
       "word": "Passacaglia",
       "text": "heißt: Ein kurzes Bassmuster wird in Variationen immer wieder wiederholt. Eine Form aus dem Barock, die Brahms in seiner 4. Sinfonie wiederentdeckt – und Caroline Shaw am Ende dieser Reise."
+    },
+    "swift": {
+      "tag": "verwandt",
+      "text": "Manche Künstler bleiben bei dem, was sie gut können. Andere probieren Neues. Taylor Swift hat ihren Stil mehrmals gewechselt, von Country zu Pop und später zu leiseren, folkigen Liedern. Brahms und Wagner zeigen: Beide Arten gibt es seit jeher. Keine ist von vornherein besser."
     }
   },
   {
@@ -592,6 +628,10 @@
     "term": {
       "word": "Ganztonleiter",
       "text": "ist eine Tonleiter aus lauter gleich großen Schritten. Sie hat kein Oben, kein Unten und kein Zuhause – darum schwebt sie."
+    },
+    "swift": {
+      "tag": "verwandt",
+      "text": "Weiche Klangflächen unter einem Lied, bei denen kein Akkord drängt, kennen Sie aus vielen Popproduktionen. Debussy gehört zu denen, die Klang um seiner selbst willen eingesetzt haben."
     }
   },
   {
@@ -651,6 +691,10 @@
     "term": {
       "word": "Trauermarsch",
       "text": "ist ein langsamer Marsch, wie man ihn bei Beerdigungen spielt."
+    },
+    "swift": {
+      "tag": "verwandt",
+      "text": "Musik für riesige Räume: Mahler füllt den Saal mit hundert Spielern. Heute füllt man Stadien mit Lautsprechern und Bühnenshow. Taylor Swift hat das 2023 mit ihrer Eras-Tour getan. Der Gedanke dahinter ist derselbe: Musik als Ereignis für Tausende."
     }
   },
   {
@@ -712,6 +756,10 @@
     "term": {
       "word": "Atonalität",
       "text": "heißt Musik ohne Tonart: Alle zwölf Töne sind gleich wichtig, keiner ist „Zuhause“. Schönberg mochte das Wort selbst nicht."
+    },
+    "swift": {
+      "tag": "anders",
+      "text": "Hier trennen sich die Wege. Fast jeder Popsong hat ein klares Zuhause, auch in den Liedern von Taylor Swift. Das ist keine Schwäche: Wer mitsingen oder tanzen will, braucht Boden unter den Füßen. Schönberg wollte etwas anderes."
     }
   },
   {
@@ -768,6 +816,10 @@
     "term": {
       "word": "Taktwechsel",
       "text": "heißt: Die Zahl der Schläge pro Takt wechselt ständig, darum fehlt das Gefühl eines festen Raums."
+    },
+    "swift": {
+      "tag": "anders",
+      "text": "Popmusik bleibt fast immer im gleichmäßigen Schlag, denn man will dazu tanzen. Strawinskys wechselnde Takte sind das Gegenteil. Der Körper erwartet etwas, das nicht kommt. Das macht das Stück so aufregend – und für manche anstrengend."
     }
   },
   {
@@ -819,7 +871,11 @@
     "conceptIds": [
       "rhythmus"
     ],
-    "rush": false
+    "rush": false,
+    "swift": {
+      "tag": "verwandt",
+      "text": "Taylor Swift begann als Country-Sängerin, in einer Musik mit Wurzeln in Volksliedern. Auch Bartók holte sich Klänge aus dem Volkslied. Aus der einfachen Musik der Leute kann Kunst werden, die weit über das Dorf hinausreicht."
+    }
   },
   {
     "id": "messiaen",
@@ -871,7 +927,11 @@
       "rhythmus",
       "tonart"
     ],
-    "rush": false
+    "rush": false,
+    "swift": {
+      "tag": "anders",
+      "text": "Das ist das Gegenteil eines Popsongs: kein Beat, kein Refrain zum Mitsingen. Ein Popsong dauert meist ein paar Minuten und treibt voran. Hier steht die Zeit still. Hören Sie beides direkt nacheinander."
+    }
   },
   {
     "id": "ligeti",
@@ -927,6 +987,10 @@
     "term": {
       "word": "Cluster",
       "text": "nennt man einen Klang, bei dem viele benachbarte Töne gleichzeitig erklingen."
+    },
+    "swift": {
+      "tag": "anders",
+      "text": "Klang ohne Takt und Melodie kommt im Pop selten vor, eher als Einleitung. Bekannter ist er aus dem Kino: „Atmosphères“ läuft in Stanley Kubricks Film „2001“. Wer den Film kennt, hat Ligeti schon gehört."
     }
   },
   {
@@ -984,6 +1048,10 @@
     "term": {
       "word": "Minimal Music",
       "text": "ist ein Etikett von Kritikern für Musik, die mit wenigen Mitteln und viel Wiederholung arbeitet."
+    },
+    "swift": {
+      "tag": "kennen",
+      "text": "Hier sind Sie zu Hause: Ein Beat und ein Muster, das immer wiederkehrt, ist das Bauprinzip von Pop. Reich macht aus der Wiederholung das ganze Stück. Im Popsong ist sie der Weg zum Ohrwurm."
     }
   },
   {
@@ -1040,6 +1108,10 @@
     "term": {
       "word": "Tintinnabuli",
       "text": "nennt Pärt seinen Stil: Neben einer Melodie spielt eine zweite Stimme nur die Töne eines einfachen Akkords – wie das Mitklingen einer Glocke."
+    },
+    "swift": {
+      "tag": "verwandt",
+      "text": "Auch im Pop gibt es Lieder, die vom Weglassen leben: wenige Töne, viel Platz, eine Stimme. Pärt macht daraus eine ganze Haltung. Hören Sie nach, wie viel Ruhe dieselbe Idee bekommt, wenn niemand sie verkaufen muss."
     }
   },
   {
@@ -1092,6 +1164,10 @@
       "tonart",
       "form"
     ],
-    "rush": false
+    "rush": false,
+    "swift": {
+      "tag": "kennen",
+      "text": "Und Taylor Swift? Sie steht nicht am Rand dieser Geschichte. Strophe, Refrain, Bridge, ein Zuhause, Wiederholung: Das ist dasselbe Handwerk, das Sie auf dieser Reise gehört haben. Der Unterschied: Pop hat das Zuhause nie verlassen. Das ist eine Einschätzung. Ob das besser oder schlechter ist, sagt die Musik nicht."
+    }
   }
 ]

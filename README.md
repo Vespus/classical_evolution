@@ -2,7 +2,7 @@
 
 300 Jahre abendländische Musik in neunzehn Stationen, vom Barock bis zur Gegenwart. Kein Musiklexikon, sondern eine Reise, auf der man **hört**, wie sich Klang, Harmonik, Besetzung und Rhythmus verändern – mit echten Aufnahmen, einem direkten A/B-Vergleich („Hör den Unterschied“), einer Landschaft der fünf Regler und einer optionalen Ebene „Was höre ich da eigentlich?“.
 
-Zielgruppe: Erwachsene ohne Vorkenntnisse und ohne klassische Bildung. Die Texte sind in einfacher Sprache gehalten: kurze Sätze, Alltagswörter, jedes Fachwort wird erklärt, und zwar erst nach dem Hören. Eine Vorstellung von „klassisch“ wird nicht vorausgesetzt (die Startseite klärt sie kurz).
+Zielgruppe: Erwachsene ohne Vorkenntnisse und ohne klassische Bildung. Die Texte sind in einfacher Sprache gehalten: kurze Sätze, Alltagswörter, jedes Fachwort wird erklärt, und zwar erst nach dem Hören. Eine Vorstellung von „klassisch“ wird nicht vorausgesetzt (die Startseite klärt sie kurz). Als wiederkehrender Anker dient die Frage **„Und Taylor Swift?“**: Auf jeder Station sagt eine Karte, was davon in Popmusik steckt und was nicht (siehe `docs/ENTSCHEIDUNGEN.md`).
 
 ## Schnellstart
 
