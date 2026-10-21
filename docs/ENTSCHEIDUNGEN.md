@@ -10,7 +10,7 @@ Kurz begründet, in der Reihenfolge, in der sie anfielen.
 
 **Keine Fortschrittserzählung.** Jede Station hat einen Kasten „Gleichzeitig“ (Parallelwege, Gegenbewegungen, Legenden), die Landschaft zeigt Rückwege (Brahms, Chopin, Reich), und der Schluss lautet: Die Tonart ist nicht verschwunden, sie ist eine Möglichkeit geworden. Legenden werden benannt statt weitererzählt (Schicksalsmotiv bei Beethoven, Tumult bei Strawinsky).
 
-**Farbwelt je Station.** Jede Station setzt über `data-theme` eigene Farben; der Übergang (Hintergrund, Akzent) ist bewusst langsam. So wird der Weg von Sand über Nachtgrün und Weinrot zu Schwarz und Rot sichtbar – und weiß, dann ruhig zurück.
+**Farbwelt je Station.** Jede Station setzt über `data-theme` eigene Farben; der Übergang (Hintergrund, Akzent) ist bewusst langsam. Die Töne stammen aus dem Auftritt von Herrenausstatter.de (Blau `#0031d2`, Gold `#a9986f`, Sale-Rot `#ce1f26`, Sand und Stein), aber gedämpft: kein reines Weiß, kein reines Schwarz, geringere Kontraste, Sand, Stein, Moos, Nachtblau und Bordeaux statt greller Flächen. Der Weg führt von Sand über Stein und Moos zu Nachtblau, Bordeaux, Nebelblau und Anthrazit – und wieder zurück zu hellem Papier. Alle Textfarben erreichen je Farbwelt mindestens 4,5:1 (gerechnet, plus axe-Prüfung). Die Schriften (Newsreader, Inter) sind unverändert.
 
 **Klangprofil statt Zahlen.** Fünf qualitative Regler (Tonart, Klangapparat, Puls, Reibung, Gestalt) mit Polbeschriftung, ohne Zahlenwerte im Interface; der blasse Punkt zeigt die Vorgängerstation. Die Werte sind redaktionelle Einschätzungen und als solche gekennzeichnet.
 
