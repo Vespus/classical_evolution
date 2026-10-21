@@ -1,0 +1,21 @@
+[
+  { "id": "bach", "name": "Johann Sebastian Bach", "born": 1685, "died": 1750, "country": "Deutschland", "image": "bach" },
+  { "id": "haydn", "name": "Joseph Haydn", "born": 1732, "died": 1809, "country": "Österreich", "image": "haydn" },
+  { "id": "mozart", "name": "Wolfgang Amadeus Mozart", "born": 1756, "died": 1791, "country": "Österreich", "image": "mozart" },
+  { "id": "beethoven", "name": "Ludwig van Beethoven", "born": 1770, "died": 1827, "country": "Deutschland / Österreich", "image": "beethoven" },
+  { "id": "schubert", "name": "Franz Schubert", "born": 1797, "died": 1828, "country": "Österreich", "image": "schubert" },
+  { "id": "berlioz", "name": "Hector Berlioz", "born": 1803, "died": 1869, "country": "Frankreich", "image": "berlioz" },
+  { "id": "chopin", "name": "Frédéric Chopin", "born": 1810, "died": 1849, "country": "Polen / Frankreich", "image": "chopin" },
+  { "id": "wagner", "name": "Richard Wagner", "born": 1813, "died": 1883, "country": "Deutschland", "image": "wagner" },
+  { "id": "brahms", "name": "Johannes Brahms", "born": 1833, "died": 1897, "country": "Deutschland / Österreich", "image": "brahms" },
+  { "id": "debussy", "name": "Claude Debussy", "born": 1862, "died": 1918, "country": "Frankreich", "image": "debussy" },
+  { "id": "mahler", "name": "Gustav Mahler", "born": 1860, "died": 1911, "country": "Österreich", "image": "mahler" },
+  { "id": "schoenberg", "name": "Arnold Schönberg", "born": 1874, "died": 1951, "country": "Österreich / USA", "image": "schoenberg" },
+  { "id": "stravinsky", "name": "Igor Strawinsky", "born": 1882, "died": 1971, "country": "Russland / Frankreich / USA", "image": "stravinsky" },
+  { "id": "bartok", "name": "Béla Bartók", "born": 1881, "died": 1945, "country": "Ungarn", "image": "bartok" },
+  { "id": "messiaen", "name": "Olivier Messiaen", "born": 1908, "died": 1992, "country": "Frankreich" },
+  { "id": "ligeti", "name": "György Ligeti", "born": 1923, "died": 2006, "country": "Ungarn / Österreich" },
+  { "id": "reich", "name": "Steve Reich", "born": 1936, "died": null, "country": "USA" },
+  { "id": "paert", "name": "Arvo Pärt", "born": 1935, "died": null, "country": "Estland" },
+  { "id": "shaw", "name": "Caroline Shaw", "born": 1982, "died": null, "country": "USA" }
+]

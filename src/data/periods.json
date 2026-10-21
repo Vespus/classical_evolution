@@ -1,0 +1,9 @@
+[
+  { "id": "barock", "name": "Barock", "years": "bis etwa 1750", "tagline": "Ordnung als Antrieb: ein Gefühl pro Satz, ein durchlaufender Puls.", "from": 1600, "to": 1750 },
+  { "id": "klassik", "name": "Klassik", "years": "etwa 1750 bis 1810", "tagline": "Melodien mit Atem, klare Form – und am Ende ein Riss.", "from": 1750, "to": 1810 },
+  { "id": "romantik", "name": "Romantik", "years": "etwa 1810 bis 1890", "tagline": "Gefühl, Geschichten, größere Orchester. Und zwei Antworten darauf.", "from": 1810, "to": 1890 },
+  { "id": "spaetromantik", "name": "Um 1900", "years": "etwa 1890 bis 1910", "tagline": "Die Tonart wird gedehnt, gefärbt, ausgereizt.", "from": 1890, "to": 1910 },
+  { "id": "moderne", "name": "Moderne", "years": "etwa 1908 bis 1930", "tagline": "Drei Revolutionen gleichzeitig: Harmonie, Rhythmus, Volksmusik.", "from": 1908, "to": 1930 },
+  { "id": "nachkrieg", "name": "Nach 1940", "years": "etwa 1940 bis 1970", "tagline": "Zeit, Klangfläche, Vogelgesang.", "from": 1940, "to": 1970 },
+  { "id": "gegenwart", "name": "Seit 1970", "years": "ab etwa 1970", "tagline": "Einfachheit als Antwort. Alles ist wieder erlaubt.", "from": 1970, "to": 2030 }
+]

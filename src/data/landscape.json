@@ -1,0 +1,42 @@
+[
+  {
+    "dim": "zuhause",
+    "stationId": "brahms",
+    "text": "Brahms: Die Ordnung bleibt"
+  },
+  {
+    "dim": "zuhause",
+    "stationId": "reich",
+    "text": "Reich: Dur und Moll sind wieder da"
+  },
+  {
+    "dim": "apparat",
+    "stationId": "schubert",
+    "text": "Schubert: zurück ins Wohnzimmer"
+  },
+  {
+    "dim": "apparat",
+    "stationId": "schoenberg",
+    "text": "Schönberg: kleiner Kreis, größerer Bruch"
+  },
+  {
+    "dim": "puls",
+    "stationId": "reich",
+    "text": "Reich: der Schlag kehrt zurück"
+  },
+  {
+    "dim": "reibung",
+    "stationId": "debussy",
+    "text": "Debussy: kein Zuhause, aber auch keine Schärfe"
+  },
+  {
+    "dim": "fliesst",
+    "stationId": "chopin",
+    "text": "Chopin: ganz Gesang"
+  },
+  {
+    "dim": "fliesst",
+    "stationId": "ligeti",
+    "text": "Ligeti: Wolken statt Melodie"
+  }
+]

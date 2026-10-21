@@ -1,0 +1,1197 @@
+[
+  {
+    "id": "bach",
+    "order": 1,
+    "periodId": "barock",
+    "theme": "barock",
+    "short": "Bach",
+    "year": 1721,
+    "teaser": "Ein Uhrwerk, das nie stehen bleibt",
+    "headline": "Ein Uhrwerk, das nie stehen bleibt.",
+    "kicker": "Bach · Brandenburgisches Konzert Nr. 3 · 1721 – hier beginnt unsere Reise.",
+    "workId": "bach-bwv1048",
+    "recordingId": "rec-bach",
+    "imageId": "bach",
+    "lead": "Neun Streicher und ein Cembalo spielen zusammen. Keiner ist der Chef. Darunter läuft ein gleichmäßiger Schlag, der fast nie pausiert. Das klingt wie eine Maschine, die perfekt läuft.",
+    "context": {
+      "title": "Musik für den Hof und die Kirche",
+      "text": "Bach schreibt für Fürsten und Kirchen. Konzerte mit Eintrittskarten gibt es kaum. Die sechs „Brandenburgischen Konzerte“ schickt er 1721 an einen Markgrafen – wohl als Bewerbung. Damals gilt schon eine feste Regel: Jedes Stück hat einen Grundton, ein „Zuhause“, zu dem es immer zurückkehrt. Diese Regel hält noch fast 200 Jahre. Dann beginnt sie zu wackeln. Das ist die Geschichte dieser Reise."
+    },
+    "listenFor": [
+      "Der Antrieb: Es gibt einen gleichmäßigen Schlag, der fast nie aussetzt. Wippen Sie einfach mit.",
+      "Mehrere Streicher spielen dieselben kurzen Töne nacheinander – wie ein Ballspiel. Es gibt keine einzelne Hauptmelodie.",
+      "Die Lautstärke bleibt fast gleich. Spannung entsteht durch das Zusammenspiel, nicht durch Laut und Leise."
+    ],
+    "whatsNew": {
+      "title": "Merkmale, die sich später ändern",
+      "text": "Das ist der Ausgangspunkt: ein gleichmäßiger Schlag, alle Stimmen gleich wichtig, gleichbleibende Lautstärke und ein klares „Zuhause“. Fast alles, was danach kommt, verändert eines davon."
+    },
+    "alongside": {
+      "title": "Nicht alles war streng",
+      "text": "Zur gleichen Zeit schreibt Vivaldi Konzerte, die Jahreszeiten beschreiben („Die vier Jahreszeiten“). Händel macht in London Opern für zahlendes Publikum. Geschichten in Musik und Konkurrenz um Zuhörer gab es also schon damals."
+    },
+    "forces": {
+      "streicher": 3,
+      "holz": 0,
+      "blech": 0,
+      "schlagwerk": 0,
+      "tasten": 2,
+      "stimme": 0
+    },
+    "profile": {
+      "zuhause": 0.06,
+      "apparat": 0.14,
+      "puls": 0.05,
+      "reibung": 0.14,
+      "fliesst": 0.28
+    },
+    "conceptIds": [
+      "tonart",
+      "rhythmus"
+    ],
+    "rush": [
+      0,
+      7
+    ],
+    "term": {
+      "word": "Cembalo",
+      "text": "ist ein Tasteninstrument, bei dem die Saiten gezupft werden. Es klingt hell und silbrig und begleitet im Hintergrund."
+    },
+    "swift": {
+      "tag": "kennen",
+      "text": "Der gleichmäßige Schlag, der bei Bach nie aussetzt, ist der Beat unter fast jedem Popsong. Wenn Sie bei einem Lied von Taylor Swift mit dem Fuß wippen, tun Sie dasselbe wie bei Bach."
+    }
+  },
+  {
+    "id": "mozart",
+    "order": 2,
+    "periodId": "klassik",
+    "theme": "klassik",
+    "short": "Mozart",
+    "year": 1788,
+    "teaser": "Seufzer, Moll, Abgrund",
+    "headline": "Elegant – und darunter ein Abgrund.",
+    "kicker": "Mozart · Sinfonie Nr. 40 in g-Moll · 1788 – schöne Oberfläche, dunkle Stimmung.",
+    "workId": "mozart-kv550",
+    "recordingId": "rec-mozart",
+    "imageId": "mozart",
+    "lead": "Bei Bach spielten alle gleich viel. Bei Mozart gibt es eine klare Hauptmelodie, und die anderen begleiten sie. Trotzdem klingt diese Sinfonie unruhig und traurig. Sie beginnt ohne Vorwarnung mit einem nervösen Flüstern der Streicher. Erst danach setzt die Melodie ein.",
+    "context": {
+      "title": "Wien 1788: Mozart lebt als freier Musiker",
+      "text": "Mozart hat keinen festen Arbeitgeber. Er lebt von Konzerten, Unterricht und Aufträgen und hat oft Geldsorgen. Im Sommer 1788 schreibt er in wenigen Wochen drei Sinfonien. Ob er sie noch selbst gehört hat, weiß man nicht sicher. Dass die Nr. 40 so traurig klingt, hört dagegen jeder."
+    },
+    "listenFor": [
+      "Der Anfang: Die Streicher laufen schon, bevor die Melodie kommt. Es gibt keine Eröffnung mit Pauken und Trompeten.",
+      "Die Hauptmelodie fällt in kleinen Schritten ab, immer wieder – wie ein Seufzen.",
+      "Später erklingt eine freundlichere Melodie. Erst da merkt man, wie düster es vorher war."
+    ],
+    "whatsNew": {
+      "title": "Eine Melodie vorn – und Moll",
+      "text": "Statt vieler gleichwertiger Stimmen gibt es jetzt eine Melodie mit Begleitung, mit Atempausen und klaren Abschnitten. Das Orchester ist größer als bei Bach: Flöte, Oboen, Fagotte und Hörner kommen zu den Streichern. Und fast alles steht in Moll, der „traurigen“ Tonart. Das war damals eine Ausnahme: Mozart schrieb nur zwei Sinfonien so."
+    },
+    "alongside": {
+      "title": "Haydn und Mozart: Freunde",
+      "text": "Mozart widmete Haydn sechs Streichquartette. Haydn sagte Mozarts Vater, dessen Sohn sei der größte Komponist, den er kenne. Die beiden haben voneinander gelernt."
+    },
+    "forces": {
+      "streicher": 3,
+      "holz": 2,
+      "blech": 1,
+      "schlagwerk": 0,
+      "tasten": 0,
+      "stimme": 0
+    },
+    "profile": {
+      "zuhause": 0.12,
+      "apparat": 0.3,
+      "puls": 0.15,
+      "reibung": 0.22,
+      "fliesst": 0.12
+    },
+    "compareId": "barock-klassik",
+    "conceptIds": [
+      "dur-moll",
+      "form"
+    ],
+    "rush": [
+      0,
+      7
+    ],
+    "term": {
+      "word": "Moll",
+      "text": "ist die „traurige“ oder ernste Tonart. Das Gegenstück heißt Dur und klingt heller."
+    },
+    "swift": {
+      "tag": "kennen",
+      "text": "Eine Melodie vorn, die Begleitung dahinter: So ist auch ein Popsong gebaut. Die Stimme singt, die Instrumente tragen sie. Dieses Modell setzt sich zu Mozarts Zeit durch und gilt bis heute."
+    }
+  },
+  {
+    "id": "haydn",
+    "order": 3,
+    "periodId": "klassik",
+    "theme": "klassik",
+    "short": "Haydn",
+    "year": 1791,
+    "teaser": "Ein leiser Satz, dann ein Knall",
+    "headline": "Ein leiser Satz – und dann ein Knall.",
+    "kicker": "Haydn · Sinfonie Nr. 94 „Mit dem Paukenschlag“ · 1791 – Musik, die ihr Publikum überrascht.",
+    "workId": "haydn-94",
+    "recordingId": "rec-haydn",
+    "imageId": "haydn",
+    "lead": "Eine einfache Melodie, fast wie ein Kinderlied, kommt ganz leise. Sie wird wiederholt, noch leiser. Man wiegt sich in Sicherheit. Dann kracht ein lauter Akkord dazwischen. Das ist ein Scherz – und eine neue Idee: Musik spielt mit dem, was die Zuhörer erwarten.",
+    "context": {
+      "title": "London 1791: Konzerte mit Eintrittskarte",
+      "text": "Haydn arbeitet fast 30 Jahre für eine Fürstenfamilie. Als der Fürst 1790 stirbt, holt ihn ein Konzertveranstalter nach London. Dort kaufen die Leute Eintrittskarten für Konzerte. Wer zahlt, will gut unterhalten werden: mit Melodien, die man behält, und mit Überraschungen. Diese Sinfonie wird 1791 in London zum ersten Mal gespielt."
+    },
+    "listenFor": [
+      "Das Thema ist einfach: wenige Töne, kleine Schritte, leise Streicher.",
+      "Es wird wiederholt, noch leiser. Man gewöhnt sich daran.",
+      "Dann der Akkord: laut, mit Pauke, mitten im Satz. Danach geht es freundlich weiter, als wäre nichts passiert."
+    ],
+    "whatsNew": {
+      "title": "Der Witz als Methode",
+      "text": "Nach Mozarts Traurigkeit: Humor. Haydn baut eine Erwartung auf und enttäuscht sie. Das funktioniert nur, weil das Publikum die Regeln inzwischen kennt. Das Gerüst der Klassik steht jetzt fest: eine Melodie, Begleitung, kurze Abschnitte. Jetzt darf man damit spielen."
+    },
+    "alongside": {
+      "title": "Wollte er das Publikum wecken?",
+      "text": "Die Geschichte, Haydn habe das Publikum mit dem Schlag aufwecken wollen, ist hübsch, aber kaum belegt. Sicher ist nur: Er wusste, wie das wirkt."
+    },
+    "forces": {
+      "streicher": 3,
+      "holz": 2,
+      "blech": 1,
+      "schlagwerk": 1,
+      "tasten": 0,
+      "stimme": 0
+    },
+    "profile": {
+      "zuhause": 0.05,
+      "apparat": 0.3,
+      "puls": 0.1,
+      "reibung": 0.16,
+      "fliesst": 0.1
+    },
+    "conceptIds": [
+      "melodie",
+      "harmonie"
+    ],
+    "rush": [
+      65,
+      72.5
+    ],
+    "term": {
+      "word": "Sinfonie",
+      "text": "ist ein großes Stück für Orchester, meist mit vier Teilen („Sätzen“). Haydn hat über hundert geschrieben."
+    },
+    "swift": {
+      "tag": "verwandt",
+      "text": "Auch ein Popsong spielt mit dem, was Sie erwarten. Die „Bridge“, der Mittelteil vor dem letzten Refrain, bricht oft aus dem Muster aus. Taylor Swift wird dafür häufig gelobt. Das Prinzip ist dasselbe wie bei Haydns Knall: erst Gewohnheit, dann Überraschung."
+    },
+    "deeper": {
+      "title": "Nach dem Knall",
+      "text": "Der Knall ist nur ein Augenblick im zweiten Satz. Danach verwandelt Haydn das einfache Thema vier Mal: mal laut, mal in Moll, mal verspielt. Wer die ganze Sinfonie hört, erlebt, wie der Spaß zum Handwerk wird.",
+      "links": [
+        {
+          "label": "Die ganze Sinfonie ansehen (DW Classical Music, Lucerne Festival)",
+          "url": "https://www.youtube.com/watch?v=Pb4nRgwQ5Jk"
+        }
+      ]
+    }
+  },
+  {
+    "id": "beethoven",
+    "order": 4,
+    "periodId": "klassik",
+    "theme": "fruehromantik",
+    "short": "Beethoven",
+    "year": 1808,
+    "teaser": "Vier Töne und ein Entschluss",
+    "headline": "Vier Töne – und die Musik will etwas.",
+    "kicker": "Beethoven · 5. Sinfonie · 1808 – nicht schöner, sondern kraftvoller.",
+    "workId": "beethoven-5",
+    "recordingId": "rec-beethoven",
+    "imageId": "beethoven",
+    "lead": "Mozarts Sinfonie in Moll klingt wie ein Seufzer. Beethovens Fünfte klingt wie ein Entschluss. Fast der ganze erste Satz entsteht aus einem einzigen Gedanken: kurz, kurz, kurz, lang. Beethoven wiederholt ihn, verändert ihn und lässt ihn vom ganzen Orchester spielen.",
+    "context": {
+      "title": "Eine Zeit voller Umbrüche",
+      "text": "Wer 1808 in Wien erwachsen ist, hat die Französische Revolution und Napoleons Kriege erlebt. Beethoven wird schon seit etwa 1798 immer schwerhöriger. Er lebt als freier Künstler und ist nicht mehr nur Angestellter eines Fürsten. Die Fünfte wird am 22. Dezember 1808 zum ersten Mal gespielt – in einem Konzert, das über vier Stunden dauert, in einem schlecht geheizten Theater."
+    },
+    "listenFor": [
+      "Die ersten Sekunden: vier Töne, eine Pause, dieselben vier Töne etwas tiefer. Noch keine schöne Melodie, nur Rhythmus.",
+      "Suchen Sie das Muster „kurz, kurz, kurz, lang“. Es taucht überall im Orchester wieder auf.",
+      "Die Akkorde schlagen hart ein und lassen kaum Ruhe."
+    ],
+    "whatsNew": {
+      "title": "Kraft statt Anmut",
+      "text": "Gegenüber Haydn und Mozart ändert sich vieles: Die Musik ist härter und lauter, und der Satz entwickelt sich länger. Später in der Sinfonie kommen Instrumente dazu, die man in Sinfonien kaum kannte (Piccolo, Kontrafagott, Posaunen). Und die Haltung ist neu: Hier wird nicht mehr plaudernd unterhalten, hier kämpft jemand um etwas."
+    },
+    "alongside": {
+      "title": "Das „Schicksal“ klopft nicht",
+      "text": "Es heißt oft, die vier Töne seien „das Schicksal, das an die Tür klopft“. Das erzählte Beethovens späterer Sekretär Anton Schindler. Er hat aber nachweislich Einträge in Beethovens Gesprächsheften gefälscht. Belegt ist die Geschichte nicht. Die vier Töne sind auch ohne sie stark genug."
+    },
+    "forces": {
+      "streicher": 3,
+      "holz": 2,
+      "blech": 2,
+      "schlagwerk": 1,
+      "tasten": 0,
+      "stimme": 0
+    },
+    "profile": {
+      "zuhause": 0.16,
+      "apparat": 0.5,
+      "puls": 0.3,
+      "reibung": 0.4,
+      "fliesst": 0.2
+    },
+    "compareId": "mozart-beethoven",
+    "conceptIds": [
+      "motiv",
+      "dissonanz"
+    ],
+    "rush": [
+      0,
+      7
+    ],
+    "term": {
+      "word": "Motiv",
+      "text": "nennt man einen kurzen Baustein aus wenigen Tönen, den man wiedererkennt. Aus solchen Bausteinen baut man ein ganzes Stück."
+    },
+    "swift": {
+      "tag": "kennen",
+      "text": "Ein Refrain, der sich festsetzt, ist ein Motiv: wenige Töne, leicht zu merken, immer wieder gespielt. Beethoven macht aus vier Tönen einen ganzen Satz. Ein Popsong macht aus einem Refrain den ganzen Song."
+    },
+    "deeper": {
+      "title": "Der Schluss der Fünften",
+      "text": "Der erste Satz endet in Moll. Der letzte Satz der Sinfonie kehrt das um: Aus dem dunklen Beginn wird strahlendes Dur, und das ganze Orchester jubelt, mit Posaunen, die in Sinfonien neu waren. Viele hören darin die Antwort auf die vier Töne vom Anfang. Das ist beeindruckend, aber ein anderes Erlebnis als der Anfang, um den es hier geht.",
+      "links": [
+        {
+          "label": "Die ganze Sinfonie ansehen (hr-Sinfonieorchester)",
+          "url": "https://www.youtube.com/watch?v=fuPrcnpIRx8"
+        },
+        {
+          "label": "Kurzfilm der Berliner Philharmoniker, 3 Minuten (u. a. mit dem Schluss)",
+          "url": "https://www.youtube.com/watch?v=VHDZ2isd4xg"
+        }
+      ]
+    }
+  },
+  {
+    "id": "schubert",
+    "order": 5,
+    "periodId": "romantik",
+    "theme": "fruehromantik",
+    "short": "Schubert",
+    "year": 1815,
+    "teaser": "Das Orchester bleibt draußen",
+    "headline": "Vier Rollen, eine Stimme – und ein Pferd im Klavier.",
+    "kicker": "Schubert · Erlkönig · 1815 – Drama im Wohnzimmer.",
+    "workId": "schubert-erlkoenig",
+    "recordingId": "rec-schubert",
+    "imageId": "schubert",
+    "lead": "Ein 18-Jähriger macht aus Goethes Gedicht ein Lied für Stimme und Klavier. Ein Vater reitet nachts mit seinem kranken Kind durch den Wald, und der Erlkönig will das Kind holen. Ein Sänger spielt vier Rollen: Erzähler, Vater, Kind und Erlkönig. Das Klavier galoppiert die ganze Zeit.",
+    "context": {
+      "title": "Musik für zu Hause",
+      "text": "Nach 1815 gibt es in Österreich Zensur und Überwachung. Viele Menschen ziehen sich ins Private zurück. Schuberts Musik klingt bei Freunden, an einem Klavier, bei den „Schubertiaden“. So wird das Lied wichtig: großes Gefühl auf kleinem Raum. Schubert gibt zu Lebzeiten nur ein einziges öffentliches Konzert mit eigenen Werken (1828) und stirbt mit 31."
+    },
+    "listenFor": [
+      "Das Klavier galoppiert vom ersten bis zum letzten Ton: schnelle Wiederholungen der rechten Hand.",
+      "Hören Sie auf die vier Rollen: der Vater tief und ruhig, das Kind hoch und panisch, der Erlkönig leise und schmeichelnd.",
+      "Je öfter das Kind ruft, desto höher und schriller klingt es."
+    ],
+    "whatsNew": {
+      "title": "Die Musik zeigt Gefühle",
+      "text": "Es gibt kein Orchester mehr, und es fehlt nicht: Das Klavier übernimmt Pferd, Wind und Angst. Neu ist auch: Dur und Moll (hell und dunkel) zeigen jetzt Stimmungen. Der Erlkönig lockt in sanftem Dur, das Kind schreit auf scharfen Akkorden. Das Ende ist fast nackt: Das Klavier bricht ab, und nur die Stimme bleibt."
+    },
+    "alongside": {
+      "title": "Zur gleichen Zeit: Opernstars",
+      "text": "Rossini füllt die Opernhäuser Europas, Paganini begeistert als Geiger die Massen. Das Publikum liebt große Auftritte. Schubert findet sein Publikum dagegen im Wohnzimmer."
+    },
+    "forces": {
+      "streicher": 0,
+      "holz": 0,
+      "blech": 0,
+      "schlagwerk": 0,
+      "tasten": 3,
+      "stimme": 3
+    },
+    "profile": {
+      "zuhause": 0.2,
+      "apparat": 0.08,
+      "puls": 0.2,
+      "reibung": 0.3,
+      "fliesst": 0.1
+    },
+    "conceptIds": [
+      "dur-moll",
+      "dissonanz"
+    ],
+    "rush": [
+      0,
+      7
+    ],
+    "term": {
+      "word": "Lied",
+      "text": "heißt hier: ein Gedicht, in Musik gesetzt, für eine Singstimme und Klavier."
+    },
+    "swift": {
+      "tag": "verwandt",
+      "text": "Eine Stimme, ein Klavier oder eine Gitarre, eine Geschichte: Das kennen Sie von jeder ruhigen Ballade. Taylor Swift erzählt in ihren Liedern oft persönliche Geschichten. Schubert hat diese Form vor über 200 Jahren zur Kunst gemacht."
+    }
+  },
+  {
+    "id": "berlioz",
+    "order": 6,
+    "periodId": "romantik",
+    "theme": "romantik",
+    "short": "Berlioz",
+    "year": 1830,
+    "teaser": "Das Orchester wird riesig",
+    "headline": "Das Orchester wird zur Klangmaschine.",
+    "kicker": "Berlioz · Symphonie fantastique · 1830 – Musik erzählt eine Geschichte.",
+    "workId": "berlioz-fantastique",
+    "recordingId": "rec-berlioz",
+    "imageId": "berlioz",
+    "lead": "Beethoven benutzt das Orchester, um zu kämpfen. Berlioz benutzt es, um Bilder zu malen. Seine Sinfonie erzählt von einem Künstler, der sich in eine Frau verliebt und davon fast verrückt wird. In diesem Satz ist er auf einem Ball: Harfen funkeln, ein Walzer dreht sich, und eine Melodie kehrt immer wieder – die Frau, an die er denkt.",
+    "context": {
+      "title": "Paris 1830: Revolution und neue Instrumente",
+      "text": "Im Juli 1830 wird in Paris der König gestürzt. Im Dezember wird die Sinfonie zum ersten Mal gespielt. Berlioz hat gerade Beethoven entdeckt – und die Schauspielerin Harriet Smithson, in die er sich verliebt hat. Sie ist das Vorbild für die „geliebte Frau“ in der Sinfonie. Außerdem gibt es neue Instrumente: Hörner und Trompeten mit Ventilen können jetzt jeden Ton spielen."
+    },
+    "listenFor": [
+      "Das Funkeln der Harfen. In Sinfonien gab es sie vorher kaum.",
+      "Ein Walzer im Dreiertakt: Man kann dazu im Rhythmus „eins-zwei-drei“ mitwiegen.",
+      "Achten Sie auf die Klangfarben: Holzbläser, Streicher und Harfen lösen einander ab."
+    ],
+    "whatsNew": {
+      "title": "Klangfarben statt Kampf",
+      "text": "Wichtig ist jetzt auch, wer spielt, nicht nur was. Berlioz setzt Harfen, Englischhorn, Kornette, Tuba, Glocken und vier Paukenspieler ein. Er schreibt sogar ein Lehrbuch über Instrumente. Das Orchester wird zum Werkzeug, mit dem man Klänge mischt wie ein Maler seine Farben."
+    },
+    "alongside": {
+      "title": "Nicht alle waren begeistert",
+      "text": "Musiker wie Mendelssohn und später Brahms mochten Musik ohne Geschichte lieber. Ihr Streit – „Musik mit Geschichte oder Musik nur um ihrer selbst willen?“ – dauert das ganze 19. Jahrhundert."
+    },
+    "forces": {
+      "streicher": 3,
+      "holz": 3,
+      "blech": 3,
+      "schlagwerk": 3,
+      "tasten": 0,
+      "stimme": 0
+    },
+    "profile": {
+      "zuhause": 0.24,
+      "apparat": 0.86,
+      "puls": 0.35,
+      "reibung": 0.44,
+      "fliesst": 0.3
+    },
+    "compareId": "beethoven-berlioz",
+    "conceptIds": [
+      "farbe"
+    ],
+    "rush": [
+      0,
+      7
+    ],
+    "term": {
+      "word": "Programmmusik",
+      "text": "heißt Musik, die eine Geschichte erzählt oder etwas malt. Hier steht es schon im Titel: „Episode aus dem Leben eines Künstlers“."
+    },
+    "swift": {
+      "tag": "verwandt",
+      "text": "Wenn in einem Song plötzlich Streicher, ein Chor oder ein Synthesizer einsetzen, ändert sich die Stimmung, ohne dass ein Wort fällt. Das ist Klangfarbe. Berlioz hat gezeigt, wie weit man das treiben kann."
+    }
+  },
+  {
+    "id": "chopin",
+    "order": 7,
+    "periodId": "romantik",
+    "theme": "fruehromantik",
+    "short": "Chopin",
+    "year": 1832,
+    "teaser": "Ein Klavier, das singt",
+    "headline": "Ein Klavier, das singt wie ein Mensch.",
+    "kicker": "Chopin · Nocturne Es-Dur op. 9 Nr. 2 · 1832 – leise und persönlich.",
+    "workId": "chopin-op9-2",
+    "recordingId": "rec-chopin",
+    "imageId": "chopin",
+    "lead": "Nach Berlioz’ riesigem Orchester jetzt das Gegenteil: ein einziger Spieler am Klavier. Die rechte Hand singt eine Melodie, als wäre sie ein Mensch. Die linke Hand wiegt darunter sanft hin und her. Das Stück heißt „Nocturne“ – Nachtstück.",
+    "context": {
+      "title": "Paris und das moderne Klavier",
+      "text": "Chopin verlässt Warschau 1830 und lebt ab 1831 in Paris. Er spielt selten in großen Sälen, lieber in Salons vor ein paar Dutzend Gästen. Das Klavier ist inzwischen besser geworden: Es hat einen Eisenrahmen, stärkere Saiten und Pedale. Es kann jetzt singen, nachklingen und leise verklingen."
+    },
+    "listenFor": [
+      "Die Melodie in der rechten Hand: Sie singt, ziert sich und zögert.",
+      "Die linke Hand wiegt gleichmäßig – wie ein Teppich, auf dem die Melodie sich Freiheiten nimmt.",
+      "Das Pedal lässt Töne ineinanderfließen. Der Klang atmet."
+    ],
+    "whatsNew": {
+      "title": "Leiser, freier, persönlicher",
+      "text": "Gegenüber Berlioz: ein Spieler statt hundert. Und eine neue Freiheit beim Tempo: Die Melodie darf ein bisschen eilen und zögern, wie beim Sprechen. Die Harmonien sind farbiger als früher, aber man hört noch immer klar, wo das „Zuhause“ ist."
+    },
+    "alongside": {
+      "title": "Liszt: der Showstar",
+      "text": "Während Chopin flüstert, macht Franz Liszt das Klavier zum Orchester und sich zum ersten Star des Konzertsaals. Beide leben in Paris. Es gibt also nicht „die“ Romantik, sondern mindestens zwei Arten."
+    },
+    "forces": {
+      "streicher": 0,
+      "holz": 0,
+      "blech": 0,
+      "schlagwerk": 0,
+      "tasten": 3,
+      "stimme": 0
+    },
+    "profile": {
+      "zuhause": 0.3,
+      "apparat": 0.04,
+      "puls": 0.4,
+      "reibung": 0.34,
+      "fliesst": 0.16
+    },
+    "conceptIds": [
+      "melodie",
+      "harmonie"
+    ],
+    "rush": [
+      0,
+      7
+    ],
+    "term": {
+      "word": "Rubato",
+      "text": "heißt „gestohlene Zeit“: Die Melodie nimmt sich Zeit und gibt sie später zurück."
+    },
+    "swift": {
+      "tag": "verwandt",
+      "text": "Dass ein Klavier „singen“ kann, hören Sie in jeder Klavierballade. Das Instrument wurde zu Chopins Zeit so gebaut, wie wir es heute kennen: mit langem Nachklang und leisen Tönen. Jeder Popsong am Klavier profitiert davon."
+    }
+  },
+  {
+    "id": "wagner",
+    "order": 8,
+    "periodId": "romantik",
+    "theme": "spaetromantik",
+    "short": "Wagner",
+    "year": 1859,
+    "teaser": "Die Auflösung lässt auf sich warten",
+    "headline": "Die Lösung kommt erst nach vier Stunden.",
+    "kicker": "Wagner · Tristan und Isolde, Vorspiel · 1859 – das „Zuhause“ geht verloren.",
+    "workId": "wagner-tristan",
+    "recordingId": "rec-wagner",
+    "imageId": "wagner",
+    "lead": "Die ersten Töne stellen eine Frage. Die Antwort ist wieder eine Frage. Jeder Akkord scheint irgendwohin zu führen, aber dort wartet schon der nächste. Früher spürt man meist deutlich, wo die Musik „zu Hause“ ist. Hier geht dieses Zuhause verloren.",
+    "context": {
+      "title": "Sehnsucht in Musik",
+      "text": "Wagner liest 1854 den Philosophen Schopenhauer. Der schreibt: Das Verlangen des Menschen wird nie ganz gestillt. Genau das macht Wagner zu Musik: ein Stück, das selbst Sehnsucht ist. Die Auflösung, die dieser Anfang verspricht, kommt erst im allerletzten Akkord der Oper – rund vier Stunden später. Uraufgeführt wird sie 1865 in München."
+    },
+    "listenFor": [
+      "Der Anfang: leise Celli, ein Aufstieg, der kurz vor dem Ziel hängen bleibt. Dann ein Akkord, der klingt wie ein offener Gedanke (der berühmte „Tristan-Akkord“).",
+      "Wellen: Die Musik steigt an, bricht sich, fällt zurück. Wo Mozart einen Punkt setzt, setzt Wagner einen Gedankenstrich.",
+      "Die Spannung wächst, löst sich aber nie ganz. Wenn man glaubt, jetzt kommt das Ende, weicht die Musik aus."
+    ],
+    "whatsNew": {
+      "title": "Musik ohne Ziel",
+      "text": "Bei Mozart und Beethoven baut die Musik Spannung auf und löst sie wieder. Wagner baut auf – und löst nicht. Die Töne gleiten in winzigen Schritten auf und ab, Akkorde verwandeln sich, ohne anzukommen. Die Tonart gilt noch, aber man hört sie kaum noch."
+    },
+    "alongside": {
+      "title": "Brahms sagt: So nicht",
+      "text": "Brahms unterschreibt 1860 ein Manifest gegen Wagner und Liszt. Er wählt den entgegengesetzten Weg – die nächste Station."
+    },
+    "forces": {
+      "streicher": 3,
+      "holz": 3,
+      "blech": 3,
+      "schlagwerk": 1,
+      "tasten": 0,
+      "stimme": 0
+    },
+    "profile": {
+      "zuhause": 0.78,
+      "apparat": 0.8,
+      "puls": 0.55,
+      "reibung": 0.62,
+      "fliesst": 0.5
+    },
+    "conceptIds": [
+      "chromatik",
+      "tonart",
+      "dissonanz"
+    ],
+    "rush": [
+      0,
+      7
+    ],
+    "term": {
+      "word": "Chromatik",
+      "text": "heißt: Die Töne wandern in den kleinsten Schritten, die es gibt. Dadurch geht das Gefühl für „oben“ und „Zuhause“ verloren."
+    },
+    "swift": {
+      "tag": "verwandt",
+      "text": "Auch Popsongs zögern die Erlösung hinaus. Die Spannung steigt, bevor der Refrain kommt. Bei Wagner dauert das Warten vier Stunden, im Popsong ein paar Sekunden."
+    }
+  },
+  {
+    "id": "brahms",
+    "order": 9,
+    "periodId": "romantik",
+    "theme": "romantik",
+    "short": "Brahms",
+    "year": 1880,
+    "teaser": "Der andere Weg",
+    "headline": "Muss es immer weiter hinausgehen?",
+    "kicker": "Brahms · Tragische Ouvertüre · 1880 – leidenschaftlich, aber geordnet.",
+    "workId": "brahms-tragic",
+    "recordingId": "rec-brahms",
+    "imageId": "brahms",
+    "lead": "Während Wagner das „Zuhause“ der Tonart verschwinden lässt, baut Brahms es sorgfältig aus. Auch seine Musik ist leidenschaftlich und dunkel. Aber sie bleibt klar gebaut: Man hört jede Spannung kommen und jede Rückkehr. Manche nennen das altmodisch. Man kann es auch so sehen: Brahms traut dem alten System mehr zu als Wagner.",
+    "context": {
+      "title": "Ein Komponist, der zurückschaut",
+      "text": "Brahms kennt die alten Meister wie ein Archivar. Seine erste Sinfonie lässt er über zehn Jahre reifen, weil ihm Beethovens Schatten zu groß erscheint. Die Tragische Ouvertüre schreibt er im Sommer 1880, zusammen mit einem heiteren Gegenstück. Er sprach von einem lachenden und einem weinenden Auge. Aufgeführt wird sie im Dezember 1880 in Wien."
+    },
+    "listenFor": [
+      "Der Anfang: zwei harte Schläge, dann ein dunkles, drängendes Thema der Streicher. Keine Fanfare, eher ein Entschluss.",
+      "Auch in der Tiefe spürt man das „Zuhause“. Vergleichen Sie das Gefühl mit Wagner.",
+      "Die Musik wird größer, weil sie das Vorhandene weiterentwickelt – nicht durch Effekte."
+    ],
+    "whatsNew": {
+      "title": "Weiterentwickeln statt Aufbrechen",
+      "text": "Gegenüber Wagner klingt das nicht „alt“, sondern gebändigt: dunkle Streicher, warme Hörner und Posaunen, ein Orchester wie bei Beethoven. Neu ist auch hier etwas: wie viel Entwicklung in ganz kleinen Bausteinen steckt. Eine Ironie der Geschichte: Schönberg, der später die Tonart verließ, schrieb einen Aufsatz mit dem Titel „Brahms, der Fortschrittliche“."
+    },
+    "alongside": {
+      "title": "Brahms gegen Wagner?",
+      "text": "Der Streit war damals eine Parteisache, mit Zeitungen auf beiden Seiten. Brahms bewunderte Wagners „Meistersinger“, Wagner spottete über Brahms. Zwei Zeitgenossen, zwei Antworten auf dieselbe Frage."
+    },
+    "forces": {
+      "streicher": 3,
+      "holz": 2,
+      "blech": 2,
+      "schlagwerk": 1,
+      "tasten": 0,
+      "stimme": 0
+    },
+    "profile": {
+      "zuhause": 0.3,
+      "apparat": 0.58,
+      "puls": 0.35,
+      "reibung": 0.4,
+      "fliesst": 0.2
+    },
+    "compareId": "brahms-wagner",
+    "conceptIds": [
+      "tonart",
+      "form"
+    ],
+    "rush": [
+      0,
+      7
+    ],
+    "term": {
+      "word": "Passacaglia",
+      "text": "heißt: Ein kurzes Bassmuster wird in Variationen immer wieder wiederholt. Eine Form aus dem Barock, die Brahms in seiner 4. Sinfonie wiederentdeckt – und Caroline Shaw am Ende dieser Reise."
+    },
+    "swift": {
+      "tag": "verwandt",
+      "text": "Manche Künstler bleiben bei dem, was sie gut können. Andere probieren Neues. Taylor Swift hat ihren Stil mehrmals gewechselt, von Country zu Pop und später zu leiseren, folkigen Liedern. Brahms und Wagner zeigen: Beide Arten gibt es seit jeher. Keine ist von vornherein besser."
+    }
+  },
+  {
+    "id": "debussy",
+    "order": 10,
+    "periodId": "spaetromantik",
+    "theme": "impressionismus",
+    "short": "Debussy",
+    "year": 1894,
+    "teaser": "Akkorde wie Farben",
+    "headline": "Akkorde, die nirgendwo hinwollen.",
+    "kicker": "Debussy · Vorspiel zu „Nachmittag eines Fauns“ · 1894 – Musik wie ein Tagtraum.",
+    "workId": "debussy-faune",
+    "recordingId": "rec-debussy",
+    "imageId": "debussy",
+    "lead": "Eine Flöte beginnt allein, ohne Begleitung, ohne klare Richtung. Ihre Melodie schlängelt sich abwärts, steigt und zögert. Man folgt ihr wie einem Tagtraum. Wagner ließ das „Zuhause“ verschwinden, weil er die Ankunft immer weiter aufschob. Debussy lässt es verschwinden, weil es ihn nicht interessiert.",
+    "context": {
+      "title": "Paris, Dichter und ein Gamelan",
+      "text": "Das Stück beruht auf einem Gedicht von Stéphane Mallarmé. Der Dichter und seine Freunde mochten Andeutungen lieber als klare Aussagen. 1889 hört Debussy auf der Weltausstellung in Paris ein javanisches Gamelan-Orchester: Klänge, die nicht auf ein Ziel zulaufen, sondern kreisen. Das beeindruckt ihn tief. 1894 wird das Vorspiel zum ersten Mal gespielt."
+    },
+    "listenFor": [
+      "Die einsame Flöte am Anfang. Sie sinkt und steigt – man kann nicht vorhersagen, wohin.",
+      "Harfen und leise Streicher kommen dazu wie Lichtreflexe auf Wasser. Sie begleiten nicht, sie färben.",
+      "Nirgends Druck. Selbst die Höhepunkte sind sanft, als gäbe es keine Eile."
+    ],
+    "whatsNew": {
+      "title": "Farbe statt Richtung",
+      "text": "Bei Wagner wird die Spannung bis zum Zerreißen gedehnt. Bei Debussy gibt es kaum noch Spannung, die sich lösen müsste. Akkorde stehen nebeneinander wie Farbflächen und gleiten durch den Raum. Sie werden gewählt, weil sie schön klingen, nicht weil sie irgendwohin führen."
+    },
+    "alongside": {
+      "title": "Impressionismus? Das Wort mochte er nicht",
+      "text": "„Impressionismus“ ist ein Wort aus der Malerei. Kritiker klebten es auf Debussy; er lehnte es ab. Trotzdem hört man die Verwandtschaft zu Monet: Flecken, Licht, Stimmung."
+    },
+    "forces": {
+      "streicher": 2,
+      "holz": 3,
+      "blech": 1,
+      "schlagwerk": 1,
+      "tasten": 0,
+      "stimme": 0
+    },
+    "profile": {
+      "zuhause": 0.62,
+      "apparat": 0.5,
+      "puls": 0.5,
+      "reibung": 0.34,
+      "fliesst": 0.66
+    },
+    "compareId": "wagner-debussy",
+    "conceptIds": [
+      "farbe",
+      "chromatik"
+    ],
+    "rush": [
+      0,
+      7
+    ],
+    "term": {
+      "word": "Ganztonleiter",
+      "text": "ist eine Tonleiter aus lauter gleich großen Schritten. Sie hat kein Oben, kein Unten und kein Zuhause – darum schwebt sie."
+    },
+    "swift": {
+      "tag": "verwandt",
+      "text": "Weiche Klangflächen unter einem Lied, bei denen kein Akkord drängt, kennen Sie aus vielen Popproduktionen. Debussy gehört zu denen, die Klang um seiner selbst willen eingesetzt haben."
+    }
+  },
+  {
+    "id": "mahler",
+    "order": 11,
+    "periodId": "spaetromantik",
+    "theme": "spaetromantik",
+    "short": "Mahler",
+    "year": 1902,
+    "teaser": "Trompete, Marsch, Schrei",
+    "headline": "Ein Orchester wie die ganze Welt.",
+    "kicker": "Mahler · 5. Sinfonie, Trauermarsch · 1902 – erst ein Marsch, dann ein Schrei.",
+    "workId": "mahler-5",
+    "recordingId": "rec-mahler",
+    "imageId": "mahler",
+    "lead": "Eine einzelne Trompete spielt ein Signal, wie man es von der Kaserne kennt. Dann folgt ein schwerer Trauermarsch. Plötzlich bricht das ganze Orchester in einen Schrei aus. Mahler mischt Straßenmusik, Militär und Klage in einem Stück.",
+    "context": {
+      "title": "Wien um 1900",
+      "text": "Mahler leitet hauptberuflich die Wiener Hofoper und komponiert nur in den Sommerferien. Er wächst in Böhmen zwischen Militärkapellen und Volkstänzen auf. Diese Klänge hört man in seinen Sinfonien. „Die Sinfonie muss sein wie die Welt“, soll er 1907 gesagt haben, „sie muss alles umfassen.“ Die Zeit wird größer und lauter: Großstädte, Fabriken, Weltausstellungen. Auch die Musik wird größer."
+    },
+    "listenFor": [
+      "Die einsame Trompete am Anfang: ein Signal aus drei Tönen, das sich wiederholt. Danach antwortet das Orchester.",
+      "Der schwere Marsch: Er geht im Schritttempo und klingt müde und feierlich zugleich.",
+      "Der Ausbruch: Plötzlich wird alles laut und schnell. Mahler braucht kaum einen Übergang."
+    ],
+    "whatsNew": {
+      "title": "Mehr von allem",
+      "text": "Mahlers Orchester ist riesig: vier Hörner, mehrere Trompeten, Posaunen, Tuba und viel Schlagwerk. Die Tonart gilt noch, aber sie wird gedehnt: Klage und Trotz wechseln so schnell, dass nur noch die Form Halt gibt. Man hört, wie viel das alte System aushalten muss."
+    },
+    "alongside": {
+      "title": "Daneben: ein Gegenentwurf",
+      "text": "Im selben Jahr 1902 wird Debussys Oper „Pelléas et Mélisande“ uraufgeführt: leise, andeutend, ohne Pathos. Um 1900 gibt es nicht mehr nur eine Richtung."
+    },
+    "forces": {
+      "streicher": 3,
+      "holz": 3,
+      "blech": 3,
+      "schlagwerk": 2,
+      "tasten": 0,
+      "stimme": 0
+    },
+    "profile": {
+      "zuhause": 0.55,
+      "apparat": 0.95,
+      "puls": 0.5,
+      "reibung": 0.6,
+      "fliesst": 0.4
+    },
+    "conceptIds": [
+      "farbe",
+      "dissonanz"
+    ],
+    "rush": [
+      0,
+      7
+    ],
+    "term": {
+      "word": "Trauermarsch",
+      "text": "ist ein langsamer Marsch, wie man ihn bei Beerdigungen spielt."
+    },
+    "swift": {
+      "tag": "verwandt",
+      "text": "Musik für riesige Räume: Mahler füllt den Saal mit hundert Spielern. Heute füllt man Stadien mit Lautsprechern und Bühnenshow. Taylor Swift hat das 2023 mit ihrer Eras-Tour getan. Der Gedanke dahinter ist derselbe: Musik als Ereignis für Tausende."
+    }
+  },
+  {
+    "id": "schoenberg",
+    "order": 12,
+    "periodId": "moderne",
+    "theme": "expressionismus",
+    "short": "Schönberg",
+    "year": 1908,
+    "teaser": "Die Tonart gibt nach",
+    "headline": "Die Tonart gibt nach.",
+    "kicker": "Schönberg · 2. Streichquartett, letzter Satz · 1908 – hier verschwindet das „Zuhause“.",
+    "workId": "schoenberg-sq2",
+    "recordingId": "rec-schoenberg",
+    "imageId": "schoenberg",
+    "lead": "Eine Frauenstimme singt: „Ich fühle Luft von anderem Planeten.“ Und die Musik verlässt tatsächlich die Welt, in der man bisher gelebt hat. Über lange Strecken hat der Satz keine Tonart mehr, in der er zu Hause wäre. Erst ganz am Ende kehrt ein klarer Schlussakkord zurück – wie ein Abschied.",
+    "context": {
+      "title": "Wien 1908: Skandal und Lebenskrise",
+      "text": "Man muss Schönberg nicht lieben. Aber nach Wagner und Mahler ist leicht zu verstehen, warum jemand fragte: Wie weit kann man das „Zuhause“ der Tonart noch dehnen – und was kommt danach? Bei der Uraufführung im Dezember 1908 in Wien gibt es Pfiffe und Tumult. Im selben Jahr erlebt Schönberg auch privat die größte Krise seines Lebens: Seine Frau verlässt ihn für eine Zeit, ein befreundeter Maler nimmt sich das Leben."
+    },
+    "listenFor": [
+      "Die Stimme singt nicht „schön“ im üblichen Sinn, sondern in großen Sprüngen. Das ist Absicht.",
+      "Die Streicher spielen kaum noch Akkorde, auf die man wartet. Stattdessen gibt es schwebende Klänge, die nirgends ankommen.",
+      "Fragen Sie sich: Kann ich mich noch orientieren? Schönberg wollte, dass man neu hört."
+    ],
+    "whatsNew": {
+      "title": "Kein Zuhause mehr",
+      "text": "Bei Mahler wackelt die Tonart, aber sie trägt noch. Hier trägt sie nicht mehr. Die Töne sind nicht beliebig, sie folgen anderen Regeln. Aber das Gefühl, anzukommen, ist weg. Gleichzeitig wird die Gruppe kleiner: Vier Streicher und eine Stimme sagen es deutlicher als hundert Musiker."
+    },
+    "alongside": {
+      "title": "Die Tonart gibt es weiter",
+      "text": "Zur gleichen Zeit schreiben Ravel, Rachmaninow, Elgar und Sibelius weiter in Tonarten. Und Schönberg erfindet in den 1920ern ein neues Regelsystem, die Zwölftonmethode. Die Tonart verschwindet also nicht. Sie verliert nur ihr Monopol."
+    },
+    "forces": {
+      "streicher": 3,
+      "holz": 0,
+      "blech": 0,
+      "schlagwerk": 0,
+      "tasten": 0,
+      "stimme": 2
+    },
+    "profile": {
+      "zuhause": 0.92,
+      "apparat": 0.12,
+      "puls": 0.6,
+      "reibung": 0.85,
+      "fliesst": 0.6
+    },
+    "compareId": "mahler-schoenberg",
+    "conceptIds": [
+      "tonart",
+      "dissonanz",
+      "chromatik"
+    ],
+    "rush": [
+      0,
+      7
+    ],
+    "term": {
+      "word": "Atonalität",
+      "text": "heißt Musik ohne Tonart: Alle zwölf Töne sind gleich wichtig, keiner ist „Zuhause“. Schönberg mochte das Wort selbst nicht."
+    },
+    "swift": {
+      "tag": "anders",
+      "text": "Hier trennen sich die Wege. Fast jeder Popsong hat ein klares Zuhause, auch in den Liedern von Taylor Swift. Das ist keine Schwäche: Wer mitsingen oder tanzen will, braucht Boden unter den Füßen. Schönberg wollte etwas anderes."
+    }
+  },
+  {
+    "id": "stravinsky",
+    "order": 13,
+    "periodId": "moderne",
+    "theme": "rhythmus",
+    "short": "Strawinsky",
+    "year": 1913,
+    "teaser": "Der Takt stolpert",
+    "headline": "Die Revolution muss nicht in den Akkorden stecken.",
+    "kicker": "Strawinsky · Das Frühlingsopfer (Le Sacre du printemps) · 1913 – Rhythmus als Sprengstoff.",
+    "workId": "stravinsky-sacre",
+    "recordingId": "rec-stravinsky",
+    "imageId": "stravinsky",
+    "lead": "Schönberg wirft das „Zuhause“ hinaus. Strawinsky bringt den Takt zum Stolpern. Beim Opfertanz kann man kaum mitklopfen: Die Betonungen fallen dorthin, wo man sie nicht erwartet, und der Rhythmus wechselt fast ständig.",
+    "context": {
+      "title": "Paris 1913: Ballett und Tumult",
+      "text": "Das Stück entsteht für ein Ballett: ein heidnisches Frühlingsritual im alten Russland, an dessen Ende ein Mädchen sich zu Tode tanzt. Bei der Uraufführung am 29. Mai 1913 in Paris gibt es Pfiffe, Zwischenrufe und Tumult. Wie schlimm es wirklich war, ist unter Historikern umstritten. Sicher ist: Schon ein Jahr später wird das Stück im Konzertsaal gefeiert."
+    },
+    "listenFor": [
+      "Versuchen Sie, gleichmäßig mitzuklopfen. Es gelingt nur für Augenblicke.",
+      "Statt Melodien: kurze, harte Muster, die sich wiederholen und verschieben wie Bausteine.",
+      "Der Klang: Pauken, Blech und hohe Holzbläser. Das ganze Orchester wirkt wie ein Schlaginstrument."
+    ],
+    "whatsNew": {
+      "title": "Rhythmus statt Melodie",
+      "text": "Gegenüber Schönberg bleiben die Akkorde oft vertraut. Neu ist das Zeitgefühl: Der Takt wechselt fast ständig, die Betonungen wandern, kurze Muster wiederholen sich. Und das Orchester schlägt zu, wo früher Wohlklang war. Die Revolution steckt nicht in der Tonart, sondern im Puls."
+    },
+    "alongside": {
+      "title": "Der andere Strawinsky",
+      "text": "Wenige Jahre später klingt Strawinsky ganz anders: sparsam, nüchtern, mit Anleihen bei Bach und Pergolesi („Neoklassizismus“). Wer glaubt, Musik gehe immer nur in eine Richtung, hat mit ihm ein Problem."
+    },
+    "forces": {
+      "streicher": 3,
+      "holz": 3,
+      "blech": 3,
+      "schlagwerk": 3,
+      "tasten": 0,
+      "stimme": 0
+    },
+    "profile": {
+      "zuhause": 0.55,
+      "apparat": 0.86,
+      "puls": 0.96,
+      "reibung": 0.76,
+      "fliesst": 0.34
+    },
+    "compareId": "schoenberg-stravinsky",
+    "conceptIds": [
+      "rhythmus"
+    ],
+    "rush": false,
+    "term": {
+      "word": "Taktwechsel",
+      "text": "heißt: Die Zahl der Schläge pro Takt wechselt ständig, darum fehlt das Gefühl eines festen Raums."
+    },
+    "swift": {
+      "tag": "anders",
+      "text": "Popmusik bleibt fast immer im gleichmäßigen Schlag, denn man will dazu tanzen. Strawinskys wechselnde Takte sind das Gegenteil. Der Körper erwartet etwas, das nicht kommt. Das macht das Stück so aufregend – und für manche anstrengend."
+    }
+  },
+  {
+    "id": "bartok",
+    "order": 14,
+    "periodId": "moderne",
+    "theme": "rhythmus",
+    "short": "Bartók",
+    "year": 1917,
+    "teaser": "Der dritte Weg",
+    "headline": "Ein dritter Weg: die Volksmusik.",
+    "kicker": "Bartók · 2. Streichquartett, 2. Satz · 1917 – weder alte Regeln noch Schönberg.",
+    "workId": "bartok-sq2",
+    "recordingId": "rec-bartok",
+    "imageId": "bartok",
+    "lead": "Béla Bartók reist ab etwa 1905 mit einem Phonographen durch Dörfer und nimmt Volkslieder auf. Er findet dort Tonleitern und Rhythmen, die in keinem Lehrbuch stehen. Sein Quartett benutzt sie, ohne ein einziges Volkslied zu zitieren. Es klingt weder nach Wien noch nach Paris.",
+    "context": {
+      "title": "Mitten im Ersten Weltkrieg",
+      "text": "Das Quartett entsteht 1915 bis 1917, mitten im Ersten Weltkrieg. Bartók muss wegen seiner Gesundheit nicht Soldat werden und arbeitet an seinen Liedersammlungen weiter. Er sammelt ungarische, rumänische, slowakische und sogar nordafrikanische Melodien – aus Neugier, nicht aus Nationalismus. Uraufgeführt wird das Quartett 1918 in Budapest."
+    },
+    "listenFor": [
+      "Der Tanzcharakter: ein wilder, stampfender Schlag mit unerwarteten Betonungen.",
+      "Die Streicher klingen nicht schön, sondern echt: kratzig, schnarrend, mit Saiten, die schnalzen.",
+      "Man spürt Töne, auf die alles zielt – aber keine klare Dur-Moll-Ordnung."
+    ],
+    "whatsNew": {
+      "title": "Klänge von außerhalb",
+      "text": "Bartók löst die Tonart nicht auf wie Schönberg und sprengt nicht nur den Takt wie Strawinsky. Er holt sich neue Klänge aus der Volksmusik, mischt sie mit eigenen Akkorden und behält eine klare Form. Dazu kommen harte Betonungen und Spezialeffekte für Streicher."
+    },
+    "alongside": {
+      "title": "Muss neue Musik atonal sein?",
+      "text": "Bartók, später auch Schostakowitsch, Prokofjew und Britten zeigen: Wer 1920 oder 1950 neue Musik schreiben wollte, musste die Tonart nicht abschaffen. Die Musik des 20. Jahrhunderts besteht nicht nur aus Schönbergs Weg, sondern aus vielen."
+    },
+    "forces": {
+      "streicher": 3,
+      "holz": 0,
+      "blech": 0,
+      "schlagwerk": 0,
+      "tasten": 0,
+      "stimme": 0
+    },
+    "profile": {
+      "zuhause": 0.5,
+      "apparat": 0.12,
+      "puls": 0.85,
+      "reibung": 0.7,
+      "fliesst": 0.3
+    },
+    "conceptIds": [
+      "rhythmus"
+    ],
+    "rush": false,
+    "swift": {
+      "tag": "verwandt",
+      "text": "Taylor Swift begann als Country-Sängerin, in einer Musik mit Wurzeln in Volksliedern. Auch Bartók holte sich Klänge aus dem Volkslied. Aus der einfachen Musik der Leute kann Kunst werden, die weit über das Dorf hinausreicht."
+    }
+  },
+  {
+    "id": "messiaen",
+    "order": 15,
+    "periodId": "nachkrieg",
+    "theme": "nachkrieg",
+    "short": "Messiaen",
+    "year": 1941,
+    "teaser": "Musik ohne Takt",
+    "headline": "Musik, die nicht vorwärts will.",
+    "kicker": "Messiaen · Quartett für das Ende der Zeit · 1941 – Zeit als Material, Vogelgesang als Vorbild.",
+    "workId": "messiaen-quatuor",
+    "recordingId": "rec-messiaen",
+    "imageId": "messiaen",
+    "lead": "Am Anfang steht eine einzelne Klarinette, die ganz leise lange Töne hält, sodass die Zeit stillzustehen scheint. Olivier Messiaen schrieb das Stück in deutscher Kriegsgefangenschaft. Im Januar 1941 wurde es im Lager Görlitz vor Mitgefangenen zum ersten Mal gespielt, auf zusammengesuchten Instrumenten.",
+    "context": {
+      "title": "Görlitz, Januar 1941",
+      "text": "Messiaen ist Organist, gläubiger Katholik und leidenschaftlicher Vogelkundler. Vogelstimmen schreibt er so genau auf wie andere Komponisten Akkorde. Das Quartett bezieht sich auf die Offenbarung des Johannes, in der ein Engel schwört, dass „keine Zeit mehr sein soll“. Der dritte Satz heißt „Abgrund der Vögel“. Der Abgrund ist die Zeit mit ihrer Traurigkeit, die Vögel sind die Sehnsucht nach Licht und Gesang."
+    },
+    "listenFor": [
+      "Der Anfang: sehr leise, sehr lange Töne einer einzelnen Klarinette. Die Stille spielt mit.",
+      "Später: schnelle, helle Läufe wie Vogelrufe, ohne erkennbare Ordnung.",
+      "Es gibt nichts zum Mitzählen. Versuchen Sie es trotzdem – und achten Sie darauf, wie sich Ihr Zeitgefühl verändert."
+    ],
+    "whatsNew": {
+      "title": "Zeit statt Takt",
+      "text": "Es gibt keinen Takt, auf den man warten könnte. Die Töne kommen und gehen, als wäre die Zeit selbst dehnbar. Daneben stehen Vogelgesänge: schnelle, helle Muster, die aus der Natur stammen. Messiaen erfindet eigene Tonleitern, die ein „Zuhause“ nur andeuten."
+    },
+    "alongside": {
+      "title": "Nach dem Krieg: Regeln statt Gefühl",
+      "text": "Messiaens Klavierstück von 1949 wird zum Startpunkt einer Musik, in der Komponisten wie Boulez und Stockhausen Tonhöhe, Dauer und Lautstärke nach strengen Zahlenreihen ordnen. Das ist fast das Gegenteil von Vogelgesang – und beides geht auf denselben Lehrer zurück."
+    },
+    "forces": {
+      "streicher": 0,
+      "holz": 3,
+      "blech": 0,
+      "schlagwerk": 0,
+      "tasten": 0,
+      "stimme": 0
+    },
+    "profile": {
+      "zuhause": 0.66,
+      "apparat": 0.1,
+      "puls": 0.95,
+      "reibung": 0.45,
+      "fliesst": 0.76
+    },
+    "conceptIds": [
+      "rhythmus",
+      "tonart"
+    ],
+    "rush": false,
+    "swift": {
+      "tag": "anders",
+      "text": "Das ist das Gegenteil eines Popsongs: kein Beat, kein Refrain zum Mitsingen. Ein Popsong dauert meist ein paar Minuten und treibt voran. Hier steht die Zeit still. Hören Sie beides direkt nacheinander."
+    }
+  },
+  {
+    "id": "ligeti",
+    "order": 16,
+    "periodId": "nachkrieg",
+    "theme": "nachkrieg",
+    "short": "Ligeti",
+    "year": 1961,
+    "teaser": "Klang wie Wolken",
+    "headline": "Keine Melodie, kein Takt – nur Klang.",
+    "kicker": "Ligeti · Atmosphères · 1961 – Musik wie Wolken.",
+    "workId": "ligeti-atmospheres",
+    "recordingId": "rec-ligeti",
+    "imageId": "ligeti",
+    "lead": "Es beginnt mit einem Klang, der zu keiner Melodie gehört: ein riesiger, sehr leiser Block aus vielen eng beieinanderliegenden Tönen. Danach wird nichts erzählt. Der Klang verändert sich, wie sich Wolken verändern: langsam, ohne dass man merkt, wann.",
+    "context": {
+      "title": "Ungarn 1956, Köln, Donaueschingen",
+      "text": "Ligeti flieht 1956 nach dem Aufstand in Ungarn in den Westen und arbeitet im Elektronikstudio des WDR in Köln. „Atmosphères“ wird am 22. Oktober 1961 bei den Donaueschinger Musiktagen uraufgeführt. Sieben Jahre später verwendet der Regisseur Stanley Kubrick das Stück im Film „2001: Odyssee im Weltraum“. Für viele Menschen ist es seitdem der Klang des Weltraums."
+    },
+    "listenFor": [
+      "Der Anfang: ein Block aus vielen sehr leisen Streichertönen. Kein einzelner Ton ist herauszuhören.",
+      "Verwandlung statt Verlauf: Der Klang wird heller, dichter, verschiebt sich langsam. Man hört das Ganze, nicht die einzelnen Teile.",
+      "Kein Schlag. Achten Sie darauf, was passiert, wenn nichts Sie in einen Takt zwingt."
+    ],
+    "whatsNew": {
+      "title": "Klangfläche statt Thema",
+      "text": "Bei Messiaen gab es noch Vogelrufe, die man benennen konnte. Hier verschwinden alle Einzelstimmen im Ganzen: 87 Spieler, jeder mit eigener Linie, verschmelzen zu einer dichten Fläche. Ligeti nennt das „Mikropolyphonie“. Melodie, Rhythmus und Harmonie im alten Sinn gibt es nicht mehr. Übrig bleiben Dichte, Höhe und Farbe."
+    },
+    "alongside": {
+      "title": "Auch anderswo: Klangmassen",
+      "text": "Der Pole Krzysztof Penderecki setzt 1960 in seinem Stück für die Opfer von Hiroshima ebenfalls auf Klangmassen. Währenddessen bereiten junge Komponisten in New York das Gegenteil vor: Einfachheit."
+    },
+    "forces": {
+      "streicher": 3,
+      "holz": 2,
+      "blech": 2,
+      "schlagwerk": 1,
+      "tasten": 1,
+      "stimme": 0
+    },
+    "profile": {
+      "zuhause": 0.86,
+      "apparat": 0.86,
+      "puls": 0.92,
+      "reibung": 0.76,
+      "fliesst": 0.98
+    },
+    "conceptIds": [
+      "dissonanz",
+      "farbe"
+    ],
+    "rush": false,
+    "term": {
+      "word": "Cluster",
+      "text": "nennt man einen Klang, bei dem viele benachbarte Töne gleichzeitig erklingen."
+    },
+    "swift": {
+      "tag": "anders",
+      "text": "Klang ohne Takt und Melodie kommt im Pop selten vor, eher als Einleitung. Bekannter ist er aus dem Kino: „Atmosphères“ läuft in Stanley Kubricks Film „2001“. Wer den Film kennt, hat Ligeti schon gehört."
+    }
+  },
+  {
+    "id": "reich",
+    "order": 17,
+    "periodId": "gegenwart",
+    "theme": "minimal",
+    "short": "Reich",
+    "year": 1976,
+    "teaser": "Der Puls kommt zurück",
+    "headline": "Die Antwort auf alles Komplizierte: ein Puls.",
+    "kicker": "Reich · Music for 18 Musicians · 1976 – Wiederholung, die sich langsam verwandelt.",
+    "workId": "reich-18",
+    "recordingId": "rec-reich",
+    "imageId": "reich",
+    "lead": "Marimbas und Klaviere schlagen einen gleichmäßigen Puls an, der kaum aufhört. Darüber verschiebt sich ein Muster so langsam, dass man den Augenblick des Wechsels nie erwischt. Nach den Wolken von Ligeti: wieder fester Boden, ein Takt, den man mitklopfen kann, und Akkorde, die man als Dur und Moll wiedererkennt.",
+    "context": {
+      "title": "New York in den 1970ern",
+      "text": "Steve Reich und seine Generation – etwa Terry Riley, La Monte Young und Philip Glass – wuchsen in einer Zeit auf, in der ernste Musik an den Universitäten sehr kompliziert geworden war. Sie suchten das Gegenteil: Klarheit, Wiederholung, Puls. Anregungen kamen aus afrikanischer Trommelmusik (Reich studierte 1970 in Ghana), aus balinesischer Gamelan-Musik und aus Indien. 1976 wird „Music for 18 Musicians“ in New York zum ersten Mal gespielt."
+    },
+    "listenFor": [
+      "Der Puls: Ein gleichmäßiges Pochen auf Klavier, Marimba und Xylophon trägt das Ganze.",
+      "Muster, die sich verschieben: Versuchen Sie, den Moment zu erwischen, in dem sich etwas ändert – er entwischt.",
+      "Atem: Klarinetten und Stimmen halten ihre Töne genau so lang, wie ein Atemzug reicht."
+    ],
+    "whatsNew": {
+      "title": "Weniger ist Ordnung",
+      "text": "Bisher versprach Musik immer eine Entwicklung: Thema, Gegenthema, Steigerung. Hier gibt es einen Vorgang: kleine Verschiebungen, die man verfolgen kann. Das klingt einfach und ist doch nicht simpel. Es ist die Gegenbewegung zu Ligeti und zur strengen Zahlenmusik – und ebenso radikal."
+    },
+    "alongside": {
+      "title": "Glass, Riley, Young",
+      "text": "Gleichzeitig entwickeln Philip Glass („Einstein on the Beach“, 1976) und Terry Riley („In C“, 1964) eigene Spielarten. Die drei verbindet nur, dass sie auf die Kompliziertheit der Nachkriegsmusik verzichten."
+    },
+    "forces": {
+      "streicher": 1,
+      "holz": 2,
+      "blech": 0,
+      "schlagwerk": 3,
+      "tasten": 3,
+      "stimme": 2
+    },
+    "profile": {
+      "zuhause": 0.14,
+      "apparat": 0.36,
+      "puls": 0.04,
+      "reibung": 0.16,
+      "fliesst": 0.76
+    },
+    "compareId": "ligeti-reich",
+    "conceptIds": [
+      "rhythmus",
+      "form"
+    ],
+    "rush": false,
+    "term": {
+      "word": "Minimal Music",
+      "text": "ist ein Etikett von Kritikern für Musik, die mit wenigen Mitteln und viel Wiederholung arbeitet."
+    },
+    "swift": {
+      "tag": "kennen",
+      "text": "Hier sind Sie zu Hause: Ein Beat und ein Muster, das immer wiederkehrt, ist das Bauprinzip von Pop. Reich macht aus der Wiederholung das ganze Stück. Im Popsong ist sie der Weg zum Ohrwurm."
+    }
+  },
+  {
+    "id": "paert",
+    "order": 18,
+    "periodId": "gegenwart",
+    "theme": "nacht",
+    "short": "Pärt",
+    "year": 1977,
+    "teaser": "Eine Glocke, eine Tonleiter",
+    "headline": "Stille als Gegenmittel.",
+    "kicker": "Pärt · Cantus in Memoriam Benjamin Britten · 1977 – eine Glocke, eine Tonleiter, Trauer.",
+    "workId": "paert-cantus",
+    "recordingId": "rec-paert",
+    "imageId": "paert",
+    "lead": "Eine Glocke läutet, immer derselbe Ton. Dann steigen Streicher, zuerst kaum hörbar, eine Moll-Tonleiter abwärts – alle dieselbe, jede Gruppe in anderem Tempo. Kein Drama, keine Überraschung. Das „Zuhause“ der Tonart ist zurück, aber nicht als Regel, sondern als Ruhe.",
+    "context": {
+      "title": "Estland unter sowjetischer Herrschaft – und dann Schweigen",
+      "text": "Arvo Pärt kommt in der Sowjetunion zuerst mit moderner Musik in Konflikt. Sein Stück „Credo“ wird 1968 verboten, weil es einen religiösen Text enthält. Danach schweigt er fast acht Jahre, studiert mittelalterliche Musik und findet 1976 seinen eigenen Stil. Er nennt ihn „Tintinnabuli“ – nach dem lateinischen Wort für Glöckchen. Auf den Tod des englischen Komponisten Benjamin Britten, den er nie persönlich getroffen hat, schreibt er 1977 dieses Stück. 1980 verlässt er Estland."
+    },
+    "listenFor": [
+      "Die Glocke: ein einziger Ton in gleichmäßigem Abstand. Er trägt das ganze Stück.",
+      "Die Streicher steigen dieselbe Tonleiter abwärts, jede Gruppe in anderem Tempo. Hören Sie, wie die Schichten sich ineinanderschieben.",
+      "Es wird laut, aber nicht dramatisch. Die Wirkung kommt aus der Wiederholung."
+    ],
+    "whatsNew": {
+      "title": "Das Ende der Entwicklung",
+      "text": "Bei Reich ist Musik ein Vorgang, bei Pärt ist sie Stillstand mit Tiefe. Das Stück besteht aus einer absteigenden Tonleiter, die in verschiedenen Tempi übereinandergelegt wird, und einer Glocke auf dem Ton A. Das „Zuhause“ ist wieder da – und die Zeit hat sich gedehnt."
+    },
+    "alongside": {
+      "title": "Auch andere dachten um",
+      "text": "In denselben Jahren schreiben auch Henryk Górecki (3. Sinfonie, 1976) und John Tavener langsame, gläubige Musik. Man nennt das „Neue Einfachheit“ oder „sakralen Minimalismus“. Der Glaube der Nachkriegsavantgarde an immer neuere Musik hatte Gegner bekommen."
+    },
+    "forces": {
+      "streicher": 3,
+      "holz": 0,
+      "blech": 0,
+      "schlagwerk": 1,
+      "tasten": 0,
+      "stimme": 0
+    },
+    "profile": {
+      "zuhause": 0.1,
+      "apparat": 0.3,
+      "puls": 0.2,
+      "reibung": 0.2,
+      "fliesst": 0.5
+    },
+    "conceptIds": [
+      "tonart",
+      "form"
+    ],
+    "rush": false,
+    "term": {
+      "word": "Tintinnabuli",
+      "text": "nennt Pärt seinen Stil: Neben einer Melodie spielt eine zweite Stimme nur die Töne eines einfachen Akkords – wie das Mitklingen einer Glocke."
+    },
+    "swift": {
+      "tag": "verwandt",
+      "text": "Auch im Pop gibt es Lieder, die vom Weglassen leben: wenige Töne, viel Platz, eine Stimme. Pärt macht daraus eine ganze Haltung. Hören Sie nach, wie viel Ruhe dieselbe Idee bekommt, wenn niemand sie verkaufen muss."
+    }
+  },
+  {
+    "id": "shaw",
+    "order": 19,
+    "periodId": "gegenwart",
+    "theme": "gegenwart",
+    "short": "Shaw",
+    "year": 2011,
+    "teaser": "Alles ist wieder erlaubt",
+    "headline": "Alles ist wieder erlaubt – auch die Tonart.",
+    "kicker": "Shaw · Passacaglia aus „Partita for 8 Voices“ · 2011 – ein alter Tanz, dreihundert Jahre später.",
+    "workId": "shaw-partita",
+    "recordingId": "rec-shaw",
+    "imageId": "shaw",
+    "lead": "Acht Stimmen, kein Orchester. Sie singen, sprechen und flüstern. Manchmal klingen sie wie ein Streichquartett, manchmal wie eine Runde tuschelnder Freunde. „Passacaglia“ heißt ein alter Tanz, bei dem sich ein Muster immer wieder wiederholt. Das passiert auch hier.",
+    "context": {
+      "title": "Heute: viele Wege zugleich",
+      "text": "Caroline Shaw, geboren 1982, gewinnt 2013 mit 30 Jahren den Pulitzer-Preis für Musik – als bis dahin jüngste Preisträgerin. Heute schreibt niemand mehr vor, wie man komponieren muss. Tonart, Tonlosigkeit, Pop, Elektronik, Volksmusik – alles liegt auf dem Tisch. Das ist weder Fortschritt noch Rückschritt, sondern eine neue Lage. Das Ensemble Roomful of Teeth setzt in dieser Partita ungewöhnliche Stimmtechniken ein, vom Sprechen bis zum Obertongesang."
+    },
+    "listenFor": [
+      "Das Muster: Ein kurzer Ablauf von Akkorden kehrt immer wieder – wie in den Passacaglien von Bach und Brahms, nur mit Stimmen.",
+      "Die Stimmen sind nicht nur „schön“: Sie atmen, flüstern und sprechen. Der Körper wird zum Instrument.",
+      "Vieles klingt vertraut – und wenig davon klingt nach dem Jahr 1750."
+    ],
+    "whatsNew": {
+      "title": "Die Tonart ist zurück – als Möglichkeit",
+      "text": "Was 1908 als Bruch begann, endet nicht in einer Sackgasse: Heute dürfen Komponistinnen und Komponisten wieder in Dur und Moll schreiben, ohne sich zu rechtfertigen – und dürfen es auch lassen. Der Weg von Bach bis hierher war kein Aufstieg zu immer Schwierigerem, sondern eine Erweiterung dessen, was möglich ist."
+    },
+    "alongside": {
+      "title": "Ein Echo auf Bach",
+      "text": "Shaw wählt für ihre Partita Tanzformen wie in Bachs Suiten: Allemande, Sarabande, Courante, Passacaglia. Damit endet die Reise bei dem Gedanken, mit dem sie begann: Ordnung, die sich wiederholt."
+    },
+    "forces": {
+      "streicher": 0,
+      "holz": 0,
+      "blech": 0,
+      "schlagwerk": 0,
+      "tasten": 0,
+      "stimme": 3
+    },
+    "profile": {
+      "zuhause": 0.34,
+      "apparat": 0.2,
+      "puls": 0.55,
+      "reibung": 0.4,
+      "fliesst": 0.5
+    },
+    "conceptIds": [
+      "tonart",
+      "form"
+    ],
+    "rush": false,
+    "swift": {
+      "tag": "kennen",
+      "text": "Und Taylor Swift? Sie steht nicht am Rand dieser Geschichte. Strophe, Refrain, Bridge, ein Zuhause, Wiederholung: Das ist dasselbe Handwerk, das Sie auf dieser Reise gehört haben. Der Unterschied: Pop hat das Zuhause nie verlassen. Das ist eine Einschätzung. Ob das besser oder schlechter ist, sagt die Musik nicht."
+    }
+  }
+]

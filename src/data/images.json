@@ -1,0 +1,363 @@
+[
+  {
+    "id": "bach",
+    "file": "img/bach.jpg",
+    "alt": "Porträt Johann Sebastian Bachs im Alter von etwa 60 Jahren, Ölgemälde",
+    "title": "Johann Sebastian Bach",
+    "creator": "Elias Gottlob Haussmann",
+    "date": "1748",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Johann_Sebastian_Bach.jpg",
+    "license": {
+      "name": "Gemeinfrei (Gemälde, Urheber vor über 70 Jahren verstorben)",
+      "url": "https://creativecommons.org/publicdomain/mark/1.0/"
+    },
+    "attribution": "Elias Gottlob Haussmann, 1748; gemeinfrei.",
+    "width": 800,
+    "height": 1000,
+    "origWidth": 1376,
+    "focus": "50% 20%"
+  },
+  {
+    "id": "haydn",
+    "file": "img/haydn.jpg",
+    "alt": "Porträt Joseph Haydns mit gepuderter Perücke, Gemälde von Thomas Hardy",
+    "title": "Joseph Haydn",
+    "creator": "Thomas Hardy",
+    "date": "1791",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Joseph_Haydn,_portrait_by_Thomas_Hardy.jpg",
+    "license": {
+      "name": "Gemeinfrei (Gemälde, Urheber vor über 70 Jahren verstorben)",
+      "url": "https://creativecommons.org/publicdomain/mark/1.0/"
+    },
+    "attribution": "Thomas Hardy, 1791; gemeinfrei.",
+    "width": 800,
+    "height": 1000,
+    "origWidth": 768,
+    "focus": "50% 25%"
+  },
+  {
+    "id": "mozart",
+    "file": "img/mozart.jpg",
+    "alt": "Porträt Wolfgang Amadeus Mozarts, Gemälde von Barbara Krafft",
+    "title": "Wolfgang Amadeus Mozart",
+    "creator": "Barbara Krafft",
+    "date": "1819",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Wolfgang-amadeus-mozart_1.jpg",
+    "license": {
+      "name": "Gemeinfrei (Gemälde, Urheberin vor über 70 Jahren verstorben)",
+      "url": "https://creativecommons.org/publicdomain/mark/1.0/"
+    },
+    "attribution": "Barbara Krafft, 1819 (nach früheren Vorlagen); gemeinfrei.",
+    "width": 800,
+    "height": 1000,
+    "origWidth": 2996,
+    "focus": "50% 22%"
+  },
+  {
+    "id": "beethoven",
+    "file": "img/beethoven.jpg",
+    "alt": "Ludwig van Beethoven mit dem Manuskript der Missa solemnis, Gemälde von Joseph Karl Stieler",
+    "title": "Beethoven mit dem Manuskript der Missa solemnis",
+    "creator": "Joseph Karl Stieler",
+    "date": "1820",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Joseph_Karl_Stieler's_Beethoven_mit_dem_Manuskript_der_Missa_solemnis.jpg",
+    "license": {
+      "name": "Gemeinfrei (Gemälde, Urheber vor über 70 Jahren verstorben)",
+      "url": "https://creativecommons.org/publicdomain/mark/1.0/"
+    },
+    "attribution": "Joseph Karl Stieler, 1820; gemeinfrei.",
+    "width": 800,
+    "height": 1000,
+    "origWidth": 4330,
+    "focus": "50% 25%"
+  },
+  {
+    "id": "schubert",
+    "file": "img/schubert.jpg",
+    "alt": "Porträt Franz Schuberts, Aquarell von Wilhelm August Rieder",
+    "title": "Franz Schubert",
+    "creator": "Wilhelm August Rieder",
+    "date": "1825 (Fassung von 1875)",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Franz_Schubert_by_Wilhelm_August_Rieder_1875.jpg",
+    "license": {
+      "name": "Gemeinfrei (Urheber vor über 70 Jahren verstorben)",
+      "url": "https://creativecommons.org/publicdomain/mark/1.0/"
+    },
+    "attribution": "Wilhelm August Rieder, Aquarell von 1825 (Fassung 1875); gemeinfrei.",
+    "width": 800,
+    "height": 1000,
+    "origWidth": 2437,
+    "focus": "50% 25%"
+  },
+  {
+    "id": "berlioz",
+    "file": "img/berlioz.jpg",
+    "alt": "Fotografie Hector Berlioz’ im Alter, aufgenommen von Pierre Petit",
+    "title": "Hector Berlioz",
+    "creator": "Pierre Petit",
+    "date": "um 1863",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Berlioz_Petit_BNF_Gallica.png",
+    "license": {
+      "name": "Gemeinfrei (Fotografie, Urheber vor über 70 Jahren verstorben)",
+      "url": "https://creativecommons.org/publicdomain/mark/1.0/"
+    },
+    "attribution": "Pierre Petit, um 1863; Bibliothèque nationale de France (Gallica); gemeinfrei.",
+    "width": 800,
+    "height": 1000,
+    "origWidth": 4131,
+    "focus": "50% 20%"
+  },
+  {
+    "id": "chopin",
+    "file": "img/chopin.jpg",
+    "alt": "Porträt Frédéric Chopins, Gemälde von Eugène Delacroix",
+    "title": "Frédéric Chopin",
+    "creator": "Eugène Delacroix",
+    "date": "1838",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fr%C3%A9d%C3%A9ric_Chopin_-_Eug%C3%A8ne_Delacroix_-_Mus%C3%A9e_du_Louvre_Peintures_RF_1717.jpg",
+    "license": {
+      "name": "Gemeinfrei (Gemälde, Urheber vor über 70 Jahren verstorben)",
+      "url": "https://creativecommons.org/publicdomain/mark/1.0/"
+    },
+    "attribution": "Eugène Delacroix, 1838; Musée du Louvre; gemeinfrei.",
+    "width": 800,
+    "height": 1000,
+    "origWidth": 4328,
+    "focus": "50% 30%"
+  },
+  {
+    "id": "wagner",
+    "file": "img/wagner.jpg",
+    "alt": "Porträt Richard Wagners, Gemälde von Cäsar Willich",
+    "title": "Richard Wagner",
+    "creator": "Cäsar Willich",
+    "date": "um 1862",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Richard_Wagner_by_Caesar_Willich_ca_1862.jpg",
+    "license": {
+      "name": "Gemeinfrei (Gemälde, Urheber vor über 70 Jahren verstorben)",
+      "url": "https://creativecommons.org/publicdomain/mark/1.0/"
+    },
+    "attribution": "Cäsar Willich, um 1862; Stadtgeschichtliches Museum Leipzig; gemeinfrei.",
+    "width": 800,
+    "height": 1000,
+    "origWidth": 2213,
+    "focus": "50% 20%"
+  },
+  {
+    "id": "brahms",
+    "file": "img/brahms.jpg",
+    "alt": "Fotografie Johannes Brahms’ mit Vollbart, aufgenommen in Berlin",
+    "title": "Johannes Brahms",
+    "creator": "C. Brasch, Berlin",
+    "date": "1889",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Johannes_Brahms_portrait.jpg",
+    "license": {
+      "name": "Gemeinfrei (Fotografie, Urheber vor über 70 Jahren verstorben)",
+      "url": "https://creativecommons.org/publicdomain/mark/1.0/"
+    },
+    "attribution": "C. Brasch, Berlin, 1889; gemeinfrei.",
+    "width": 800,
+    "height": 1000,
+    "origWidth": 502,
+    "focus": "50% 30%"
+  },
+  {
+    "id": "debussy",
+    "file": "img/debussy.jpg",
+    "alt": "Fotografie Claude Debussys, Atelier Nadar, um 1908",
+    "title": "Claude Debussy",
+    "creator": "Atelier Nadar (Restaurierung: Adam Cuerden)",
+    "date": "um 1908",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Claude_Debussy_by_Atelier_Nadar.jpg",
+    "license": {
+      "name": "Gemeinfrei (Fotografie vor 1929)",
+      "url": "https://creativecommons.org/publicdomain/mark/1.0/"
+    },
+    "attribution": "Atelier Nadar, um 1908; digital restauriert von Adam Cuerden; gemeinfrei.",
+    "width": 800,
+    "height": 1000,
+    "origWidth": 1982,
+    "focus": "50% 25%"
+  },
+  {
+    "id": "mahler",
+    "file": "img/mahler.jpg",
+    "alt": "Fotografie Gustav Mahlers von 1909",
+    "title": "Gustav Mahler",
+    "creator": "Atelier Dupont",
+    "date": "1909",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gustav_Mahler_1909.jpg",
+    "license": {
+      "name": "Gemeinfrei (Fotografie vor 1929)",
+      "url": "https://creativecommons.org/publicdomain/mark/1.0/"
+    },
+    "attribution": "Atelier Dupont, New York, 1909; gemeinfrei.",
+    "width": 800,
+    "height": 1000,
+    "origWidth": 1035,
+    "focus": "50% 25%"
+  },
+  {
+    "id": "schoenberg",
+    "file": "img/schoenberg.jpg",
+    "alt": "Porträt des Komponisten Arnold Schönberg, Gemälde von Egon Schiele",
+    "title": "Bildnis des Komponisten Arnold Schönberg",
+    "creator": "Egon Schiele",
+    "date": "1917",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Schiele_-_Bildnis_des_Komponisten_Arnold_Sch%C3%B6nberg._1917.jpg",
+    "license": {
+      "name": "Gemeinfrei (Gemälde, Urheber vor über 70 Jahren verstorben)",
+      "url": "https://creativecommons.org/publicdomain/mark/1.0/"
+    },
+    "attribution": "Egon Schiele, 1917; gemeinfrei.",
+    "width": 800,
+    "height": 1000,
+    "origWidth": 816,
+    "focus": "50% 25%"
+  },
+  {
+    "id": "stravinsky",
+    "file": "img/stravinsky.jpg",
+    "alt": "Fotografie Igor Strawinskys im Anzug, um 1920",
+    "title": "Igor Strawinsky",
+    "creator": "Bain News Service",
+    "date": "um 1920",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Igor_Stravinsky_LOC_32392u.jpg",
+    "license": {
+      "name": "Gemeinfrei (Library of Congress, Bain Collection)",
+      "url": "https://creativecommons.org/publicdomain/mark/1.0/"
+    },
+    "attribution": "George Grantham Bain Collection, Library of Congress; gemeinfrei.",
+    "width": 800,
+    "height": 1000,
+    "origWidth": 4477,
+    "focus": "50% 20%"
+  },
+  {
+    "id": "bartok",
+    "file": "img/bartok.jpg",
+    "alt": "Fotografie Béla Bartóks von 1927",
+    "title": "Béla Bartók",
+    "creator": "unbekannt",
+    "date": "1927",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bart%C3%B3k_B%C3%A9la_1927.jpg",
+    "license": {
+      "name": "Gemeinfrei (Fotografie von 1927, Urheber unbekannt)",
+      "url": "https://creativecommons.org/publicdomain/mark/1.0/"
+    },
+    "attribution": "Fotograf unbekannt, 1927; gemeinfrei.",
+    "width": 800,
+    "height": 1000,
+    "origWidth": 411,
+    "focus": "50% 25%"
+  },
+  {
+    "id": "messiaen",
+    "file": "img/messiaen.jpg",
+    "alt": "Fotografie Olivier Messiaens bei einem Vortrag am Königlichen Konservatorium Den Haag, 1986",
+    "title": "Olivier Messiaen bei einem Vortrag in Den Haag",
+    "creator": "Rob Croes / Anefo (Nationaal Archief)",
+    "date": "1986",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lezing_Franse_compoist_Olivier_Messiaen_in_Koninklijk_Conservatorium_in_Den_Haa,_Bestanddeelnr_933-8262.jpg",
+    "license": {
+      "name": "CC0 1.0",
+      "url": "https://creativecommons.org/publicdomain/zero/1.0/"
+    },
+    "attribution": "Rob Croes / Anefo, Nationaal Archief, 27. November 1986; CC0.",
+    "width": 800,
+    "height": 1000,
+    "origWidth": 2427,
+    "focus": "50% 25%"
+  },
+  {
+    "id": "ligeti",
+    "file": "img/ligeti.jpg",
+    "alt": "Fotografie György Ligetis von 1984",
+    "title": "György Ligeti",
+    "creator": "Marcel Antonisse / Anefo (Nationaal Archief)",
+    "date": "1984",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gy%C3%B6rgy_Ligeti_(1984).jpg",
+    "license": {
+      "name": "CC BY-SA 3.0 NL",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0/nl/"
+    },
+    "attribution": "Marcel Antonisse / Anefo, Nationaal Archief, Februar 1984; CC BY-SA 3.0 NL.",
+    "width": 800,
+    "height": 1000,
+    "origWidth": 2264,
+    "focus": "50% 25%"
+  },
+  {
+    "id": "reich",
+    "file": "img/reich.jpg",
+    "alt": "Fotografie Steve Reichs aus den frühen 1980er-Jahren",
+    "title": "Steve Reich",
+    "creator": "Bernard Gotfryd",
+    "date": "1982–1984",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Steve_Reich,_composer,_cropped.jpg",
+    "license": {
+      "name": "Gemeinfrei (Library of Congress, Gotfryd Collection)",
+      "url": "https://creativecommons.org/publicdomain/mark/1.0/"
+    },
+    "attribution": "Bernard Gotfryd, Library of Congress (Gotfryd Collection), 1982–1984; als gemeinfrei bereitgestellt.",
+    "width": 800,
+    "height": 1000,
+    "origWidth": 558,
+    "focus": "50% 25%"
+  },
+  {
+    "id": "paert",
+    "file": "img/paert.jpg",
+    "alt": "Fotografie Arvo Pärts von 2011",
+    "title": "Arvo Pärt",
+    "creator": "Estonian Foreign Ministry",
+    "date": "2011",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Arvo_P%C3%A4rt,_2011.jpg",
+    "license": {
+      "name": "CC BY 2.0",
+      "url": "https://creativecommons.org/licenses/by/2.0/"
+    },
+    "attribution": "Estonian Foreign Ministry, 5. Januar 2011; CC BY 2.0.",
+    "width": 800,
+    "height": 1000,
+    "origWidth": 3132,
+    "focus": "50% 30%"
+  },
+  {
+    "id": "shaw",
+    "file": "img/shaw.jpg",
+    "alt": "Fotografie der Komponistin Caroline Shaw bei einem Konzert im Miller Theatre, New York",
+    "title": "Caroline Shaw (Miller Theatre, 2020)",
+    "creator": "Feast of Music",
+    "date": "2020",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Caroline_Shaw_with_Attacca_Quartet_and_So_Percussion_at_Miller_Theater_-_49517838252_(cropped).jpg",
+    "license": {
+      "name": "CC BY 2.0",
+      "url": "https://creativecommons.org/licenses/by/2.0/"
+    },
+    "attribution": "Feast of Music (Flickr), 6. Februar 2020; CC BY 2.0.",
+    "width": 800,
+    "height": 1000,
+    "origWidth": 788,
+    "focus": "50% 30%"
+  }
+]

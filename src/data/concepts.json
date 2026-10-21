@@ -1,0 +1,92 @@
+[
+  {
+    "id": "melodie",
+    "title": "Melodie",
+    "question": "Was singt man, wenn man ein Lied nachsingt?",
+    "demo": "melodie",
+    "text": "Eine Melodie ist eine Folge von Tönen, die zusammengehört. Sie steigt, sie fällt, sie hält kurz an. Wichtig ist nicht, welcher Ton genau kommt, sondern wie sich die Linie bewegt. Unten sehen Sie die Töne der „Ode an die Freude“ als Punkte. Drehen Sie sie auf den Kopf: Alle Abstände bleiben gleich, aber das Lied wirkt ganz anders.",
+    "term": "Der Abstand zwischen zwei Tönen heißt Intervall.",
+    "swift": "Der Refrain Ihres Lieblingslieds ist eine Melodie. Sie merken sich vor allem ihre Form: wo es hochgeht, wo es fällt."
+  },
+  {
+    "id": "rhythmus",
+    "title": "Rhythmus",
+    "question": "Warum kann man mitklopfen – und manchmal nicht?",
+    "demo": "rhythmus",
+    "text": "Rhythmus heißt: Wann kommen die Töne, wie lang sind sie, und welche sind betont? Meist läuft darunter ein gleichmäßiger Schlag, wie ein Herzschlag. Dazu klopft man mit dem Fuß. Im 20. Jahrhundert spielen manche Komponisten mit diesem Schlag: Die Betonungen rutschen an Stellen, wo man sie nicht erwartet. Die hohen Klicks unten sind der gleichmäßige Schlag, die tiefen Töne sind das Muster. Mit „Verschoben“ ahnen Sie, wie sich Strawinskys Opfertanz anfühlt.",
+    "term": "Eine Gruppe aus gleich vielen Schlägen nennt man Takt.",
+    "swift": "Der Beat unter einem Popsong ist genau dieser gleichmäßige Schlag. Er ist der Grund, warum man mitwippt."
+  },
+  {
+    "id": "harmonie",
+    "title": "Harmonie",
+    "question": "Was klingt unter der Melodie mit?",
+    "demo": "harmonie",
+    "text": "Harmonie entsteht, wenn mehrere Töne gleichzeitig klingen. Das sind die Akkorde unter der Melodie. Sie bestimmen die Stimmung: Dieselbe Melodie kann fröhlich, traurig oder offen klingen. Hören Sie die „Ode“ erst ohne, dann mit Akkorden. Die Akkorde zeigen auch, ob die Musik gerade zu Hause ist oder unterwegs.",
+    "term": "Ein Akkord sind mindestens drei Töne, die gleichzeitig erklingen.",
+    "swift": "Unter einem Popsong liegen oft nur wenige Akkorde, die sich wiederholen. Auf Gitarre oder Klavier sind das die Töne, die die Hand greift."
+  },
+  {
+    "id": "tonart",
+    "title": "Tonart und Zuhause",
+    "question": "Woher weiß man, dass ein Lied zu Ende ist?",
+    "demo": "tonart",
+    "text": "In fast jedem Lied und Stück gibt es einen Ton, bei dem alles ankommt: das Zuhause. Man spürt das ganz deutlich. Wenn jemand eine Tonleiter singt und vor dem letzten Ton aufhört, möchte man den Schluss selbst singen. Probieren Sie es aus: Die Leiter hält kurz vor dem Ende an. Entscheiden Sie dann, wohin die Musik gehen soll.",
+    "term": "Fachleute sagen dazu „Tonart“.",
+    "swift": "Fast jeder Popsong hat ein klares Zuhause. Sie merken es daran, dass Sie das Ende erraten können."
+  },
+  {
+    "id": "dur-moll",
+    "title": "Dur und Moll",
+    "question": "Warum klingt das eine froh und das andere ernst?",
+    "demo": "dur-moll",
+    "text": "Ein Akkord aus drei Tönen kann hell oder dunkel klingen. Wenn der mittlere Ton ein kleines Stück tiefer rutscht, wird aus hell dunkel: aus Dur wird Moll. Mit dem Regler können Sie das selbst erleben. Dazwischen klingt es schief, weil das Ohr sich entscheiden möchte. Eine feste Regel ist das nicht: Es gibt fröhliche Stücke in Moll und traurige in Dur.",
+    "term": null,
+    "swift": "Ein fröhlicher Popsong steht meist in Dur, ein trauriger oft in Moll. Meist, nicht immer."
+  },
+  {
+    "id": "dissonanz",
+    "title": "Dissonanz",
+    "question": "Was ist ein „schiefer“ Klang – und wozu ist er gut?",
+    "demo": "dissonanz",
+    "text": "Wenn zwei Töne sehr dicht beieinanderliegen, reiben sie aneinander. Das Ohr hört ein Rauen. Je nach Abstand ist es scharf, mild oder fast weich. Das ist nicht „falsch“. Es erzeugt Spannung, wie ein Satz, der noch nicht fertig ist. In älterer Musik löst sich die Spannung bald auf. Im 20. Jahrhundert darf sie auch stehen bleiben.",
+    "term": "Das Gegenteil, der weiche Zusammenklang, heißt Konsonanz.",
+    "swift": "In Popsongs ist Reibung selten und kurz. Meist geht es weich zu."
+  },
+  {
+    "id": "chromatik",
+    "title": "Chromatik",
+    "question": "Was passiert, wenn man in lauter kleinen Schritten geht?",
+    "demo": "chromatik",
+    "text": "Eine normale Tonleiter hat große und kleine Schritte. Dadurch hat sie ein Gefühl für oben und unten. Bei der chromatischen Leiter sind alle Schritte gleich klein. Kein Ton ist mehr der wichtigste. Das Gefühl für das Zuhause verschwimmt. Genau das nutzt Wagner.",
+    "term": "Das Wort kommt aus dem Griechischen und heißt „Farbe“.",
+    "swift": "Im Pop kommt das kaum vor. Lieder bleiben meist bei wenigen, klaren Tönen."
+  },
+  {
+    "id": "farbe",
+    "title": "Klangfarbe",
+    "question": "Warum klingt derselbe Ton auf einer Flöte anders als auf einer Trompete?",
+    "demo": "farbe",
+    "text": "Jedes Instrument klingt aus einem Grundton und vielen leisen Tönen darüber. Wie stark diese sind, bestimmt den Klang. Wenig davon klingt weich, viel davon hell und scharf. Das nennt man Klangfarbe. Seit Berlioz mischen Komponisten solche Klangfarben wie ein Maler seine Farben. (Die Beispiele hier kommen aus dem Computer und ersetzen keine echten Instrumente.)",
+    "term": "Fachleute sagen auch „Timbre“.",
+    "swift": "Gitarre, Klavier oder Synthesizer: Ein Produzent wählt Klangfarben, wie ein Maler Farben wählt. Die Stimmung steht, noch bevor die Stimme einsetzt."
+  },
+  {
+    "id": "motiv",
+    "title": "Motiv",
+    "question": "Wie wird aus vier Tönen ein ganzes Stück?",
+    "demo": "motiv",
+    "text": "Ein Motiv ist ein kurzer Baustein aus wenigen Tönen, den man wiedererkennt. Man kann ihn höher spielen, tiefer, langsamer oder umgedreht. So wird aus wenig viel, ohne dass etwas ganz Neues nötig ist. Beethovens Fünfte macht das auf die Spitze.",
+    "term": null,
+    "swift": "Ein Ohrwurm ist ein Motiv: wenige Töne, die man nicht mehr loswird."
+  },
+  {
+    "id": "form",
+    "title": "Wiederholung und Form",
+    "question": "Warum fühlt sich eine Rückkehr wie Heimkommen an?",
+    "demo": "form",
+    "text": "Form heißt: Wie sind die Teile eines Stücks angeordnet? Das einfachste Muster ist A–A–B–A. Erst kommt etwas Vertrautes, dann etwas Neues, dann wieder das Vertraute. Und es klingt anders als zu Beginn, weil man selbst zwischendurch woanders war. Viele große Formen sind Abwandlungen davon. Reich und Pärt machen die Wiederholung selbst zur Hauptsache.",
+    "term": "Eine bekannte große Form ist der Sonatensatz: erst Vorstellung, dann Verwandlung, dann Rückkehr.",
+    "swift": "Strophe, Refrain, Strophe, Refrain, Bridge, Refrain: Das ist die Form des Popsongs. Die Bridge ist der Teil, der anders klingt, bevor man heimkommt."
+  }
+]

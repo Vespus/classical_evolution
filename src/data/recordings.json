@@ -1,0 +1,417 @@
+[
+  {
+    "id": "rec-bach",
+    "workId": "bach-bwv1048",
+    "performer": "Advent Chamber Orchestra",
+    "recordedYear": "2006",
+    "provider": "local",
+    "source": "ibiblio – Pandora Music Repository (Sammlung Al Goldstein); Lizenz laut Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bach_-_Brandenburg_Concerto_No._3_-_1._Allegro.ogg",
+    "license": {
+      "name": "CC BY-SA 2.0 (Open Audio License)",
+      "url": "https://creativecommons.org/licenses/by-sa/2.0/"
+    },
+    "attribution": "Advent Chamber Orchestra, Konzert im Dezember 2006; Sammlung Al Goldstein im Pandora Music Repository (ibiblio.org); Open Audio License / CC BY-SA 2.0.",
+    "local": {
+      "fileUrl": "https://www.ibiblio.org/pandora/vorbis/chamber_orchestra/DEC-06/3Bach1.ogg",
+      "fetchBytes": 3200000,
+      "clip": "audio/rec-bach.mp3",
+      "clipStart": 0,
+      "clipEnd": 70,
+      "fullStreamUrl": "https://www.ibiblio.org/pandora/vorbis/chamber_orchestra/DEC-06/3Bach1.ogg"
+    }
+  },
+  {
+    "id": "rec-haydn",
+    "workId": "haydn-94",
+    "performer": "Lucerne Festival Orchestra, Ltg. Andris Nelsons",
+    "provider": "external",
+    "source": "YouTube (offizieller Kanal)",
+    "sourceUrl": "https://www.youtube.com/watch?v=Pb4nRgwQ5Jk",
+    "license": {
+      "name": "Externer Stream (kein Eigenbestand)",
+      "url": "https://www.youtube.com/t/terms"
+    },
+    "attribution": "DW Classical Music, offizieller YouTube-Kanal (Mitschnitt vom Lucerne Festival, August 2015).",
+    "external": {
+      "kind": "youtube",
+      "videoId": "Pb4nRgwQ5Jk",
+      "start": 505,
+      "end": 615,
+      "title": "Haydn: Symphony No. 94 “Surprise” | Andris Nelsons & the Lucerne Festival Orchestra",
+      "channel": "DW Classical Music",
+      "checked": "2026-10-21",
+      "estimatedStart": true
+    },
+    "recordedYear": "2015"
+  },
+  {
+    "id": "rec-mozart",
+    "workId": "mozart-kv550",
+    "performer": "Columbia University Orchestra",
+    "recordedYear": "2001",
+    "provider": "local",
+    "source": "Internet Archive (Columbia University Orchestra)",
+    "sourceUrl": "https://archive.org/details/Mozart_Symphony_40",
+    "license": {
+      "name": "Public-Domain-Widmung (Creative Commons)",
+      "url": "https://creativecommons.org/licenses/publicdomain/"
+    },
+    "attribution": "Columbia University Orchestra, Konzert vom 2. Dezember 2001; im Internet Archive als Public-Domain-Widmung veröffentlicht.",
+    "local": {
+      "fileUrl": "https://archive.org/download/Mozart_Symphony_40/1_Molto_allegro.ogg",
+      "fetchBytes": 2500000,
+      "clip": "audio/rec-mozart.mp3",
+      "clipStart": 0,
+      "clipEnd": 70,
+      "fullStreamUrl": "https://archive.org/download/Mozart_Symphony_40/1_Molto_allegro.ogg"
+    }
+  },
+  {
+    "id": "rec-beethoven",
+    "workId": "beethoven-5",
+    "performer": "Boston Philharmonic Orchestra, Ltg. Benjamin Zander",
+    "provider": "external",
+    "source": "YouTube (offizieller Kanal)",
+    "sourceUrl": "https://www.youtube.com/watch?v=n3EiRynr1Us",
+    "license": {
+      "name": "Externer Stream (kein Eigenbestand)",
+      "url": "https://www.youtube.com/t/terms"
+    },
+    "attribution": "Boston Philharmonic Orchestra, offizieller YouTube-Kanal (ganzer erster Satz).",
+    "external": {
+      "kind": "youtube",
+      "videoId": "n3EiRynr1Us",
+      "start": 0,
+      "end": 100,
+      "title": "Beethoven: Symphony No. 5, First movement (Benjamin Zander, Boston Philharmonic Orchestra)",
+      "channel": "Boston Philharmonic",
+      "checked": "2026-10-21"
+    }
+  },
+  {
+    "id": "rec-schubert",
+    "workId": "schubert-erlkoenig",
+    "performer": "Matthias Goerne (Bariton), Andreas Haefliger (Klavier)",
+    "provider": "external",
+    "source": "YouTube (offizieller Kanal)",
+    "sourceUrl": "https://www.youtube.com/watch?v=lTjXk-cPkrY",
+    "license": {
+      "name": "Externer Stream (kein Eigenbestand)",
+      "url": "https://www.youtube.com/t/terms"
+    },
+    "attribution": "harmonia mundi (Label), offizieller YouTube-Kanal.",
+    "external": {
+      "kind": "youtube",
+      "videoId": "lTjXk-cPkrY",
+      "start": 0,
+      "end": 110,
+      "title": "Schubert: Erlkönig D. 328 - Matthias Goerne & Andreas Haefliger",
+      "channel": "harmonia mundi music",
+      "checked": "2026-10-21"
+    }
+  },
+  {
+    "id": "rec-berlioz",
+    "workId": "berlioz-fantastique",
+    "performer": "hr-Sinfonieorchester, Ltg. Hugh Wolff",
+    "source": "Wikimedia Commons (Hessischer Rundfunk)",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hector_Berlioz_Symphonie_fantastique_2nd_movement_excerpt.mp3",
+    "provider": "local",
+    "license": {
+      "name": "CC BY-SA 4.0",
+      "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+    },
+    "attribution": "hr-Sinfonieorchester (Frankfurt Radio Symphony), Dirigent Hugh Wolff, Alte Oper Frankfurt, 15. September 2000; © Hessischer Rundfunk, CC BY-SA 4.0.",
+    "local": {
+      "fileUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Hector_Berlioz_Symphonie_fantastique_2nd_movement_excerpt.mp3",
+      "clip": "audio/rec-berlioz.mp3",
+      "clipStart": 0,
+      "clipEnd": 100
+    },
+    "recordedYear": "2000"
+  },
+  {
+    "id": "rec-chopin",
+    "workId": "chopin-op9-2",
+    "performer": "Pianist laut Quelle nicht einzeln ausgewiesen (Musopen)",
+    "provider": "local",
+    "source": "Internet Archive (Musopen – The Complete Chopin Collection)",
+    "sourceUrl": "https://archive.org/details/musopen-chopin",
+    "license": {
+      "name": "CC0 1.0 (gemeinfrei)",
+      "url": "https://creativecommons.org/publicdomain/zero/1.0/"
+    },
+    "attribution": "Musopen – The Complete Chopin Collection (Aaron Dunn / Musopen), Internet Archive; von Musopen unter CC0 freigegeben.",
+    "local": {
+      "fileUrl": "https://archive.org/download/musopen-chopin/Nocturne%20Op.%209%20no.%202%20in%20E%20flat%20major.ogg",
+      "clip": "audio/rec-chopin.mp3",
+      "clipStart": 0,
+      "clipEnd": 75,
+      "fullStreamUrl": "https://archive.org/download/musopen-chopin/Nocturne%20Op.%209%20no.%202%20in%20E%20flat%20major.ogg"
+    }
+  },
+  {
+    "id": "rec-wagner",
+    "workId": "wagner-tristan",
+    "performer": "hr-Sinfonieorchester, Ltg. Tabita Berglund",
+    "provider": "external",
+    "source": "YouTube (offizieller Kanal)",
+    "sourceUrl": "https://www.youtube.com/watch?v=mr9bq2xIlKY",
+    "license": {
+      "name": "Externer Stream (kein Eigenbestand)",
+      "url": "https://www.youtube.com/t/terms"
+    },
+    "attribution": "hr-Sinfonieorchester, offizieller YouTube-Kanal.",
+    "external": {
+      "kind": "youtube",
+      "videoId": "mr9bq2xIlKY",
+      "start": 0,
+      "end": 100,
+      "title": "Wagner: »Tristan und Isolde« – Vorspiel ∙ hr-Sinfonieorchester ∙ Tabita Berglund",
+      "channel": "hr-Sinfonieorchester – Frankfurt Radio Symphony",
+      "checked": "2026-10-21"
+    }
+  },
+  {
+    "id": "rec-brahms",
+    "workId": "brahms-tragic",
+    "performer": "Concertgebouworkest, Ltg. Herbert Blomstedt",
+    "provider": "external",
+    "source": "YouTube (offizieller Kanal)",
+    "sourceUrl": "https://www.youtube.com/watch?v=PUPVO3cFAWQ",
+    "license": {
+      "name": "Externer Stream (kein Eigenbestand)",
+      "url": "https://www.youtube.com/t/terms"
+    },
+    "attribution": "Concertgebouworkest (Royal Concertgebouw Orchestra), offizieller YouTube-Kanal.",
+    "external": {
+      "kind": "youtube",
+      "videoId": "PUPVO3cFAWQ",
+      "start": 0,
+      "end": 75,
+      "title": "Symphonic Gems: Brahms - Tragic Overture - Blomstedt | Concertgebouworkest",
+      "channel": "Concertgebouworkest",
+      "checked": "2026-10-21"
+    }
+  },
+  {
+    "id": "rec-debussy",
+    "workId": "debussy-faune",
+    "performer": "hr-Sinfonieorchester, Ltg. Alain Altinoglu",
+    "provider": "external",
+    "source": "YouTube (offizieller Kanal)",
+    "sourceUrl": "https://www.youtube.com/watch?v=8UAYCubihlc",
+    "license": {
+      "name": "Externer Stream (kein Eigenbestand)",
+      "url": "https://www.youtube.com/t/terms"
+    },
+    "attribution": "hr-Sinfonieorchester, offizieller YouTube-Kanal.",
+    "external": {
+      "kind": "youtube",
+      "videoId": "8UAYCubihlc",
+      "start": 0,
+      "end": 100,
+      "title": "Debussy: Prélude à l’après-midi d’un faune ∙ hr-Sinfonieorchester ∙ Alain Altinoglu",
+      "channel": "hr-Sinfonieorchester – Frankfurt Radio Symphony",
+      "checked": "2026-10-21"
+    }
+  },
+  {
+    "id": "rec-mahler",
+    "workId": "mahler-5",
+    "performer": "Peabody Symphony Orchestra",
+    "recordedYear": "2006",
+    "provider": "local",
+    "source": "Internet Archive (Peabody Symphony Orchestra)",
+    "sourceUrl": "https://archive.org/details/Mahler_Symphony_5",
+    "license": {
+      "name": "Public-Domain-Widmung (CC0)",
+      "url": "https://creativecommons.org/publicdomain/zero/1.0/"
+    },
+    "attribution": "Peabody Symphony Orchestra, aufgenommen 2006; veröffentlicht im Internet Archive (Mahler Symphony 5) und auf Wikimedia Commons als CC0.",
+    "local": {
+      "fileUrl": "https://archive.org/download/Mahler_Symphony_5/01.PSO020103-Mahler-5-I.mp3",
+      "fetchBytes": 3500000,
+      "clip": "audio/rec-mahler.mp3",
+      "clipStart": 4,
+      "clipEnd": 114,
+      "fadeIn": 0.4,
+      "fullStreamUrl": "https://archive.org/download/Mahler_Symphony_5/01.PSO020103-Mahler-5-I.ogg"
+    }
+  },
+  {
+    "id": "rec-schoenberg",
+    "workId": "schoenberg-sq2",
+    "performer": "Carmel Quartet mit Rona Israel-Kolatt (Sopran)",
+    "source": "Wikimedia Commons (Carmel Quartet)",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Schoenberg_Quartet_No._2_4th_movement.OGG",
+    "provider": "local",
+    "license": {
+      "name": "Creative Commons 3.0 (Freigabe des Carmel Quartet)",
+      "url": "https://creativecommons.org/licenses/by/3.0/"
+    },
+    "attribution": "Carmel Quartet (Israel) mit Rona Israel-Kolatt, Sopran, 2007; vom Ensemble unter Creative Commons freigegeben.",
+    "local": {
+      "fileUrl": "https://upload.wikimedia.org/wikipedia/commons/8/85/Schoenberg_Quartet_No._2_4th_movement.OGG",
+      "clip": "audio/rec-schoenberg.mp3",
+      "clipStart": 0,
+      "clipEnd": 80,
+      "fullStreamUrl": "https://upload.wikimedia.org/wikipedia/commons/8/85/Schoenberg_Quartet_No._2_4th_movement.OGG"
+    },
+    "recordedYear": "2007"
+  },
+  {
+    "id": "rec-bartok",
+    "workId": "bartok-sq2",
+    "performer": "Carmel Quartet",
+    "source": "Wikimedia Commons (Carmel Quartet)",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bartok_Op._17,_Second_Movement.OGG",
+    "provider": "local",
+    "license": {
+      "name": "CC BY 3.0",
+      "url": "https://creativecommons.org/licenses/by/3.0/"
+    },
+    "attribution": "Carmel Quartet (Israel), 2007; vom Ensemble unter CC BY 3.0 freigegeben.",
+    "local": {
+      "fileUrl": "https://upload.wikimedia.org/wikipedia/commons/9/94/Bartok_Op._17,_Second_Movement.OGG",
+      "clip": "audio/rec-bartok.mp3",
+      "clipStart": 0,
+      "clipEnd": 60,
+      "fullStreamUrl": "https://upload.wikimedia.org/wikipedia/commons/9/94/Bartok_Op._17,_Second_Movement.OGG"
+    },
+    "recordedYear": "2007"
+  },
+  {
+    "id": "rec-stravinsky",
+    "workId": "stravinsky-sacre",
+    "performer": "London Philharmonic Orchestra",
+    "provider": "external",
+    "source": "YouTube (offizieller Kanal)",
+    "sourceUrl": "https://www.youtube.com/watch?v=KzVDpdKgLS4",
+    "license": {
+      "name": "Externer Stream (kein Eigenbestand)",
+      "url": "https://www.youtube.com/t/terms"
+    },
+    "attribution": "London Philharmonic Orchestra, offizieller YouTube-Kanal.",
+    "external": {
+      "kind": "youtube",
+      "videoId": "KzVDpdKgLS4",
+      "start": 0,
+      "end": 75,
+      "title": "Stravinsky: Rite of Spring – Sacrificial Dance – London Philharmonic Orchestra",
+      "channel": "London Philharmonic Orchestra",
+      "checked": "2026-10-21"
+    }
+  },
+  {
+    "id": "rec-messiaen",
+    "workId": "messiaen-quatuor",
+    "performer": "Julien Hervé (Klarinette), Rotterdam Philharmonic Orchestra",
+    "provider": "external",
+    "source": "YouTube (offizieller Kanal)",
+    "sourceUrl": "https://www.youtube.com/watch?v=-tPqTqpLG5M",
+    "license": {
+      "name": "Externer Stream (kein Eigenbestand)",
+      "url": "https://www.youtube.com/t/terms"
+    },
+    "attribution": "Rotterdam Philharmonic Orchestra, offizieller YouTube-Kanal.",
+    "external": {
+      "kind": "youtube",
+      "videoId": "-tPqTqpLG5M",
+      "start": 0,
+      "end": 150,
+      "title": "Abîme des oiseaux - Messiaen | Julien Hervé, clarinet",
+      "channel": "Rotterdam Philharmonic Orchestra",
+      "checked": "2026-10-21"
+    }
+  },
+  {
+    "id": "rec-ligeti",
+    "workId": "ligeti-atmospheres",
+    "performer": "hr-Sinfonieorchester, Ltg. Christoph Eschenbach",
+    "provider": "external",
+    "source": "YouTube (offizieller Kanal)",
+    "sourceUrl": "https://www.youtube.com/watch?v=E-bemE-bCXQ",
+    "license": {
+      "name": "Externer Stream (kein Eigenbestand)",
+      "url": "https://www.youtube.com/t/terms"
+    },
+    "attribution": "hr-Sinfonieorchester, offizieller YouTube-Kanal.",
+    "external": {
+      "kind": "youtube",
+      "videoId": "E-bemE-bCXQ",
+      "start": 0,
+      "end": 90,
+      "title": "Ligeti: Atmosphères ∙ hr-Sinfonieorchester ∙ Christoph Eschenbach",
+      "channel": "hr-Sinfonieorchester – Frankfurt Radio Symphony",
+      "checked": "2026-10-21"
+    }
+  },
+  {
+    "id": "rec-reich",
+    "workId": "reich-18",
+    "performer": "Ensemble intercontemporain, Synergy Vocals",
+    "provider": "external",
+    "source": "YouTube (offizieller Kanal)",
+    "sourceUrl": "https://www.youtube.com/watch?v=ApnbymNz9dE",
+    "license": {
+      "name": "Externer Stream (kein Eigenbestand)",
+      "url": "https://www.youtube.com/t/terms"
+    },
+    "attribution": "Ensemble intercontemporain, offizieller YouTube-Kanal.",
+    "external": {
+      "kind": "youtube",
+      "videoId": "ApnbymNz9dE",
+      "start": 0,
+      "end": 100,
+      "title": "Steve Reich, Music for Eighteen Musicians - Synergy Vocals - Ensemble intercontemporain",
+      "channel": "Ensemble Intercontemporain",
+      "checked": "2026-10-21"
+    }
+  },
+  {
+    "id": "rec-paert",
+    "workId": "paert-cantus",
+    "performer": "Norwegian Chamber Orchestra",
+    "provider": "external",
+    "source": "YouTube (offizieller Kanal)",
+    "sourceUrl": "https://www.youtube.com/watch?v=TVZZgfXNFW8",
+    "license": {
+      "name": "Externer Stream (kein Eigenbestand)",
+      "url": "https://www.youtube.com/t/terms"
+    },
+    "attribution": "Norwegian Chamber Orchestra, offizieller YouTube-Kanal.",
+    "external": {
+      "kind": "youtube",
+      "videoId": "TVZZgfXNFW8",
+      "start": 0,
+      "end": 120,
+      "title": "Arvo Pärt: Cantus in memoriam Benjamin Britten",
+      "channel": "Norwegian Chamber Orchestra",
+      "checked": "2026-10-21"
+    }
+  },
+  {
+    "id": "rec-shaw",
+    "workId": "shaw-partita",
+    "performer": "Roomful of Teeth",
+    "provider": "external",
+    "source": "YouTube (offizieller Kanal)",
+    "sourceUrl": "https://www.youtube.com/watch?v=BiKCuNH1rC4",
+    "license": {
+      "name": "Externer Stream (kein Eigenbestand)",
+      "url": "https://www.youtube.com/t/terms"
+    },
+    "attribution": "CPR Classical (Colorado Public Radio), YouTube-Kanal.",
+    "external": {
+      "kind": "youtube",
+      "videoId": "BiKCuNH1rC4",
+      "start": 0,
+      "end": 100,
+      "title": "Roomful of Teeth - Shaw: Passacaglia (4th mvt) from Partita for 8 Voices",
+      "channel": "CPR Classical",
+      "checked": "2026-10-21"
+    }
+  }
+]

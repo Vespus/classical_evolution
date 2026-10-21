@@ -1,0 +1,206 @@
+KLANGWANDEL – MUSIKLISTE
+========================
+Diese Datei wird erzeugt (npm run musiklist). Nicht von Hand ändern, sondern src/data/recordings.json.
+
+So tauschen Sie eine Aufnahme gegen eine eigene Datei:
+  Legen Sie in den Ordner media/ (im Projekt: public/media/, auf dem Server: .../klassik/media/) eine Datei,
+  die so heißt wie die Kennung unten, z. B. rec-beethoven.mp4 oder rec-beethoven.mp3.
+  Möglich: mp4, webm (Video) sowie mp3, m4a, ogg, opus (Ton). Die Datei wird von Anfang bis Ende gespielt,
+  schneiden Sie also den gewünschten Ausschnitt vorher zu. Ohne Datei bleibt alles wie bisher.
+  Beim Ausliefern per rsync: --exclude 'media/' angeben, damit der Ordner nicht gelöscht wird.
+
+Hinweis zu den Zeitmarken: Titel, Kanal und Länge der Videos wurden technisch geprüft, das Hören der Ausschnitte
+konnte dabei nicht erfolgen. Wo eine Startmarke nur geschätzt ist, steht „STARTMARKE GESCHÄTZT“ – bitte einmal anhören.
+
+------------------------------------------------------------------------------
+01. Johann Sebastian Bach: Brandenburgisches Konzert Nr. 3 G-Dur, BWV 1048, 1. Satz (1721)
+    Kennung / Dateiname: rec-bach.mp4 | .mp3 …
+    Interpreten:         Advent Chamber Orchestra (2006)
+    Art:                 gespeicherter Ausschnitt (audio/rec-bach.mp3), 1:10 Minuten
+    Original:            https://www.ibiblio.org/pandora/vorbis/chamber_orchestra/DEC-06/3Bach1.ogg
+    Quelle:              ibiblio – Pandora Music Repository (Sammlung Al Goldstein); Lizenz laut Wikimedia Commons
+    Lizenz:              CC BY-SA 2.0 (Open Audio License) (https://creativecommons.org/licenses/by-sa/2.0/)
+    Ganze Aufnahme:      https://www.ibiblio.org/pandora/vorbis/chamber_orchestra/DEC-06/3Bach1.ogg
+------------------------------------------------------------------------------
+02. Wolfgang Amadeus Mozart: Sinfonie Nr. 40 g-Moll, KV 550, 1. Satz (1788)
+    Kennung / Dateiname: rec-mozart.mp4 | .mp3 …
+    Interpreten:         Columbia University Orchestra (2001)
+    Art:                 gespeicherter Ausschnitt (audio/rec-mozart.mp3), 1:10 Minuten
+    Original:            https://archive.org/download/Mozart_Symphony_40/1_Molto_allegro.ogg
+    Quelle:              Internet Archive (Columbia University Orchestra)
+    Lizenz:              Public-Domain-Widmung (Creative Commons) (https://creativecommons.org/licenses/publicdomain/)
+    Ganze Aufnahme:      https://archive.org/details/Mozart_Symphony_40
+------------------------------------------------------------------------------
+03. Joseph Haydn: Sinfonie Nr. 94 G-Dur ‚Mit dem Paukenschlag‘, Hob. I:94, 2. Satz (Andante) (1791)
+    Kennung / Dateiname: rec-haydn.mp4 | .mp3 …
+    Interpreten:         Lucerne Festival Orchestra, Ltg. Andris Nelsons (2015)
+    Art:                 Video (YouTube, Einbettung erst nach Klick)
+    Video:               https://www.youtube.com/watch?v=Pb4nRgwQ5Jk
+    Ausschnitt:          8:25 – 10:15  (Link mit Startmarke: https://www.youtube.com/watch?v=Pb4nRgwQ5Jk&t=505s)
+    Titel laut YouTube:  Haydn: Symphony No. 94 “Surprise” | Andris Nelsons & the Lucerne Festival Orchestra
+    Kanal:               DW Classical Music
+    STARTMARKE GESCHÄTZT: Anfang des 2. Satzes nur aus der Länge der Sinfonie abgeleitet; bitte prüfen und in recordings.json anpassen.
+    Ganze Aufnahme:      https://www.youtube.com/watch?v=Pb4nRgwQ5Jk
+    Tiefer gehen:        Nach dem Knall
+                         Die ganze Sinfonie ansehen (DW Classical Music, Lucerne Festival): https://www.youtube.com/watch?v=Pb4nRgwQ5Jk
+------------------------------------------------------------------------------
+04. Ludwig van Beethoven: Sinfonie Nr. 5 c-Moll, op. 67, 1. Satz (1808)
+    Kennung / Dateiname: rec-beethoven.mp4 | .mp3 …
+    Interpreten:         Boston Philharmonic Orchestra, Ltg. Benjamin Zander
+    Art:                 Video (YouTube, Einbettung erst nach Klick)
+    Video:               https://www.youtube.com/watch?v=n3EiRynr1Us
+    Ausschnitt:          0:00 – 1:40  (Link mit Startmarke: https://www.youtube.com/watch?v=n3EiRynr1Us&t=0s)
+    Titel laut YouTube:  Beethoven: Symphony No. 5, First movement (Benjamin Zander, Boston Philharmonic Orchestra)
+    Kanal:               Boston Philharmonic
+    Ganze Aufnahme:      https://www.youtube.com/watch?v=fuPrcnpIRx8
+    Tiefer gehen:        Der Schluss der Fünften
+                         Die ganze Sinfonie ansehen (hr-Sinfonieorchester): https://www.youtube.com/watch?v=fuPrcnpIRx8
+                         Kurzfilm der Berliner Philharmoniker, 3 Minuten (u. a. mit dem Schluss): https://www.youtube.com/watch?v=VHDZ2isd4xg
+------------------------------------------------------------------------------
+05. Franz Schubert: Erlkönig, D 328 (1815)
+    Kennung / Dateiname: rec-schubert.mp4 | .mp3 …
+    Interpreten:         Matthias Goerne (Bariton), Andreas Haefliger (Klavier)
+    Art:                 Video (YouTube, Einbettung erst nach Klick)
+    Video:               https://www.youtube.com/watch?v=lTjXk-cPkrY
+    Ausschnitt:          0:00 – 1:50  (Link mit Startmarke: https://www.youtube.com/watch?v=lTjXk-cPkrY&t=0s)
+    Titel laut YouTube:  Schubert: Erlkönig D. 328 - Matthias Goerne & Andreas Haefliger
+    Kanal:               harmonia mundi music
+    Ganze Aufnahme:      https://www.youtube.com/watch?v=lTjXk-cPkrY
+------------------------------------------------------------------------------
+06. Hector Berlioz: Symphonie fantastique, op. 14, 2. Satz ‚Un bal‘ (1830)
+    Kennung / Dateiname: rec-berlioz.mp4 | .mp3 …
+    Interpreten:         hr-Sinfonieorchester, Ltg. Hugh Wolff (2000)
+    Art:                 gespeicherter Ausschnitt (audio/rec-berlioz.mp3), 1:40 Minuten
+    Original:            https://upload.wikimedia.org/wikipedia/commons/f/f9/Hector_Berlioz_Symphonie_fantastique_2nd_movement_excerpt.mp3
+    Quelle:              Wikimedia Commons (Hessischer Rundfunk)
+    Lizenz:              CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
+    Ganze Aufnahme:      https://commons.wikimedia.org/wiki/File:Hector_Berlioz_Symphonie_fantastique_2nd_movement_excerpt.mp3
+------------------------------------------------------------------------------
+07. Frédéric Chopin: Nocturne Es-Dur, op. 9 Nr. 2 (1832)
+    Kennung / Dateiname: rec-chopin.mp4 | .mp3 …
+    Interpreten:         Pianist laut Quelle nicht einzeln ausgewiesen (Musopen)
+    Art:                 gespeicherter Ausschnitt (audio/rec-chopin.mp3), 1:15 Minuten
+    Original:            https://archive.org/download/musopen-chopin/Nocturne%20Op.%209%20no.%202%20in%20E%20flat%20major.ogg
+    Quelle:              Internet Archive (Musopen – The Complete Chopin Collection)
+    Lizenz:              CC0 1.0 (gemeinfrei) (https://creativecommons.org/publicdomain/zero/1.0/)
+    Ganze Aufnahme:      https://archive.org/details/musopen-chopin
+------------------------------------------------------------------------------
+08. Richard Wagner: Tristan und Isolde, Vorspiel (1859)
+    Kennung / Dateiname: rec-wagner.mp4 | .mp3 …
+    Interpreten:         hr-Sinfonieorchester, Ltg. Tabita Berglund
+    Art:                 Video (YouTube, Einbettung erst nach Klick)
+    Video:               https://www.youtube.com/watch?v=mr9bq2xIlKY
+    Ausschnitt:          0:00 – 1:40  (Link mit Startmarke: https://www.youtube.com/watch?v=mr9bq2xIlKY&t=0s)
+    Titel laut YouTube:  Wagner: »Tristan und Isolde« – Vorspiel ∙ hr-Sinfonieorchester ∙ Tabita Berglund
+    Kanal:               hr-Sinfonieorchester – Frankfurt Radio Symphony
+    Ganze Aufnahme:      https://www.youtube.com/watch?v=mr9bq2xIlKY
+------------------------------------------------------------------------------
+09. Johannes Brahms: Tragische Ouvertüre, op. 81 (1880)
+    Kennung / Dateiname: rec-brahms.mp4 | .mp3 …
+    Interpreten:         Concertgebouworkest, Ltg. Herbert Blomstedt
+    Art:                 Video (YouTube, Einbettung erst nach Klick)
+    Video:               https://www.youtube.com/watch?v=PUPVO3cFAWQ
+    Ausschnitt:          0:00 – 1:15  (Link mit Startmarke: https://www.youtube.com/watch?v=PUPVO3cFAWQ&t=0s)
+    Titel laut YouTube:  Symphonic Gems: Brahms - Tragic Overture - Blomstedt | Concertgebouworkest
+    Kanal:               Concertgebouworkest
+    Ganze Aufnahme:      https://www.youtube.com/watch?v=PUPVO3cFAWQ
+------------------------------------------------------------------------------
+10. Claude Debussy: Prélude à l’après-midi d’un faune (1894)
+    Kennung / Dateiname: rec-debussy.mp4 | .mp3 …
+    Interpreten:         hr-Sinfonieorchester, Ltg. Alain Altinoglu
+    Art:                 Video (YouTube, Einbettung erst nach Klick)
+    Video:               https://www.youtube.com/watch?v=8UAYCubihlc
+    Ausschnitt:          0:00 – 1:40  (Link mit Startmarke: https://www.youtube.com/watch?v=8UAYCubihlc&t=0s)
+    Titel laut YouTube:  Debussy: Prélude à l’après-midi d’un faune ∙ hr-Sinfonieorchester ∙ Alain Altinoglu
+    Kanal:               hr-Sinfonieorchester – Frankfurt Radio Symphony
+    Ganze Aufnahme:      https://www.youtube.com/watch?v=8UAYCubihlc
+------------------------------------------------------------------------------
+11. Gustav Mahler: Sinfonie Nr. 5 cis-Moll, 1. Satz ‚Trauermarsch‘ (1902)
+    Kennung / Dateiname: rec-mahler.mp4 | .mp3 …
+    Interpreten:         Peabody Symphony Orchestra (2006)
+    Art:                 gespeicherter Ausschnitt (audio/rec-mahler.mp3), 1:50 Minuten
+    Original:            https://archive.org/download/Mahler_Symphony_5/01.PSO020103-Mahler-5-I.mp3
+    Quelle:              Internet Archive (Peabody Symphony Orchestra)
+    Lizenz:              Public-Domain-Widmung (CC0) (https://creativecommons.org/publicdomain/zero/1.0/)
+    Ganze Aufnahme:      https://archive.org/details/Mahler_Symphony_5
+------------------------------------------------------------------------------
+12. Arnold Schönberg: Streichquartett Nr. 2 fis-Moll, op. 10, 4. Satz ‚Entrückung‘ (1908)
+    Kennung / Dateiname: rec-schoenberg.mp4 | .mp3 …
+    Interpreten:         Carmel Quartet mit Rona Israel-Kolatt (Sopran) (2007)
+    Art:                 gespeicherter Ausschnitt (audio/rec-schoenberg.mp3), 1:20 Minuten
+    Original:            https://upload.wikimedia.org/wikipedia/commons/8/85/Schoenberg_Quartet_No._2_4th_movement.OGG
+    Quelle:              Wikimedia Commons (Carmel Quartet)
+    Lizenz:              Creative Commons 3.0 (Freigabe des Carmel Quartet) (https://creativecommons.org/licenses/by/3.0/)
+    Ganze Aufnahme:      https://commons.wikimedia.org/wiki/File:Schoenberg_Quartet_No._2_4th_movement.OGG
+------------------------------------------------------------------------------
+13. Igor Strawinsky: Le Sacre du printemps, Opfertanz (1913)
+    Kennung / Dateiname: rec-stravinsky.mp4 | .mp3 …
+    Interpreten:         London Philharmonic Orchestra
+    Art:                 Video (YouTube, Einbettung erst nach Klick)
+    Video:               https://www.youtube.com/watch?v=KzVDpdKgLS4
+    Ausschnitt:          0:00 – 1:15  (Link mit Startmarke: https://www.youtube.com/watch?v=KzVDpdKgLS4&t=0s)
+    Titel laut YouTube:  Stravinsky: Rite of Spring – Sacrificial Dance – London Philharmonic Orchestra
+    Kanal:               London Philharmonic Orchestra
+    Ganze Aufnahme:      https://www.youtube.com/watch?v=KzVDpdKgLS4
+------------------------------------------------------------------------------
+14. Béla Bartók: Streichquartett Nr. 2, Sz 67, 2. Satz (1917)
+    Kennung / Dateiname: rec-bartok.mp4 | .mp3 …
+    Interpreten:         Carmel Quartet (2007)
+    Art:                 gespeicherter Ausschnitt (audio/rec-bartok.mp3), 1:00 Minuten
+    Original:            https://upload.wikimedia.org/wikipedia/commons/9/94/Bartok_Op._17,_Second_Movement.OGG
+    Quelle:              Wikimedia Commons (Carmel Quartet)
+    Lizenz:              CC BY 3.0 (https://creativecommons.org/licenses/by/3.0/)
+    Ganze Aufnahme:      https://commons.wikimedia.org/wiki/File:Bartok_Op._17,_Second_Movement.OGG
+------------------------------------------------------------------------------
+15. Olivier Messiaen: Quatuor pour la fin du temps, 3. Satz ‚Abîme des oiseaux‘ (1941)
+    Kennung / Dateiname: rec-messiaen.mp4 | .mp3 …
+    Interpreten:         Julien Hervé (Klarinette), Rotterdam Philharmonic Orchestra
+    Art:                 Video (YouTube, Einbettung erst nach Klick)
+    Video:               https://www.youtube.com/watch?v=-tPqTqpLG5M
+    Ausschnitt:          0:00 – 2:30  (Link mit Startmarke: https://www.youtube.com/watch?v=-tPqTqpLG5M&t=0s)
+    Titel laut YouTube:  Abîme des oiseaux - Messiaen | Julien Hervé, clarinet
+    Kanal:               Rotterdam Philharmonic Orchestra
+    Ganze Aufnahme:      https://www.youtube.com/watch?v=-tPqTqpLG5M
+------------------------------------------------------------------------------
+16. György Ligeti: Atmosphères (1961)
+    Kennung / Dateiname: rec-ligeti.mp4 | .mp3 …
+    Interpreten:         hr-Sinfonieorchester, Ltg. Christoph Eschenbach
+    Art:                 Video (YouTube, Einbettung erst nach Klick)
+    Video:               https://www.youtube.com/watch?v=E-bemE-bCXQ
+    Ausschnitt:          0:00 – 1:30  (Link mit Startmarke: https://www.youtube.com/watch?v=E-bemE-bCXQ&t=0s)
+    Titel laut YouTube:  Ligeti: Atmosphères ∙ hr-Sinfonieorchester ∙ Christoph Eschenbach
+    Kanal:               hr-Sinfonieorchester – Frankfurt Radio Symphony
+    Ganze Aufnahme:      https://www.youtube.com/watch?v=E-bemE-bCXQ
+------------------------------------------------------------------------------
+17. Steve Reich: Music for 18 Musicians, Pulses (1976)
+    Kennung / Dateiname: rec-reich.mp4 | .mp3 …
+    Interpreten:         Ensemble intercontemporain, Synergy Vocals
+    Art:                 Video (YouTube, Einbettung erst nach Klick)
+    Video:               https://www.youtube.com/watch?v=ApnbymNz9dE
+    Ausschnitt:          0:00 – 1:40  (Link mit Startmarke: https://www.youtube.com/watch?v=ApnbymNz9dE&t=0s)
+    Titel laut YouTube:  Steve Reich, Music for Eighteen Musicians - Synergy Vocals - Ensemble intercontemporain
+    Kanal:               Ensemble Intercontemporain
+    Ganze Aufnahme:      https://www.youtube.com/watch?v=ApnbymNz9dE
+------------------------------------------------------------------------------
+18. Arvo Pärt: Cantus in Memoriam Benjamin Britten (1977)
+    Kennung / Dateiname: rec-paert.mp4 | .mp3 …
+    Interpreten:         Norwegian Chamber Orchestra
+    Art:                 Video (YouTube, Einbettung erst nach Klick)
+    Video:               https://www.youtube.com/watch?v=TVZZgfXNFW8
+    Ausschnitt:          0:00 – 2:00  (Link mit Startmarke: https://www.youtube.com/watch?v=TVZZgfXNFW8&t=0s)
+    Titel laut YouTube:  Arvo Pärt: Cantus in memoriam Benjamin Britten
+    Kanal:               Norwegian Chamber Orchestra
+    Ganze Aufnahme:      https://www.youtube.com/watch?v=TVZZgfXNFW8
+------------------------------------------------------------------------------
+19. Caroline Shaw: Partita for 8 Voices, Passacaglia (2011)
+    Kennung / Dateiname: rec-shaw.mp4 | .mp3 …
+    Interpreten:         Roomful of Teeth
+    Art:                 Video (YouTube, Einbettung erst nach Klick)
+    Video:               https://www.youtube.com/watch?v=BiKCuNH1rC4
+    Ausschnitt:          0:00 – 1:40  (Link mit Startmarke: https://www.youtube.com/watch?v=BiKCuNH1rC4&t=0s)
+    Titel laut YouTube:  Roomful of Teeth - Shaw: Passacaglia (4th mvt) from Partita for 8 Voices
+    Kanal:               CPR Classical
+    Ganze Aufnahme:      https://www.youtube.com/watch?v=BiKCuNH1rC4
+------------------------------------------------------------------------------
+
+Insgesamt 19 Aufnahmen: 7 gespeichert, 12 als YouTube-Video.

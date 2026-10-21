@@ -1,0 +1,209 @@
+[
+  {
+    "id": "barock-klassik",
+    "title": "Vom Uhrwerk zum Gespräch",
+    "question": "Was ändert sich, wenn neun gleich wichtige Stimmen zu einer Melodie mit Begleitung werden?",
+    "a": {
+      "stationId": "bach",
+      "recordingId": "rec-bach",
+      "label": "Bach",
+      "sub": "Brandenburgisches Konzert Nr. 3 · 1721"
+    },
+    "b": {
+      "stationId": "mozart",
+      "recordingId": "rec-mozart",
+      "label": "Mozart",
+      "sub": "Sinfonie g-Moll · 1788"
+    },
+    "notice": [
+      "Bei A läuft ein Motor durch. Bei B gibt es Atempausen.",
+      "A: viele Stimmen, alle gleich wichtig. B: eine Melodie vorn, der Rest begleitet.",
+      "A bleibt gleich laut. B wird lauter und leiser – bis hin zum Seufzer."
+    ],
+    "verdict": "Siebzig Jahre liegen dazwischen. Der Unterschied ist nicht „alt“ gegen „neu“. Bei Bach ordnen die Stimmen sich zu einem Räderwerk, bei Mozart spricht eine Stimme – und fühlt."
+  },
+  {
+    "id": "mozart-beethoven",
+    "title": "Seufzer und Entschluss",
+    "question": "Beide Sätze stehen in Moll, beide beginnen unruhig. Wo unterscheiden sie sich?",
+    "a": {
+      "stationId": "mozart",
+      "recordingId": "rec-mozart",
+      "label": "Mozart",
+      "sub": "Sinfonie g-Moll · 1788"
+    },
+    "b": {
+      "stationId": "beethoven",
+      "recordingId": "rec-beethoven",
+      "label": "Beethoven",
+      "sub": "5. Sinfonie · 1808"
+    },
+    "notice": [
+      "A beginnt mit einer Bewegung, aus der die Melodie wächst. B beginnt mit vier Schlägen, aus denen alles entsteht.",
+      "A: Seufzer, weiche Kanten. B: harte Betonungen und Pausen, die spannend sind.",
+      "A bleibt länger in einer Stimmung. B holt sofort zum nächsten Schlag aus."
+    ],
+    "verdict": "Zwanzig Jahre und eine Revolution liegen dazwischen. Es ist dasselbe Orchester und dieselbe Art von Musik – aber es klingt, als hätte jemand die Fenster aufgerissen."
+  },
+  {
+    "id": "beethoven-berlioz",
+    "title": "Vom Kampf zum Gemälde",
+    "question": "Was ändert sich, wenn das Orchester nicht mehr nur kämpft, sondern malt?",
+    "a": {
+      "stationId": "beethoven",
+      "recordingId": "rec-beethoven",
+      "label": "Beethoven",
+      "sub": "5. Sinfonie · 1808"
+    },
+    "b": {
+      "stationId": "berlioz",
+      "recordingId": "rec-berlioz",
+      "label": "Berlioz",
+      "sub": "Symphonie fantastique, Un bal · 1830"
+    },
+    "notice": [
+      "A: wenige Gedanken, hart durchgearbeitet. B: viele Farben, weich ineinander übergehend.",
+      "Hören Sie die Harfen in B. Bei Beethoven gibt es keine.",
+      "B lebt von Klangmischungen, A vom Rhythmus."
+    ],
+    "verdict": "Zweiundzwanzig Jahre später ist das Orchester vom Werkzeug für Gedanken zum Werkzeug für Farben geworden. Dass B ein Walzer ist, macht den Unterschied noch deutlicher."
+  },
+  {
+    "id": "brahms-wagner",
+    "title": "Zwei Antworten auf dieselbe Frage",
+    "question": "Wo ist das Zuhause der Musik? Zwei Zeitgenossen, zwei Wege.",
+    "a": {
+      "stationId": "brahms",
+      "recordingId": "rec-brahms",
+      "label": "Brahms",
+      "sub": "Tragische Ouvertüre · 1880"
+    },
+    "b": {
+      "stationId": "wagner",
+      "recordingId": "rec-wagner",
+      "label": "Wagner",
+      "sub": "Tristan und Isolde, Vorspiel · 1859"
+    },
+    "notice": [
+      "A: Die Musik hat festen Boden. Man ahnt, wohin sie will. B: Der Boden schwankt.",
+      "Achten Sie bei B darauf, wo Sie gerne ankommen würden – und ob es passiert.",
+      "Beide sind dunkel und ernst. Der Unterschied ist die Richtung, nicht die Lautstärke."
+    ],
+    "verdict": "Zu ihrer Zeit stritten Anhänger beider Seiten leidenschaftlich. Hören kann man etwas Einfacheres: zwei Möglichkeiten, mit demselben Erbe umzugehen."
+  },
+  {
+    "id": "wagner-debussy",
+    "title": "Von der Spannung zur Farbe",
+    "question": "Beide verwischen das Zuhause. Wollen sie dasselbe?",
+    "a": {
+      "stationId": "wagner",
+      "recordingId": "rec-wagner",
+      "label": "Wagner",
+      "sub": "Tristan und Isolde, Vorspiel · 1859"
+    },
+    "b": {
+      "stationId": "debussy",
+      "recordingId": "rec-debussy",
+      "label": "Debussy",
+      "sub": "Nachmittag eines Fauns · 1894"
+    },
+    "notice": [
+      "A drängt: Jeder Akkord will weiter. B ruht: Die Akkorde stehen nebeneinander.",
+      "A klingt nach Sehnsucht. B klingt nach Schweben.",
+      "Beide Male fehlt das Zuhause, aus ganz verschiedenen Gründen."
+    ],
+    "verdict": "Aus demselben Stoff entstehen zwei Gegensätze: die Sehnsucht nach einer Lösung – und Musik, die gar keine mehr braucht."
+  },
+  {
+    "id": "mahler-schoenberg",
+    "title": "Wenn das Gerüst reißt",
+    "question": "Zwei Wiener, sechs Jahre Abstand. Wo gibt die Tonart nach?",
+    "a": {
+      "stationId": "mahler",
+      "recordingId": "rec-mahler",
+      "label": "Mahler",
+      "sub": "5. Sinfonie, Trauermarsch · 1902"
+    },
+    "b": {
+      "stationId": "schoenberg",
+      "recordingId": "rec-schoenberg",
+      "label": "Schönberg",
+      "sub": "2. Streichquartett, Schlusssatz · 1908"
+    },
+    "notice": [
+      "A: laut und riesig, aber der Boden hält. B: leise und klein, aber der Boden fehlt.",
+      "Achten Sie auf Schlüsse: A kommt manchmal an. B nicht.",
+      "Das Orchester wird kleiner, der Bruch größer."
+    ],
+    "verdict": "Man muss Schönberg nicht mögen. Aber Mahler zeigt, wie viel das Alte aushält, und Schönberg, wo es aufhört."
+  },
+  {
+    "id": "debussy-schoenberg",
+    "title": "Zwei Arten, das Zuhause zu verlassen",
+    "question": "Debussy lässt es schwebend los, Schönberg schmerzhaft. Hören Sie den Unterschied?",
+    "a": {
+      "stationId": "debussy",
+      "recordingId": "rec-debussy",
+      "label": "Debussy",
+      "sub": "Nachmittag eines Fauns · 1894"
+    },
+    "b": {
+      "stationId": "schoenberg",
+      "recordingId": "rec-schoenberg",
+      "label": "Schönberg",
+      "sub": "2. Streichquartett, Schlusssatz · 1908"
+    },
+    "notice": [
+      "A: Farbe, Weichheit, Ruhe. B: Spannung, Druck, Zerrissenheit.",
+      "A drängt nirgends hin. B steht in jedem Satz unter Druck.",
+      "Beiden fehlt ein klares Zuhause. Bei A fühlt sich das frei an, bei B unruhig."
+    ],
+    "verdict": "Vierzehn Jahre liegen dazwischen. Derselbe Schritt – das Zuhause zu verlassen – führt zu zwei fast gegensätzlichen Klangwelten."
+  },
+  {
+    "id": "schoenberg-stravinsky",
+    "title": "Zwei Revolutionen",
+    "question": "Schönberg zerlegt die Akkorde, Strawinsky den Takt. Welche Neuerung hört man schneller?",
+    "a": {
+      "stationId": "schoenberg",
+      "recordingId": "rec-schoenberg",
+      "label": "Schönberg",
+      "sub": "2. Streichquartett, Schlusssatz · 1908"
+    },
+    "b": {
+      "stationId": "stravinsky",
+      "recordingId": "rec-stravinsky",
+      "label": "Strawinsky",
+      "sub": "Frühlingsopfer, Opfertanz · 1913"
+    },
+    "notice": [
+      "A: Die Zeit fließt weich, die Töne schweben. B: Die Zeit stolpert, die Töne schlagen zu.",
+      "Versuchen Sie bei B mitzuklopfen – und dann bei A.",
+      "Bei B klingen die Akkorde erstaunlich vertraut. Das Aufregende liegt woanders."
+    ],
+    "verdict": "Neuerung kann an verschiedenen Stellen ansetzen: bei der Tonart oder beim Takt. Das Publikum reagierte auf beides ähnlich – mit Empörung."
+  },
+  {
+    "id": "ligeti-reich",
+    "title": "Wolke oder Uhrwerk?",
+    "question": "Zwei Antworten auf die Frage, was nach dem Zuhause noch möglich ist: Fläche oder Puls.",
+    "a": {
+      "stationId": "ligeti",
+      "recordingId": "rec-ligeti",
+      "label": "Ligeti",
+      "sub": "Atmosphères · 1961"
+    },
+    "b": {
+      "stationId": "reich",
+      "recordingId": "rec-reich",
+      "label": "Reich",
+      "sub": "Music for 18 Musicians · 1976"
+    },
+    "notice": [
+      "A: kein Takt, kein Thema. B: fester Takt, Wiederholung, Muster.",
+      "A verändert sich wie das Wetter, B wie ein Räderwerk.",
+      "Keines von beiden hat eine Melodie im alten Sinn."
+    ],
+    "verdict": "Fünfzehn Jahre liegen dazwischen. Die beiden wirken gegensätzlich, sind sich aber ähnlicher, als man denkt: Beide wollen, dass man ganz neu zuhört."
+  }
+]

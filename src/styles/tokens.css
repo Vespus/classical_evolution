@@ -1,0 +1,210 @@
+/* Gestaltungs-Tokens. Jede Station setzt über data-theme ihre eigene Farbwelt;
+   die Übergänge zwischen den Farbwelten sind Teil der Dramaturgie. */
+
+:root {
+  --font-text: 'Newsreader Variable', 'Iowan Old Style', 'Palatino Linotype', Georgia, serif;
+  --font-ui: 'Inter Variable', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+
+  --step--1: clamp(0.8125rem, 0.79rem + 0.1vw, 0.875rem);
+  --step-0: clamp(1.0625rem, 1.02rem + 0.2vw, 1.1875rem);
+  --step-1: clamp(1.25rem, 1.15rem + 0.45vw, 1.5rem);
+  --step-2: clamp(1.5rem, 1.3rem + 0.9vw, 2rem);
+  --step-3: clamp(2rem, 1.55rem + 1.9vw, 3rem);
+  --step-4: clamp(2.5rem, 1.7rem + 3.4vw, 4.5rem);
+  --step-5: clamp(3rem, 1.6rem + 5.8vw, 7rem);
+
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.5rem;
+  --space-6: 2rem;
+  --space-7: 3rem;
+  --space-8: 4.5rem;
+  --space-9: 7rem;
+
+  --gutter: clamp(1.25rem, 4vw, 3.5rem);
+  --measure: 38rem;
+  --maxw: 78rem;
+  --radius: 14px;
+  --radius-sm: 8px;
+  --timeline-h: 92px;
+  --topbar-h: 64px;
+
+  --ease: cubic-bezier(0.22, 0.61, 0.36, 1);
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+  --dur: 520ms;
+
+  /* Standard-Farbwelt (Startseite, Werkzeug-Seiten): Papier, Stein und das Blau von Herrenausstatter.de – gedämpft, kein reines Weiß */
+  --bg: #f2efe8;
+  --bg-2: #e7e3db;
+  --fg: #1b1a17;
+  --muted: #5a5649;
+  --faint: #68635a;
+  --line: rgba(27, 26, 23, 0.14);
+  --card: rgba(250,248,242, 0.6);
+  --accent: #1c3ba6;
+  --accent-ink: #f6f4ee;
+  --focus: #0031d2;
+  --gold: #a9986f;
+}
+
+/* ---------- Farbwelten ----------
+   Natürliche Töne aus dem Auftritt von Herrenausstatter.de (Sand, Stein, Moos, Nachtblau, Bordeaux, Gold),
+   gedämpft: weder reines Weiß noch reines Schwarz. */
+
+[data-theme='barock'] {
+  --bg: #ece4d2;
+  --bg-2: #e0d6bf;
+  --fg: #2a2418;
+  --muted: #5f5640;
+  --faint: #625841;
+  --line: rgba(42,36,24, 0.16);
+  --card: rgba(250,246,236, 0.55);
+  --accent: #7a5f2b;
+  --accent-ink: #f6f2e6;
+}
+
+[data-theme='klassik'] {
+  --bg: #e3e7ea;
+  --bg-2: #d7dde2;
+  --fg: #1a2128;
+  --muted: #4b5660;
+  --faint: #516069;
+  --line: rgba(26,33,40, 0.16);
+  --card: rgba(246,248,250, 0.6);
+  --accent: #24449a;
+  --accent-ink: #f4f6f8;
+}
+
+[data-theme='romantik'] {
+  --bg: #1f2a24;
+  --bg-2: #171f1a;
+  --fg: #e8ebe3;
+  --muted: #a9b4a6;
+  --faint: #9aa598;
+  --line: rgba(232,235,227, 0.17);
+  --card: rgba(255,255,255, 0.06);
+  --accent: #c9b98a;
+  --accent-ink: #1a211c;
+  --focus: #e3cf9b;
+}
+
+[data-theme='fruehromantik'] {
+  --bg: #1b2236;
+  --bg-2: #131928;
+  --fg: #e7eaf0;
+  --muted: #a4adc0;
+  --faint: #959fb5;
+  --line: rgba(231,234,240, 0.17);
+  --card: rgba(255,255,255, 0.06);
+  --accent: #90a8f0;
+  --accent-ink: #10162a;
+  --focus: #e3cf9b;
+}
+
+[data-theme='spaetromantik'] {
+  --bg: #2c1f1d;
+  --bg-2: #1e1514;
+  --fg: #f1e8e2;
+  --muted: #bfa9a1;
+  --faint: #b09a93;
+  --line: rgba(241,232,226, 0.17);
+  --card: rgba(255,255,255, 0.06);
+  --accent: #e0a07c;
+  --accent-ink: #1e1514;
+  --focus: #9fb4f2;
+}
+
+[data-theme='impressionismus'] {
+  --bg: #e3e6ec;
+  --bg-2: #d6dbe5;
+  --fg: #1a2038;
+  --muted: #50587a;
+  --faint: #525a79;
+  --line: rgba(26,32,56, 0.16);
+  --card: rgba(248,249,252, 0.55);
+  --accent: #2b46b0;
+  --accent-ink: #f4f5f9;
+}
+
+[data-theme='expressionismus'] {
+  --bg: #1e1d1b;
+  --bg-2: #141311;
+  --fg: #eeeae2;
+  --muted: #b2ada1;
+  --faint: #96918a;
+  --line: rgba(238,234,226, 0.17);
+  --card: rgba(255,255,255, 0.06);
+  --accent: #ee7466;
+  --accent-ink: #1a1311;
+  --focus: #9fb4f2;
+}
+
+[data-theme='rhythmus'] {
+  --bg: #efe6da;
+  --bg-2: #e5d9c8;
+  --fg: #231a14;
+  --muted: #5c4c3f;
+  --faint: #6a5949;
+  --line: rgba(35,26,20, 0.16);
+  --card: rgba(252,248,242, 0.55);
+  --accent: #a8242a;
+  --accent-ink: #f8f1ea;
+}
+
+[data-theme='nachkrieg'] {
+  --bg: #20252c;
+  --bg-2: #171b20;
+  --fg: #e6e9ec;
+  --muted: #a3abb4;
+  --faint: #929aa4;
+  --line: rgba(230,233,236, 0.17);
+  --card: rgba(255,255,255, 0.06);
+  --accent: #8fb0e8;
+  --accent-ink: #12171d;
+  --focus: #e3cf9b;
+}
+
+[data-theme='minimal'] {
+  --bg: #f6f4ee;
+  --bg-2: #ebe8e0;
+  --fg: #1b1a17;
+  --muted: #55524a;
+  --faint: #66625a;
+  --line: rgba(27,26,23, 0.16);
+  --card: rgba(252,251,247, 0.8);
+  --accent: #0031d2;
+  --accent-ink: #f6f4ee;
+}
+
+[data-theme='gegenwart'] {
+  --bg: #ebe4df;
+  --bg-2: #e0d7d1;
+  --fg: #241d1c;
+  --muted: #5e5350;
+  --faint: #625753;
+  --line: rgba(36,29,28, 0.16);
+  --card: rgba(250,246,243, 0.6);
+  --accent: #8a3b3f;
+  --accent-ink: #f7f1ee;
+}
+
+[data-theme='nacht'] {
+  --bg: #181715;
+  --bg-2: #0f0e0d;
+  --fg: #f0ece3;
+  --muted: #aeaa9f;
+  --faint: #928e84;
+  --line: rgba(240,236,227, 0.17);
+  --card: rgba(255,255,255, 0.05);
+  --accent: #c9b98a;
+  --accent-ink: #181715;
+  --focus: #9fb4f2;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    --dur: 1ms;
+  }
+}
