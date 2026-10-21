@@ -110,9 +110,6 @@ export function ExternalPlayer({ recording, work, composer, badge, compact, extr
       )}
 
       <div className="player-actions">
-        <a className="chip chip--link" href={`https://www.youtube.com/watch?v=${ext.videoId}&t=${ext.start}s`} target="_blank" rel="noreferrer noopener">
-          Bei YouTube öffnen <ExternalIcon width={14} height={14} />
-        </a>
         <a className="chip chip--link" href={work.fullListenUrl} target="_blank" rel="noreferrer noopener">
           {work.fullListenLabel} <ExternalIcon width={14} height={14} />
         </a>

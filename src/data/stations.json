@@ -187,6 +187,16 @@
     "swift": {
       "tag": "verwandt",
       "text": "Auch ein Popsong spielt mit dem, was Sie erwarten. Die „Bridge“, der Mittelteil vor dem letzten Refrain, bricht oft aus dem Muster aus. Taylor Swift wird dafür häufig gelobt. Das Prinzip ist dasselbe wie bei Haydns Knall: erst Gewohnheit, dann Überraschung."
+    },
+    "deeper": {
+      "title": "Nach dem Knall",
+      "text": "Der Knall ist nur ein Augenblick im zweiten Satz. Danach verwandelt Haydn das einfache Thema vier Mal: mal laut, mal in Moll, mal verspielt. Wer die ganze Sinfonie hört, erlebt, wie der Spaß zum Handwerk wird.",
+      "links": [
+        {
+          "label": "Die ganze Sinfonie ansehen (DW Classical Music, Lucerne Festival)",
+          "url": "https://www.youtube.com/watch?v=Pb4nRgwQ5Jk"
+        }
+      ]
     }
   },
   {
@@ -251,6 +261,20 @@
     "swift": {
       "tag": "kennen",
       "text": "Ein Refrain, der sich festsetzt, ist ein Motiv: wenige Töne, leicht zu merken, immer wieder gespielt. Beethoven macht aus vier Tönen einen ganzen Satz. Ein Popsong macht aus einem Refrain den ganzen Song."
+    },
+    "deeper": {
+      "title": "Der Schluss der Fünften",
+      "text": "Der erste Satz endet in Moll. Der letzte Satz der Sinfonie kehrt das um: Aus dem dunklen Beginn wird strahlendes Dur, und das ganze Orchester jubelt, mit Posaunen, die in Sinfonien neu waren. Viele hören darin die Antwort auf die vier Töne vom Anfang. Das ist beeindruckend, aber ein anderes Erlebnis als der Anfang, um den es hier geht.",
+      "links": [
+        {
+          "label": "Die ganze Sinfonie ansehen (hr-Sinfonieorchester)",
+          "url": "https://www.youtube.com/watch?v=fuPrcnpIRx8"
+        },
+        {
+          "label": "Kurzfilm der Berliner Philharmoniker, 3 Minuten (u. a. mit dem Schluss)",
+          "url": "https://www.youtube.com/watch?v=VHDZ2isd4xg"
+        }
+      ]
     }
   },
   {

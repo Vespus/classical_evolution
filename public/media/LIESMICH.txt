@@ -1,0 +1,20 @@
+Eigene Musik- und Videodateien
+==============================
+
+Wenn in diesem Ordner (auf dem Server: .../klassik/media/) eine Datei liegt, die genauso heißt
+wie die Aufnahme, spielt die App diese Datei anstelle des YouTube-Videos bzw. des eingebauten
+Ausschnitts. Fehlt die Datei, bleibt alles wie gewohnt.
+
+Dateinamen: <Aufnahme-Kennung>.<Endung>
+  Endungen:  mp4, webm (Video)   mp3, m4a, ogg, opus (nur Ton)
+  Beispiel:  rec-beethoven.mp4
+
+Die Datei wird vom Anfang bis zum Ende abgespielt. Schneiden Sie also den gewünschten
+Ausschnitt vorher zu (empfohlen: 60–120 Sekunden). Reihenfolge, falls es mehrere gibt:
+mp4, webm, mp3, m4a, ogg, opus.
+
+Gefunden werden die Dateien beim Aufruf der Seite: nach dem Ablegen einmal neu laden.
+Alle Kennungen samt Quellen stehen in docs/MUSIKLISTE.txt.
+
+Wichtig für die Auslieferung per rsync: Der Ordner media/ darf nicht gelöscht werden.
+  rsync -a --delete --exclude 'media/' dist/ /var/www/html/klassik/

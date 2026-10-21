@@ -8,7 +8,7 @@
  * Screenshots landen in tests/shots/ (nicht versioniert).
  */
 import { spawn } from 'node:child_process';
-import { mkdirSync, existsSync, readFileSync } from 'node:fs';
+import { mkdirSync, existsSync, readFileSync, writeFileSync, rmSync } from 'node:fs';
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { chromium } from 'playwright';
@@ -184,6 +184,31 @@ try {
     await ctx.close();
   }
 
+  /* ---------- Eigene Medien (Ordner media/) ---------- */
+  console.log('Eigene Medien');
+  {
+    const { ctx, page } = await newPage();
+    const dir = join(root, 'dist', 'media');
+    mkdirSync(dir, { recursive: true });
+    const file = join(dir, 'rec-schubert.mp4');
+    try {
+      await page.goto(`${BASE}#/reise/schubert`);
+      await page.waitForSelector('.player');
+      await page.waitForTimeout(800);
+      ok((await page.locator('.player--video video').count()) === 0, 'Ohne Datei: Standard-Player (kein Video)');
+      ok((await page.locator('.player--external .play-btn').count()) === 1, 'Ohne Datei: YouTube-Player wartet auf Klick');
+      ok((await page.getByText('Bei YouTube öffnen').count()) === 0, 'Link „Bei YouTube öffnen“ ist entfernt');
+      writeFileSync(file, Buffer.alloc(2048));
+      await page.reload(); // gefundene und nicht gefundene Dateien werden pro Seitenaufruf gemerkt
+      await page.waitForSelector('.player--video video', { timeout: 8000 });
+      ok(true, 'Mit Datei media/rec-schubert.mp4: eigenes Video statt YouTube');
+      ok((await page.locator('.player--external iframe').count()) === 0, 'Dann wird nichts von YouTube geladen');
+    } finally {
+      rmSync(dir, { recursive: true, force: true });
+    }
+    await ctx.close();
+  }
+
   /* ---------- Landschaft, Grundlagen, Quellen ---------- */
   console.log('Landschaft / Grundlagen / Quellen');
   {
@@ -191,8 +216,38 @@ try {
     await page.goto(`${BASE}#/landschaft`);
     await page.waitForSelector('.lane');
     ok((await page.locator('.lane').count()) === 5, 'Fünf Regler');
-    await page.locator('.land-st').nth(10).hover();
+    const cols = page.locator('.land-col');
+    ok((await cols.count()) === stations.length, 'Eine Spalte je Station');
+    await cols.nth(10).hover();
+    ok((await page.locator('.land-preview').innerText()).includes(String(stations[10].year)), 'Vorschau folgt dem Zeiger');
+    // Alle fünf Linien sind gleich deutlich sichtbar (keine halbtransparenten Bahnen)
+    const opac = await page.locator('.lane').evaluateAll((els) => els.map((e) => getComputedStyle(e).opacity));
+    ok(opac.every((o) => o === '1'), 'Alle Bahnen voll sichtbar');
+    // Alles passt in ein Fenster: Beschriftung der letzten Spalte im sichtbaren Bereich
+    const fits = await page.locator('.land-col-year').first().evaluate((el) => el.getBoundingClientRect().bottom <= window.innerHeight);
+    ok(fits, 'Zeitleiste ohne Scrollen sichtbar');
     await page.screenshot({ path: join(shots, 'landscape.png'), fullPage: true });
+
+    // Klick öffnet die Detailansicht mit Einordnung und Hörbeispiel
+    await cols.nth(0).click();
+    await page.waitForSelector('dialog.land-dialog[open]');
+    ok((await page.locator('.land-dialog h2').innerText()).length > 5, 'Dialog zeigt Überschrift');
+    ok((await page.locator('.land-dialog .profile-row').count()) === 5, 'Dialog zeigt die fünf Eigenschaften');
+    await page.locator('.land-dialog .play-btn').click();
+    await page.waitForSelector('.land-dialog .player.is-playing');
+    ok(true, 'Hörbeispiel startet im Dialog');
+    await page.screenshot({ path: join(shots, 'landscape-dialog.png') });
+    await page.locator('.ld-foot button').last().click();
+    await page.waitForFunction(() => document.querySelector('.land-dialog .eyebrow')?.textContent?.includes('Station 02'));
+    ok((await page.locator('.land-dialog .player.is-playing').count()) === 0, 'Ton stoppt beim Wechsel');
+    await page.keyboard.press('Escape');
+    await page.waitForSelector('dialog.land-dialog', { state: 'detached' });
+    ok(true, 'Esc schließt den Dialog');
+    // Video-Station: nichts wird vor dem Klick geladen
+    await page.locator('.land-col').nth(3).click();
+    await page.waitForSelector('dialog.land-dialog[open]');
+    ok((await page.locator('.land-dialog iframe').count()) === 0, 'Video im Dialog lädt erst nach Klick');
+    await page.keyboard.press('Escape');
 
     await page.goto(`${BASE}#/grundlagen`);
     await page.waitForSelector('.concept');

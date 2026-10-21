@@ -623,3 +623,6 @@ kbd {
 .formbar .now { transform: translateY(-4px); box-shadow: 0 0 0 2px var(--accent); }
 
 .player-note { margin: 0.9rem 0 0; font-family: var(--font-ui); font-size: 0.74rem; line-height: 1.5; color: var(--muted); }
+
+.player--video .player-meta { margin-bottom: 0.2rem; }
+.ext-frame--file video { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: contain; background: #141414; }

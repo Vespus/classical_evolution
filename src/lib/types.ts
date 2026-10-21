@@ -92,6 +92,8 @@ export interface Recording {
     title: string;
     channel: string;
     checked: string;
+    /** Startmarke nicht gegengehört, nur aus der Dauer geschätzt (siehe docs/MUSIKLISTE.txt) */
+    estimatedStart?: boolean;
   };
 }
 
@@ -164,6 +166,8 @@ export interface Station {
   /** Fachbegriff, nachgestellt */
   term?: { word: string; text: string };
   /** „Und Taylor Swift?“ – Bezug zur Popmusik: bekannt, verwandt oder anders */
+  /** „Tiefer gehen“: weiterführende Hinweise mit Links */
+  deeper?: { title: string; text: string; links: { label: string; url: string }[] };
   swift: { tag: 'kennen' | 'verwandt' | 'anders'; text: string };
   forces: Forces;
   profile: Profile;

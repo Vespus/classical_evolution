@@ -27,6 +27,20 @@ for (const r of routes) {
   for (const x of v) for (const n of x.nodes.slice(0, 2)) console.log('     ', x.id, n.target.join(' '), '|', (n.failureSummary || '').split('\n')[1] ?? '');
   bad += v.length;
 }
+// Detailansicht der Landschaft
+await page.goto(`http://127.0.0.1:${PORT}/#/landschaft`);
+await page.waitForSelector('.land-col');
+await page.locator('.land-col').nth(8).click();
+await page.waitForSelector('dialog.land-dialog[open]');
+await page.waitForTimeout(600);
+await page.addScriptTag({ content: axeSrc });
+{
+  const res = await page.evaluate(async () => await window.axe.run(document, { runOnly: ['wcag2a', 'wcag2aa', 'best-practice'] }));
+  const v = res.violations.filter((x) => x.impact !== 'minor');
+  console.log(`${v.length ? '✗' : '✓'} #/landschaft (Dialog)  ${v.map((x) => `${x.id} (${x.nodes.length})`).join(', ')}`);
+  for (const x of v) for (const n of x.nodes.slice(0, 2)) console.log('     ', x.id, n.target.join(' '), '|', (n.failureSummary || '').split('\n')[1] ?? '');
+  bad += v.length;
+}
 await browser.close();
 server.kill();
 process.exit(bad ? 1 : 0);

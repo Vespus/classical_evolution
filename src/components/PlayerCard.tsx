@@ -4,6 +4,8 @@ import { clipTrack, fullTrack } from '../lib/tracks';
 import type { Composer, Recording, Work } from '../lib/types';
 import { ExternalIcon, PauseIcon, PlayIcon, RefreshIcon, Spinner } from './Icons';
 import { ExternalPlayer } from './ExternalPlayer';
+import { VideoPlayer } from './VideoPlayer';
+import { useMediaOverride } from '../lib/media';
 import { Waveform } from './Waveform';
 
 interface Props {
@@ -21,6 +23,18 @@ interface Props {
 }
 
 export function PlayerCard(props: Props) {
+  // Eigene Datei im Ordner media/ hat Vorrang (siehe lib/media.ts)
+  const media = useMediaOverride(props.recording.id);
+  if (media?.kind === 'video') return <VideoPlayer {...props} src={media.url} />;
+  if (media?.kind === 'audio') {
+    const own: Recording = {
+      ...props.recording,
+      provider: 'local',
+      external: undefined,
+      local: { fileUrl: media.url, clip: media.url.replace(import.meta.env.BASE_URL, ''), clipStart: 0, clipEnd: 0 },
+    };
+    return <LocalPlayer {...props} recording={own} />;
+  }
   return props.recording.provider === 'external' ? <ExternalPlayer {...props} /> : <LocalPlayer {...props} />;
 }
 

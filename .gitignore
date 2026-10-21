@@ -4,3 +4,5 @@ dist
 tests/shots
 *.log
 .cache
+public/media/*
+!public/media/LIESMICH.txt

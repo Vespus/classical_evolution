@@ -24,24 +24,26 @@
   {
     "id": "rec-haydn",
     "workId": "haydn-94",
-    "performer": "Berliner Philharmoniker, Ltg. Mariss Jansons",
+    "performer": "Lucerne Festival Orchestra, Ltg. Andris Nelsons",
     "provider": "external",
     "source": "YouTube (offizieller Kanal)",
-    "sourceUrl": "https://www.youtube.com/watch?v=ympNv3Wbv0M",
+    "sourceUrl": "https://www.youtube.com/watch?v=Pb4nRgwQ5Jk",
     "license": {
       "name": "Externer Stream (kein Eigenbestand)",
       "url": "https://www.youtube.com/t/terms"
     },
-    "attribution": "Berliner Philharmoniker (Digital Concert Hall), offizieller YouTube-Kanal.",
+    "attribution": "DW Classical Music, offizieller YouTube-Kanal (Mitschnitt vom Lucerne Festival, August 2015).",
     "external": {
       "kind": "youtube",
-      "videoId": "ympNv3Wbv0M",
-      "start": 0,
-      "end": 100,
-      "title": "Haydn: Symphony No. 94 “Surprise” / Jansons - Berliner Philharmoniker",
-      "channel": "Berliner Philharmoniker",
-      "checked": "2026-10-20"
-    }
+      "videoId": "Pb4nRgwQ5Jk",
+      "start": 505,
+      "end": 615,
+      "title": "Haydn: Symphony No. 94 “Surprise” | Andris Nelsons & the Lucerne Festival Orchestra",
+      "channel": "DW Classical Music",
+      "checked": "2026-10-21",
+      "estimatedStart": true
+    },
+    "recordedYear": "2015"
   },
   {
     "id": "rec-mozart",
@@ -68,23 +70,23 @@
   {
     "id": "rec-beethoven",
     "workId": "beethoven-5",
-    "performer": "Berliner Philharmoniker, Ltg. Simon Rattle",
+    "performer": "Boston Philharmonic Orchestra, Ltg. Benjamin Zander",
     "provider": "external",
     "source": "YouTube (offizieller Kanal)",
-    "sourceUrl": "https://www.youtube.com/watch?v=VHDZ2isd4xg",
+    "sourceUrl": "https://www.youtube.com/watch?v=n3EiRynr1Us",
     "license": {
       "name": "Externer Stream (kein Eigenbestand)",
       "url": "https://www.youtube.com/t/terms"
     },
-    "attribution": "Berliner Philharmoniker (Digital Concert Hall), offizieller YouTube-Kanal.",
+    "attribution": "Boston Philharmonic Orchestra, offizieller YouTube-Kanal (ganzer erster Satz).",
     "external": {
       "kind": "youtube",
-      "videoId": "VHDZ2isd4xg",
+      "videoId": "n3EiRynr1Us",
       "start": 0,
       "end": 100,
-      "title": "Beethoven: Symphony No. 5 / Rattle - Berliner Philharmoniker",
-      "channel": "Berliner Philharmoniker",
-      "checked": "2026-10-20"
+      "title": "Beethoven: Symphony No. 5, First movement (Benjamin Zander, Boston Philharmonic Orchestra)",
+      "channel": "Boston Philharmonic",
+      "checked": "2026-10-21"
     }
   },
   {
@@ -106,7 +108,7 @@
       "end": 110,
       "title": "Schubert: Erlkönig D. 328 - Matthias Goerne & Andreas Haefliger",
       "channel": "harmonia mundi music",
-      "checked": "2026-10-20"
+      "checked": "2026-10-21"
     }
   },
   {
@@ -152,23 +154,23 @@
   {
     "id": "rec-wagner",
     "workId": "wagner-tristan",
-    "performer": "Berliner Philharmoniker, Ltg. Simon Rattle",
+    "performer": "hr-Sinfonieorchester, Ltg. Tabita Berglund",
     "provider": "external",
     "source": "YouTube (offizieller Kanal)",
-    "sourceUrl": "https://www.youtube.com/watch?v=8uUFMWqcuNs",
+    "sourceUrl": "https://www.youtube.com/watch?v=mr9bq2xIlKY",
     "license": {
       "name": "Externer Stream (kein Eigenbestand)",
       "url": "https://www.youtube.com/t/terms"
     },
-    "attribution": "Berliner Philharmoniker (Digital Concert Hall), offizieller YouTube-Kanal.",
+    "attribution": "hr-Sinfonieorchester, offizieller YouTube-Kanal.",
     "external": {
       "kind": "youtube",
-      "videoId": "8uUFMWqcuNs",
+      "videoId": "mr9bq2xIlKY",
       "start": 0,
       "end": 100,
-      "title": "Wagner: Prelude to Tristan und Isolde / Rattle - Berliner Philharmoniker",
-      "channel": "Berliner Philharmoniker",
-      "checked": "2026-10-20"
+      "title": "Wagner: »Tristan und Isolde« – Vorspiel ∙ hr-Sinfonieorchester ∙ Tabita Berglund",
+      "channel": "hr-Sinfonieorchester – Frankfurt Radio Symphony",
+      "checked": "2026-10-21"
     }
   },
   {
@@ -190,29 +192,29 @@
       "end": 75,
       "title": "Symphonic Gems: Brahms - Tragic Overture - Blomstedt | Concertgebouworkest",
       "channel": "Concertgebouworkest",
-      "checked": "2026-10-20"
+      "checked": "2026-10-21"
     }
   },
   {
     "id": "rec-debussy",
     "workId": "debussy-faune",
-    "performer": "Berliner Philharmoniker, Ltg. Simon Rattle",
+    "performer": "hr-Sinfonieorchester, Ltg. Alain Altinoglu",
     "provider": "external",
     "source": "YouTube (offizieller Kanal)",
-    "sourceUrl": "https://www.youtube.com/watch?v=CipRfYTwd0s",
+    "sourceUrl": "https://www.youtube.com/watch?v=8UAYCubihlc",
     "license": {
       "name": "Externer Stream (kein Eigenbestand)",
       "url": "https://www.youtube.com/t/terms"
     },
-    "attribution": "Berliner Philharmoniker (Digital Concert Hall), offizieller YouTube-Kanal.",
+    "attribution": "hr-Sinfonieorchester, offizieller YouTube-Kanal.",
     "external": {
       "kind": "youtube",
-      "videoId": "CipRfYTwd0s",
+      "videoId": "8UAYCubihlc",
       "start": 0,
       "end": 100,
-      "title": "Debussy: Prélude à l'après-midi d'un faune / Rattle · Berliner Philharmoniker",
-      "channel": "Berliner Philharmoniker",
-      "checked": "2026-10-20"
+      "title": "Debussy: Prélude à l’après-midi d’un faune ∙ hr-Sinfonieorchester ∙ Alain Altinoglu",
+      "channel": "hr-Sinfonieorchester – Frankfurt Radio Symphony",
+      "checked": "2026-10-21"
     }
   },
   {
@@ -299,7 +301,7 @@
       "end": 75,
       "title": "Stravinsky: Rite of Spring – Sacrificial Dance – London Philharmonic Orchestra",
       "channel": "London Philharmonic Orchestra",
-      "checked": "2026-10-20"
+      "checked": "2026-10-21"
     }
   },
   {
@@ -321,7 +323,7 @@
       "end": 150,
       "title": "Abîme des oiseaux - Messiaen | Julien Hervé, clarinet",
       "channel": "Rotterdam Philharmonic Orchestra",
-      "checked": "2026-10-20"
+      "checked": "2026-10-21"
     }
   },
   {
@@ -343,7 +345,7 @@
       "end": 90,
       "title": "Ligeti: Atmosphères ∙ hr-Sinfonieorchester ∙ Christoph Eschenbach",
       "channel": "hr-Sinfonieorchester – Frankfurt Radio Symphony",
-      "checked": "2026-10-20"
+      "checked": "2026-10-21"
     }
   },
   {
@@ -365,7 +367,7 @@
       "end": 100,
       "title": "Steve Reich, Music for Eighteen Musicians - Synergy Vocals - Ensemble intercontemporain",
       "channel": "Ensemble Intercontemporain",
-      "checked": "2026-10-20"
+      "checked": "2026-10-21"
     }
   },
   {
@@ -387,7 +389,7 @@
       "end": 120,
       "title": "Arvo Pärt: Cantus in memoriam Benjamin Britten",
       "channel": "Norwegian Chamber Orchestra",
-      "checked": "2026-10-20"
+      "checked": "2026-10-21"
     }
   },
   {
@@ -409,7 +411,7 @@
       "end": 100,
       "title": "Roomful of Teeth - Shaw: Passacaglia (4th mvt) from Partita for 8 Voices",
       "channel": "CPR Classical",
-      "checked": "2026-10-20"
+      "checked": "2026-10-21"
     }
   }
 ]

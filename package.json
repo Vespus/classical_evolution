@@ -11,6 +11,7 @@
     "verify:data": "node scripts/verify-data.mjs",
     "test:e2e": "node tests/e2e.mjs",
     "credits": "node scripts/make-credits.mjs",
+    "musiklist": "node scripts/make-musiklist.mjs",
     "prepare:audio": "python3 scripts/prepare_audio.py",
     "test:a11y": "node tests/a11y.mjs"
   },

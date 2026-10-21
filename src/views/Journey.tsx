@@ -6,7 +6,7 @@ import { ProfileBars } from '../components/Profile';
 import { Forces } from '../components/Forces';
 import { Figure } from '../components/Figure';
 import { BookmarkButton } from '../components/Bookmark';
-import { ArrowLeft, ArrowRight } from '../components/Icons';
+import { ArrowLeft, ArrowRight, ExternalIcon } from '../components/Icons';
 import { href, navigate } from '../lib/router';
 import { markVisited, setLastStation, useLastStation } from '../lib/storage';
 import { pause, play, usePlayerState } from '../lib/audio';
@@ -166,6 +166,24 @@ export function Journey({ stationId }: { stationId?: string }) {
               </div>
             )}
           </section>
+
+          {station.deeper && (
+            <section className="st-deeper wrap">
+              <details className="deeper">
+                <summary>
+                  <span className="eyebrow">Tiefer gehen</span> <strong>{station.deeper.title}</strong>
+                </summary>
+                <p>{station.deeper.text}</p>
+                <p className="deeper-links">
+                  {station.deeper.links.map((l) => (
+                    <a key={l.url} className="chip chip--link" href={l.url} target="_blank" rel="noreferrer noopener">
+                      {l.label} <ExternalIcon width={14} height={14} />
+                    </a>
+                  ))}
+                </p>
+              </details>
+            </section>
+          )}
 
           {concept.length > 0 && (
             <section className="st-concepts wrap">
